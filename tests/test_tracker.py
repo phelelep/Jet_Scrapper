@@ -76,6 +76,31 @@ class WindowTests(unittest.TestCase):
         self.assertEqual(len(plan), 1 + 1 + 2 * (len(ws) - 2))
 
 
+class GlobalModeTests(unittest.TestCase):
+    def test_slots_cover_history_recent_first(self):
+        slots = opensky.slots_recent_first(TODAY)
+        self.assertEqual(slots[0], TODAY - config.SLOT_SECONDS)       # dernière tranche de la veille
+        self.assertEqual(slots[-1], config.history_start(TODAY))
+        self.assertEqual(len(slots), config.HISTORY_DAYS * 12)
+
+    def test_plan_global_skips_final_slots(self):
+        key, slots = config.GLOBAL_KEY, opensky.slots_recent_first(TODAY)
+        done = {(key, slots[0]): TODAY + 7 * 3600,   # téléchargée après le traitement nocturne
+                (key, slots[1]): TODAY + 60}         # trop tôt : à refaire
+        plan = opensky.plan_global(done, TODAY)
+        self.assertNotIn((slots[0], key), plan)
+        self.assertEqual(plan[0], (slots[1], key))
+        self.assertEqual(len(plan), len(slots) - 1)
+
+    def test_global_covered_days(self):
+        day = TODAY - 3 * DAY
+        full = [(day + i * config.SLOT_SECONDS, day + 2 * DAY) for i in range(12)]
+        partial = [(day - DAY + i * config.SLOT_SECONDS, day + 2 * DAY) for i in range(11)]
+        self.assertEqual(build.global_covered_days(full + partial), frozenset({day}))
+        start = config.history_start(TODAY)
+        self.assertEqual(build.coverage_days([], start, TODAY, frozenset({day})), 1)
+
+
 class DedupeTests(unittest.TestCase):
     def fl(self, first, last, dep, arr):
         return {"firstSeen": first, "lastSeen": last, "estDepartureAirport": dep,

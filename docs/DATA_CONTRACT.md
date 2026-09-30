@@ -41,7 +41,7 @@ window.JETS_DATA = {
     {
       "hex": "a835af",
       "reg": "N628TS",
-      "group": "watchlist",            // "watchlist" | "autres"
+      "group": "watchlist",            // "watchlist" | "autres" | "sp500"
       "entity": "SpaceX / Tesla / xAI",
       "person": "Elon Musk",
       "model": "Gulfstream G650ER",

@@ -1,16 +1,16 @@
 window.JETS_DATA = {
- "generated_at": 1790756792,
- "snapshot_at": 1790756792,
+ "generated_at": 1790760372,
+ "snapshot_at": 1790760367,
  "history": {
   "days": 90,
   "start": 1782950400,
   "end": 1790726400
  },
  "counts": {
-  "total": 28,
-  "airborne": 0,
+  "total": 222,
+  "airborne": 4,
   "ground": 0,
-  "unseen": 28
+  "unseen": 218
  },
  "aircraft": [
   {
@@ -1096,6 +1096,6270 @@ window.JETS_DATA = {
      "count": 2
     },
     "coverage_days": 7
+   }
+  },
+  {
+   "hex": "a70e5b",
+   "reg": "N554AV",
+   "group": "sp500",
+   "entity": "AbbVie",
+   "person": "AbbVie (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G600",
+   "year": "2020",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a004bf",
+   "reg": "N100AL",
+   "group": "sp500",
+   "entity": "Abbott Laboratories",
+   "person": "Abbott Laboratories (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2020",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a6ff76",
+   "reg": "N550AL",
+   "group": "sp500",
+   "entity": "Abbott Laboratories",
+   "person": "Abbott Laboratories (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2013",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ac6f37",
+   "reg": "N900AL",
+   "group": "sp500",
+   "entity": "Abbott Laboratories",
+   "person": "Abbott Laboratories (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2014",
+   "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE (NORTH SALT LAKE UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ab374c",
+   "reg": "N82123",
+   "group": "sp500",
+   "entity": "Adobe Inc.",
+   "person": "Adobe Inc. (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2018",
+   "owner": "BANK OF UTAH TRUSTEE (SALT LAKE CITY UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2ed22",
+   "reg": "N288QS",
+   "group": "sp500",
+   "entity": "Autodesk",
+   "person": "Autodesk (flotte société)",
+   "model": "EMBRAER S A EMB-545",
+   "year": "2026",
+   "owner": "ARCFLIGHT LLC (OKLAHOMA CITY OK)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a97a31",
+   "reg": "N71F",
+   "group": "sp500",
+   "entity": "AES Corporation",
+   "person": "AES Corporation (flotte société)",
+   "model": "CESSNA 525B",
+   "year": "2005",
+   "owner": "AES AVIATION LLC (YORKTOWN VA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2ce01",
+   "reg": "N280AF",
+   "group": "sp500",
+   "entity": "Aflac",
+   "person": "Aflac (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2017",
+   "owner": "AFLAC INC (COLUMBUS GA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2e094",
+   "reg": "N285AF",
+   "group": "sp500",
+   "entity": "Aflac",
+   "person": "Aflac (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2018",
+   "owner": "AFLAC INC (COLUMBUS GA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a7f632",
+   "reg": "N612AF",
+   "group": "sp500",
+   "entity": "Ameriprise Financial",
+   "person": "Ameriprise Financial (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GIV-X (G450)",
+   "year": "2006",
+   "owner": "AMERIPRISE FINANCIAL INC (OXFORD CT)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a8050e",
+   "reg": "N616AF",
+   "group": "sp500",
+   "entity": "Ameriprise Financial",
+   "person": "Ameriprise Financial (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2010",
+   "owner": "AMERIPRISE FINANCIAL INC (OXFORD CT)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2576b",
+   "reg": "N25ZG",
+   "group": "sp500",
+   "entity": "A. O. Smith",
+   "person": "A. O. Smith (flotte société)",
+   "model": "BOMBARDIER INC CL-600-2B16",
+   "year": "2002",
+   "owner": "A O SMITH CORP (MILWAUKEE WI)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a27d5b",
+   "reg": "N26HH",
+   "group": "sp500",
+   "entity": "APA Corporation",
+   "person": "APA Corporation (flotte société)",
+   "model": "CESSNA 550",
+   "year": "1981",
+   "owner": "APA AVIATION LLC (GAINESVILLE FL)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2f0d9",
+   "reg": "N289QS",
+   "group": "sp500",
+   "entity": "Amphenol",
+   "person": "Amphenol (flotte société)",
+   "model": "EMBRAER S A EMB-545",
+   "year": "2026",
+   "owner": "AMPHENOL CORP (OKLAHOMA CITY OK)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a39dd0",
+   "reg": "N332FX",
+   "group": "sp500",
+   "entity": "Axon Enterprise",
+   "person": "Axon Enterprise (flotte société)",
+   "model": "EMBRAER S A EMB-545",
+   "year": "2023",
+   "owner": "PINTO MARC (CLEVELAND OH)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a88d52",
+   "reg": "N650GB",
+   "group": "sp500",
+   "entity": "American Express",
+   "person": "American Express (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2018",
+   "owner": "AMERICAN EXPRESS TRAVEL RELATED SERVICES CO INC (NEWBURGH NY)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a1fed3",
+   "reg": "N228BA",
+   "group": "sp500",
+   "entity": "Bank of America",
+   "person": "Bank of America (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2016",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2e0a8",
+   "reg": "N285BA",
+   "group": "sp500",
+   "entity": "Bank of America",
+   "person": "Bank of America (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2016",
+   "owner": "BANK OF UTAH TRUSTEE (SALT LAKE CITY UT)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a8f21c",
+   "reg": "N676BA",
+   "group": "sp500",
+   "entity": "Bank of America",
+   "person": "Bank of America (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G600",
+   "year": "2023",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a4acbd",
+   "reg": "N400BC",
+   "group": "sp500",
+   "entity": "Ball Corporation",
+   "person": "Ball Corporation (flotte société)",
+   "model": "BOMBARDIER INC BD-700-1A10",
+   "year": "2013",
+   "owner": "BALL CORP (BROOMFIELD CO)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a491c0",
+   "reg": "N394BB",
+   "group": "sp500",
+   "entity": "Brown & Brown",
+   "person": "Brown & Brown (flotte société)",
+   "model": "TEXTRON AVIATION INC 560XL",
+   "year": "2019",
+   "owner": "BROWN & BROWN INC (DAYTONA BEACH FL)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a4992e",
+   "reg": "N396BB",
+   "group": "sp500",
+   "entity": "Brown & Brown",
+   "person": "Brown & Brown (flotte société)",
+   "model": "CESSNA 680",
+   "year": "2007",
+   "owner": "BROWN & BROWN INC (DAYTONA BEACH FL)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a14704",
+   "reg": "N1812C",
+   "group": "sp500",
+   "entity": "Citigroup",
+   "person": "Citigroup (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G600",
+   "year": "2024",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a12c04",
+   "reg": "N175CT",
+   "group": "sp500",
+   "entity": "Caterpillar Inc.",
+   "person": "Caterpillar Inc. (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G500",
+   "year": "2024",
+   "owner": "CATERPILLAR INC (FORT WORTH TX)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aad24a",
+   "reg": "N797CT",
+   "group": "sp500",
+   "entity": "Caterpillar Inc.",
+   "person": "Caterpillar Inc. (flotte société)",
+   "model": "BOMBARDIER INC BD-700-1A10",
+   "year": "2012",
+   "owner": "CATERPILLAR INC (FORT WORTH TX)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a98133",
+   "reg": "N711QS",
+   "group": "sp500",
+   "entity": "Ciena",
+   "person": "Ciena (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2026",
+   "owner": "CIENA CORP (OKLAHOMA CITY OK)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a1a24e",
+   "reg": "N204QS",
+   "group": "sp500",
+   "entity": "Clorox",
+   "person": "Clorox (flotte société)",
+   "model": "BOMBARDIER INC CL-600-2B16",
+   "year": "2025",
+   "owner": "ENZO AIR LLC (OKLAHOMA CITY OK)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a83d76",
+   "reg": "N63XF",
+   "group": "sp500",
+   "entity": "Comcast",
+   "person": "Comcast (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2020",
+   "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE (NORTH SALT LAKE UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2d1e9",
+   "reg": "N281CE",
+   "group": "sp500",
+   "entity": "Cummins",
+   "person": "Cummins (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2022",
+   "owner": "CUMMINS INC (COLUMBUS IN)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2d5a0",
+   "reg": "N282CE",
+   "group": "sp500",
+   "entity": "Cummins",
+   "person": "Cummins (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2023",
+   "owner": "CUMMINS INC (COLUMBUS IN)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2d957",
+   "reg": "N283CE",
+   "group": "sp500",
+   "entity": "Cummins",
+   "person": "Cummins (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2021",
+   "owner": "CUMMINS INC (COLUMBUS IN)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aaf0f0",
+   "reg": "N804CE",
+   "group": "sp500",
+   "entity": "Cummins",
+   "person": "Cummins (flotte société)",
+   "model": "EMBRAER EMB-145XR",
+   "year": "2012",
+   "owner": "CUMMINS INC (COLUMBUS IN)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a00c59",
+   "reg": "N102CE",
+   "group": "sp500",
+   "entity": "CenterPoint Energy",
+   "person": "CenterPoint Energy (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2020",
+   "owner": "CENTERPOINT ENERGY SERVICE CO LLC (HOUSTON TX)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a7b08d",
+   "reg": "N595FX",
+   "group": "sp500",
+   "entity": "Capital One",
+   "person": "Capital One (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2019",
+   "owner": "FLEXJET LLC (CLEVELAND OH)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a8b4cc",
+   "reg": "N660FX",
+   "group": "sp500",
+   "entity": "Coherent Corp.",
+   "person": "Coherent Corp. (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2016",
+   "owner": "FLEXJET LLC (CLEVELAND OH)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ac2306",
+   "reg": "N881RC",
+   "group": "sp500",
+   "entity": "Cooper Companies (The)",
+   "person": "Cooper Companies (The) (flotte société)",
+   "model": "CESSNA 525",
+   "year": "2007",
+   "owner": "COOPER COMPANIES INC (SCOTTSDALE AZ)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2dd17",
+   "reg": "N284CP",
+   "group": "sp500",
+   "entity": "ConocoPhillips",
+   "person": "ConocoPhillips (flotte société)",
+   "model": "EMBRAER EMB-145XR",
+   "year": "2013",
+   "owner": "CONOCOPHILLIPS CO (HOUSTON TX)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aac36a",
+   "reg": "N793CP",
+   "group": "sp500",
+   "entity": "ConocoPhillips",
+   "person": "ConocoPhillips (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G600",
+   "year": "2023",
+   "owner": "CONOCOPHILLIPS COMPANY (HOUSTON TX)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aacad8",
+   "reg": "N795CP",
+   "group": "sp500",
+   "entity": "ConocoPhillips",
+   "person": "ConocoPhillips (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G600",
+   "year": "2024",
+   "owner": "CONOCOPHILLIPS CO (HOUSTON TX)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aad246",
+   "reg": "N797CP",
+   "group": "sp500",
+   "entity": "ConocoPhillips",
+   "person": "ConocoPhillips (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G500",
+   "year": "2025",
+   "owner": "CONOCOPHILLIPS CO (HOUSTON TX)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a1e194",
+   "reg": "N220FX",
+   "group": "sp500",
+   "entity": "Copart",
+   "person": "Copart (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2025",
+   "owner": "JSA INVESTMENTS LLC (CLEVELAND OH)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a493a2",
+   "reg": "N394WJ",
+   "group": "sp500",
+   "entity": "Copart",
+   "person": "Copart (flotte société)",
+   "model": "BOMBARDIER INC BD-700-1A10",
+   "year": "2007",
+   "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE (NORTH SALT LAKE UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a6784c",
+   "reg": "N516FX",
+   "group": "sp500",
+   "entity": "Copart",
+   "person": "Copart (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2024",
+   "owner": "C VIEW LLC (CLEVELAND OH)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a88d6a",
+   "reg": "N650HA",
+   "group": "sp500",
+   "entity": "Salesforce",
+   "person": "Marc Benioff",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2019",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a15de5",
+   "reg": "N1876P",
+   "group": "sp500",
+   "entity": "Chevron Corporation",
+   "person": "Chevron Corporation (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2019",
+   "owner": "CHEVRON U S A INC (SUGAR LAND TX)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "airborne",
+   "position": {
+    "lat": -34.978746,
+    "lon": 140.555077,
+    "alt_ft": 41000,
+    "gs_kt": 565.0,
+    "track_deg": 90.51,
+    "callsign": "N1876P",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "YLAO",
+    "name": "Lameroo Airport",
+    "city": "",
+    "country": "AU",
+    "dist_km": 43.1
+   },
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a16534",
+   "reg": "N1895T",
+   "group": "sp500",
+   "entity": "Chevron Corporation",
+   "person": "Chevron Corporation (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2018",
+   "owner": "CHEVRON U S A INC (SUGAR LAND TX)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "airborne",
+   "position": {
+    "lat": -34.810867,
+    "lon": 148.163863,
+    "alt_ft": 41000,
+    "gs_kt": 528.1,
+    "track_deg": 86.31,
+    "callsign": "N1895T",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "YTGV",
+    "name": "The Grove Airport",
+    "city": "",
+    "country": "AU",
+    "dist_km": 14.9
+   },
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a16aad",
+   "reg": "N1901G",
+   "group": "sp500",
+   "entity": "Chevron Corporation",
+   "person": "Chevron Corporation (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2017",
+   "owner": "CHEVRON U S A INC (SUGAR LAND TX)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "airborne",
+   "position": {
+    "lat": -34.929308,
+    "lon": 145.25219,
+    "alt_ft": 41000,
+    "gs_kt": 546.3,
+    "track_deg": 88.01,
+    "callsign": "N1901G",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "YCNO",
+    "name": "Conargo Airport",
+    "city": "",
+    "country": "AU",
+    "dist_km": 44.8
+   },
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ac2d52",
+   "reg": "N884GL",
+   "group": "sp500",
+   "entity": "Chevron Corporation",
+   "person": "Chevron Corporation (flotte société)",
+   "model": "EMBRAER SA EMB-550",
+   "year": "2020",
+   "owner": "CHEVRON USA INC (SUGAR LAND TX)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a7d666",
+   "reg": "N604D",
+   "group": "sp500",
+   "entity": "Dominion Energy",
+   "person": "Dominion Energy (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2014",
+   "owner": "DOMINION ENERGY SERVICES INC (RICHMOND VA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a7e18b",
+   "reg": "N607D",
+   "group": "sp500",
+   "entity": "Dominion Energy",
+   "person": "Dominion Energy (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GIV-X (G450)",
+   "year": "2017",
+   "owner": "DOMINION ENERGY SERVICES INC (RICHMOND VA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a779ea",
+   "reg": "N581D",
+   "group": "sp500",
+   "entity": "DuPont",
+   "person": "DuPont (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2011",
+   "owner": "WILMINGTON TRUST CO TRUSTEE (WILMINGTON DE)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "abba3d",
+   "reg": "N855DG",
+   "group": "sp500",
+   "entity": "Dollar General",
+   "person": "Dollar General (flotte société)",
+   "model": "DASSAULT FALCON 2000EX",
+   "year": "2006",
+   "owner": "DOLLAR GENERAL CORP (GOODLETTSVILLE TN)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2ec14",
+   "reg": "N288DX",
+   "group": "sp500",
+   "entity": "Quest Diagnostics",
+   "person": "Quest Diagnostics (flotte société)",
+   "model": "EMBRAER-EMPRESA BRASILEIRA DE EMB-500",
+   "year": "2010",
+   "owner": "QUEST DIAGNOSTICS CLINICAL LABORATORIES INC (READING PA)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a88354",
+   "reg": "N648DX",
+   "group": "sp500",
+   "entity": "Quest Diagnostics",
+   "person": "Quest Diagnostics (flotte société)",
+   "model": "EMBRAER-EMPRESA BRASILEIRA DE EMB-500",
+   "year": "2010",
+   "owner": "QUEST DIAGNOSTICS CLINICAL LABORATORIES INC (READING PA)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ac6724",
+   "reg": "N899DX",
+   "group": "sp500",
+   "entity": "Quest Diagnostics",
+   "person": "Quest Diagnostics (flotte société)",
+   "model": "EMBRAER-EMPRESA BRASILEIRA DE EMB-500",
+   "year": "2010",
+   "owner": "QUEST DIAGNOSTICS CLINICAL LABORATORIES INC (READING PA)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a3c906",
+   "reg": "N343FX",
+   "group": "sp500",
+   "entity": "Everest Group",
+   "person": "Everest Group (flotte société)",
+   "model": "EMBRAER S A EMB-545",
+   "year": "2023",
+   "owner": "FLEXJET LLC (CLEVELAND OH)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a1b7ab",
+   "reg": "N21FE",
+   "group": "sp500",
+   "entity": "FedEx Freight",
+   "person": "FedEx Freight (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2012",
+   "owner": "FEDEX FREIGHT INC (MEMPHIS TN)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a480f2",
+   "reg": "N39FE",
+   "group": "sp500",
+   "entity": "FedEx Freight",
+   "person": "FedEx Freight (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2013",
+   "owner": "FEDEX FREIGHT INC (MEMPHIS TN)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2ce95",
+   "reg": "N280GD",
+   "group": "sp500",
+   "entity": "General Dynamics",
+   "person": "General Dynamics (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2010",
+   "owner": "GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS INC (SAINT PETERSBURG FL)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a78911",
+   "reg": "N585G",
+   "group": "sp500",
+   "entity": "General Dynamics",
+   "person": "General Dynamics (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G500",
+   "year": "2022",
+   "owner": "GENERAL DYNAMICS CORP (RESTON VA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a78cc8",
+   "reg": "N586G",
+   "group": "sp500",
+   "entity": "General Dynamics",
+   "person": "General Dynamics (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G500",
+   "year": "2022",
+   "owner": "GENERAL DYNAMICS CORP (RESTON VA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a7907f",
+   "reg": "N587G",
+   "group": "sp500",
+   "entity": "General Dynamics",
+   "person": "General Dynamics (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G500",
+   "year": "2022",
+   "owner": "GENERAL DYNAMICS CORP (RESTON VA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a8348b",
+   "reg": "N628G",
+   "group": "sp500",
+   "entity": "General Dynamics",
+   "person": "General Dynamics (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2016",
+   "owner": "GENERAL DYNAMICS MISSION SYSTEMS INC (FAIRFAX VA)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a008fe",
+   "reg": "N101FX",
+   "group": "sp500",
+   "entity": "GE Vernova",
+   "person": "GE Vernova (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVIII-G700",
+   "year": "2024",
+   "owner": "IRB HOLDING CORP (CLEVELAND OH)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a13e8c",
+   "reg": "N18CG",
+   "group": "sp500",
+   "entity": "Corning Inc.",
+   "person": "Corning Inc. (flotte société)",
+   "model": "DASSAULT AVIATION FALCON 900EX",
+   "year": "2009",
+   "owner": "CORNING INC (CORNING NY)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2cbdb",
+   "reg": "N28CG",
+   "group": "sp500",
+   "entity": "Corning Inc.",
+   "person": "Corning Inc. (flotte société)",
+   "model": "BOMBARDIER INC CL-600-2B19",
+   "year": "2007",
+   "owner": "CORNING INC (CORNING NY)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a3092b",
+   "reg": "N295ML",
+   "group": "sp500",
+   "entity": "Corning Inc.",
+   "person": "Corning Inc. (flotte société)",
+   "model": "TEXTRON AVIATION INC 525",
+   "year": "2019",
+   "owner": "CORNING COMPANIES LLC (BILLINGS MT)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a4592a",
+   "reg": "N38CG",
+   "group": "sp500",
+   "entity": "Corning Inc.",
+   "person": "Corning Inc. (flotte société)",
+   "model": "BOMBARDIER INC CL-600-2B19",
+   "year": "2008",
+   "owner": "CORNING INC (CORNING NY)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a5e679",
+   "reg": "N48CG",
+   "group": "sp500",
+   "entity": "Corning Inc.",
+   "person": "Corning Inc. (flotte société)",
+   "model": "DASSAULT AVIATION FALCON 900EX",
+   "year": "2008",
+   "owner": "CORNING INC (CORNING NY)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a773c8",
+   "reg": "N58CG",
+   "group": "sp500",
+   "entity": "Corning Inc.",
+   "person": "Corning Inc. (flotte société)",
+   "model": "DASSAULT FALCON 900 EX",
+   "year": "2015",
+   "owner": "CORNING INC (CORNING NY)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aaae77",
+   "reg": "N788CG",
+   "group": "sp500",
+   "entity": "Corning Inc.",
+   "person": "Corning Inc. (flotte société)",
+   "model": "BOMBARDIER INC CL-600-2B19",
+   "year": "2009",
+   "owner": "CORNING INC (CORNING NY)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2cc46",
+   "reg": "N28GP",
+   "group": "sp500",
+   "entity": "Genuine Parts Company",
+   "person": "Genuine Parts Company (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2015",
+   "owner": "GENUINE PARTS CO (ATLANTA GA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a14d8b",
+   "reg": "N183TS",
+   "group": "sp500",
+   "entity": "Global Payments",
+   "person": "Global Payments (flotte société)",
+   "model": "EMBRAER SA EMB-550",
+   "year": "2018",
+   "owner": "PINNACLE BANK (COLUMBUS GA)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2ed49",
+   "reg": "N288SF",
+   "group": "sp500",
+   "entity": "Global Payments",
+   "person": "Global Payments (flotte société)",
+   "model": "EMBRAER SA EMB-550",
+   "year": "2018",
+   "owner": "PINNACLE BANK (COLUMBUS GA)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aac6fd",
+   "reg": "N794BC",
+   "group": "sp500",
+   "entity": "Global Payments",
+   "person": "Global Payments (flotte société)",
+   "model": "EMBRAER S A EMB-545",
+   "year": "2018",
+   "owner": "PINNACLE BANK (COLUMBUS GA)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a32148",
+   "reg": "N300WB",
+   "group": "sp500",
+   "entity": "Garmin",
+   "person": "Garmin (flotte société)",
+   "model": "CESSNA 560",
+   "year": "1994",
+   "owner": "GARMIN INTERNATIONAL INC (OLATHE KS)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aa9045",
+   "reg": "N78XL",
+   "group": "sp500",
+   "entity": "Garmin",
+   "person": "Garmin (flotte société)",
+   "model": "CESSNA 560XL",
+   "year": "2005",
+   "owner": "GARMIN INTERNATIONAL INC (OLATHE KS)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ab32af",
+   "reg": "N820UT",
+   "group": "sp500",
+   "entity": "Garmin",
+   "person": "Garmin (flotte société)",
+   "model": "CESSNA 510",
+   "year": "2011",
+   "owner": "GARMIN INTERNATIONAL INC (OLATHE KS)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ac3c2e",
+   "reg": "N888GL",
+   "group": "sp500",
+   "entity": "Garmin",
+   "person": "Garmin (flotte société)",
+   "model": "CESSNA 525A",
+   "year": "2004",
+   "owner": "GARMIN INTERNATIONAL INC (OLATHE KS)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aadd5f",
+   "reg": "N8CB",
+   "group": "sp500",
+   "entity": "Huntington Bancshares",
+   "person": "Huntington Bancshares (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2024",
+   "owner": "HUNTINGTON BANCSHARES INC (COLUMBUS OH)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ac3ff3",
+   "reg": "N889H",
+   "group": "sp500",
+   "entity": "Honeywell Aerospace",
+   "person": "Honeywell Aerospace (flotte société)",
+   "model": "DASSAULT AVIATION FALCON 900EX",
+   "year": "2004",
+   "owner": "HONEYWELL AEROSPACE US LLC (PHOENI AZ)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "acf17d",
+   "reg": "N933H",
+   "group": "sp500",
+   "entity": "Honeywell Aerospace",
+   "person": "Honeywell Aerospace (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2005",
+   "owner": "HONEYWELL AEROSPACE US LLC (PHOENIX AZ)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a1ea5a",
+   "reg": "N222VR",
+   "group": "sp500",
+   "entity": "HP Inc.",
+   "person": "HP Inc. (flotte société)",
+   "model": "CESSNA 525B",
+   "year": "2007",
+   "owner": "HP TRANSPORTATION LLC (PHOENIX AZ)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a7a568",
+   "reg": "N592FX",
+   "group": "sp500",
+   "entity": "HP Inc.",
+   "person": "HP Inc. (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "",
+   "owner": "FLEXJET LLC (CLEVELAND OH)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a9516e",
+   "reg": "N7SB",
+   "group": "sp500",
+   "entity": "HP Inc.",
+   "person": "HP Inc. (flotte société)",
+   "model": "CESSNA 750",
+   "year": "2003",
+   "owner": "HP AVIATION SERVICES LLC (WINTER GARDEN FL)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a18698",
+   "reg": "N198HF",
+   "group": "sp500",
+   "entity": "Hormel Foods",
+   "person": "Hormel Foods (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2019",
+   "owner": "HORMEL FOODS CORPORATE SERVICES LLC (AUSTIN MN)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a18a4f",
+   "reg": "N199HF",
+   "group": "sp500",
+   "entity": "Hormel Foods",
+   "person": "Hormel Foods (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2014",
+   "owner": "HORMEL FOODS CORPORATE SERVICES LLC (AUSTIN MN)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a9d630",
+   "reg": "N733A",
+   "group": "sp500",
+   "entity": "Humana",
+   "person": "Humana (flotte société)",
+   "model": "DASSAULT FALCON 2000EX",
+   "year": "2011",
+   "owner": "HUMANA INC (LOUISVILLE KY)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a9d6df",
+   "reg": "N733H",
+   "group": "sp500",
+   "entity": "Humana",
+   "person": "Humana (flotte société)",
+   "model": "DASSAULT AVIATION FALCON 2000EX",
+   "year": "2010",
+   "owner": "HUMANA INC (LOUISVILLE KY)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a9d711",
+   "reg": "N733K",
+   "group": "sp500",
+   "entity": "Humana",
+   "person": "Humana (flotte société)",
+   "model": "DASSAULT AVIATION FALCON 2000EX",
+   "year": "2016",
+   "owner": "HUMANA INC (LOUISVILLE KY)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aa9212",
+   "reg": "N780RW",
+   "group": "sp500",
+   "entity": "IBM",
+   "person": "IBM (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2020",
+   "owner": "BANC OF AMERICA LEASING & CAPITAL LLC (PROVIDENCE RI)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aa9244",
+   "reg": "N780TW",
+   "group": "sp500",
+   "entity": "IBM",
+   "person": "IBM (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2020",
+   "owner": "INTERNATIONAL BUSINESS MACHINES CORP (ARMONK NY)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a20c6e",
+   "reg": "N231CE",
+   "group": "sp500",
+   "entity": "Intercontinental Exchange",
+   "person": "Intercontinental Exchange (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2009",
+   "owner": "TVPX ARS INC TRUSTEE (NORTH SALT LAKE UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a4e46b",
+   "reg": "N414QS",
+   "group": "sp500",
+   "entity": "IDEX Corporation",
+   "person": "IDEX Corporation (flotte société)",
+   "model": "EMBRAER EXECUTIVE AIRCRAFT INC EMB-505",
+   "year": "2017",
+   "owner": "NETJETS SALES INC (OKLAHOMA CITY OK)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a627d1",
+   "reg": "N496QS",
+   "group": "sp500",
+   "entity": "International Paper",
+   "person": "International Paper (flotte société)",
+   "model": "EMBRAER EXECUTIVE AIRCRAFT INC EMB-505",
+   "year": "2025",
+   "owner": "BJ'S WHOLESALE CLUB INC (OKLAHOMA CITY OK)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a204fb",
+   "reg": "N2291R",
+   "group": "sp500",
+   "entity": "Ingersoll Rand",
+   "person": "Ingersoll Rand (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2017",
+   "owner": "INGERSOLL RAND INC (DAVIDSON NC)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aa9156",
+   "reg": "N780JH",
+   "group": "sp500",
+   "entity": "Jack Henry & Associates",
+   "person": "Jack Henry & Associates (flotte société)",
+   "model": "EMBRAER S A EMB-545",
+   "year": "2025",
+   "owner": "JACK HENRY & ASSOCIATES INC (MONETT MO)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ac5500",
+   "reg": "N894JH",
+   "group": "sp500",
+   "entity": "Jack Henry & Associates",
+   "person": "Jack Henry & Associates (flotte société)",
+   "model": "EMBRAER EXECUTIVE AIRCRAFT INC EMB-505",
+   "year": "2013",
+   "owner": "JACK HENRY & ASSOCIATES INC (MONETT MO)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ac58b7",
+   "reg": "N895JH",
+   "group": "sp500",
+   "entity": "Jack Henry & Associates",
+   "person": "Jack Henry & Associates (flotte société)",
+   "model": "EMBRAER EXECUTIVE AIRCRAFT INC EMB-505",
+   "year": "2013",
+   "owner": "JACK HENRY AND ASSOCIATES INC (MONETT MO)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a175b1",
+   "reg": "N1930J",
+   "group": "sp500",
+   "entity": "Johnson & Johnson",
+   "person": "Johnson & Johnson (flotte société)",
+   "model": "TEXTRON AVIATION INC 680",
+   "year": "2015",
+   "owner": "JOHNSON & JOHNSON AVIATION LLC (WILMINGTON DE)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a31e60",
+   "reg": "N30QJ",
+   "group": "sp500",
+   "entity": "Johnson & Johnson",
+   "person": "Johnson & Johnson (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G600",
+   "year": "2023",
+   "owner": "JOHNSON & JOHNSON (NEW BRUNSWICK NJ)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a4ad69",
+   "reg": "N400J",
+   "group": "sp500",
+   "entity": "Johnson & Johnson",
+   "person": "Johnson & Johnson (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2018",
+   "owner": "JOHNSON & JOHNSON FINANCE CORP (NEW BRUNSWICK NJ)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "airborne",
+   "position": {
+    "lat": 23.091522,
+    "lon": 112.209262,
+    "alt_ft": 40100,
+    "gs_kt": 492.2,
+    "track_deg": 263.47,
+    "callsign": "N400J",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "ZGLD",
+    "name": "Luoding Sulong Airport",
+    "city": "Yunfu (Luoding)",
+    "country": "CN",
+    "dist_km": 75.3
+   },
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a7c64d",
+   "reg": "N60QJ",
+   "group": "sp500",
+   "entity": "Johnson & Johnson",
+   "person": "Johnson & Johnson (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G600",
+   "year": "2023",
+   "owner": "JOHNSON & JOHNSON (NEW BRUNSWICK NJ)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aae2a5",
+   "reg": "N800J",
+   "group": "sp500",
+   "entity": "Johnson & Johnson",
+   "person": "Johnson & Johnson (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2018",
+   "owner": "JOHNSON & JOHNSON FINANCE CORP (NEW BRUNSWICK NJ)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ac35ab",
+   "reg": "N886RW",
+   "group": "sp500",
+   "entity": "Coca-Cola Company (The)",
+   "person": "Coca-Cola Company (The) (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G600",
+   "year": "2019",
+   "owner": "BANK OF UTAH TRUSTEE (SALT LAKE CITY UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a32036",
+   "reg": "N300KC",
+   "group": "sp500",
+   "entity": "Kroger",
+   "person": "Kroger (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2012",
+   "owner": "KROGER CO (CINCINNATI OH)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a327a4",
+   "reg": "N302KC",
+   "group": "sp500",
+   "entity": "Kroger",
+   "person": "Kroger (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2013",
+   "owner": "KROGER CO (CINCINNATI OH)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a32f12",
+   "reg": "N304KC",
+   "group": "sp500",
+   "entity": "Kroger",
+   "person": "Kroger (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2013",
+   "owner": "KROGER CO (CINCINNATI OH)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a80cb8",
+   "reg": "N618CR",
+   "group": "sp500",
+   "entity": "Leidos",
+   "person": "Leidos (flotte société)",
+   "model": "BOMBARDIER INC CL-600-2B16",
+   "year": "2001",
+   "owner": "LEIDOS INC (RESTON VA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a022b9",
+   "reg": "N108DB",
+   "group": "sp500",
+   "entity": "Labcorp",
+   "person": "Labcorp (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G600",
+   "year": "2019",
+   "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE (NORTH SALT LAKE UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a67c72",
+   "reg": "N517LH",
+   "group": "sp500",
+   "entity": "Labcorp",
+   "person": "Labcorp (flotte société)",
+   "model": "PILATUS AIRCRAFT LTD PC-24",
+   "year": "2019",
+   "owner": "LABORATORY CORPORATION OF AMERICA HOLDINGS (BURLINGTON NC)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a3cdb2",
+   "reg": "N344RS",
+   "group": "sp500",
+   "entity": "Lockheed Martin",
+   "person": "Lockheed Martin (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2013",
+   "owner": "U S BANK NA TRUSTEE (HARTFORD CT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a406e3",
+   "reg": "N359GS",
+   "group": "sp500",
+   "entity": "Lockheed Martin",
+   "person": "Lockheed Martin (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2017",
+   "owner": "US BANK NA TRUSTEE (HARTFORD CT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a88e98",
+   "reg": "N650VC",
+   "group": "sp500",
+   "entity": "Lockheed Martin",
+   "person": "Lockheed Martin (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2016",
+   "owner": "U S BANK NA TRUSTEE (HARTFORD CT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a39473",
+   "reg": "N33LC",
+   "group": "sp500",
+   "entity": "Lowe's",
+   "person": "Lowe's (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G500",
+   "year": "2020",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a3ad24",
+   "reg": "N336LS",
+   "group": "sp500",
+   "entity": "Las Vegas Sands",
+   "person": "Las Vegas Sands (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2000",
+   "owner": "LAS VEGAS SANDS CORP (LAS VEGAS NV)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a3b0db",
+   "reg": "N337LS",
+   "group": "sp500",
+   "entity": "Las Vegas Sands",
+   "person": "Las Vegas Sands (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2007",
+   "owner": "LAS VEGAS SANDS CORP (LAS VEGAS NV)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a3b492",
+   "reg": "N338LS",
+   "group": "sp500",
+   "entity": "Las Vegas Sands",
+   "person": "Las Vegas Sands (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2000",
+   "owner": "LAS VEGAS SANDS CORP (LAS VEGAS NV)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a3b849",
+   "reg": "N339LS",
+   "group": "sp500",
+   "entity": "Las Vegas Sands",
+   "person": "Las Vegas Sands (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2007",
+   "owner": "LAS VEGAS SANDS CORP (LAS VEGAS NV)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ac3173",
+   "reg": "N885LS",
+   "group": "sp500",
+   "entity": "Las Vegas Sands",
+   "person": "Las Vegas Sands (flotte société)",
+   "model": "BOEING 737-7EL",
+   "year": "2001",
+   "owner": "LAS VEGAS SANDS CORP (LAS VEGAS NV)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ac404f",
+   "reg": "N889LS",
+   "group": "sp500",
+   "entity": "Las Vegas Sands",
+   "person": "Las Vegas Sands (flotte société)",
+   "model": "BOEING 737-73T",
+   "year": "1999",
+   "owner": "LAS VEGAS SANDS CORP (LAS VEGAS NV)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a4bc9c",
+   "reg": "N404MM",
+   "group": "sp500",
+   "entity": "Martin Marietta Materials",
+   "person": "Martin Marietta Materials (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2022",
+   "owner": "MARTIN MARIETTA MATERIALS INC (RALEIGH NC)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ace463",
+   "reg": "N93M",
+   "group": "sp500",
+   "entity": "3M",
+   "person": "3M (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2018",
+   "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE (NORTH SALT LAKE UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a5042e",
+   "reg": "N422MP",
+   "group": "sp500",
+   "entity": "Marathon Petroleum",
+   "person": "Marathon Petroleum (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2013",
+   "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE (NORTH SALT LAKE UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a66d27",
+   "reg": "N513FX",
+   "group": "sp500",
+   "entity": "Motorola Solutions",
+   "person": "Motorola Solutions (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2024",
+   "owner": "MOTOROLA SOLUTIONS INC (CLEVELAND OH)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a6bc3c",
+   "reg": "N533GV",
+   "group": "sp500",
+   "entity": "Netflix",
+   "person": "Netflix (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2011",
+   "owner": "WILMINGTON TRUST CO TRUSTEE (WILMINGTON DE)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a98b22",
+   "reg": "N714CG",
+   "group": "sp500",
+   "entity": "NiSource",
+   "person": "NiSource (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2020",
+   "owner": "NISOURCE CORPORATE SERVICES CO (COLUMBUS OH)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a184ca",
+   "reg": "N1972",
+   "group": "sp500",
+   "entity": "Nike, Inc.",
+   "person": "Nike, Inc. (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2019",
+   "owner": "NIKE INC (HILLSBORO OR)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a3f6d3",
+   "reg": "N3546",
+   "group": "sp500",
+   "entity": "Nike, Inc.",
+   "person": "Nike, Inc. (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2022",
+   "owner": "NIKE INC (HILLSBORO OR)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a87a8f",
+   "reg": "N6453",
+   "group": "sp500",
+   "entity": "Nike, Inc.",
+   "person": "Nike, Inc. (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650)",
+   "year": "2014",
+   "owner": "TVPX AIRCRAFT SOLUTIONS INC OWNER TRUSTEE (NORTH SALT LAKE UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2075a",
+   "reg": "N23NG",
+   "group": "sp500",
+   "entity": "Northrop Grumman",
+   "person": "Northrop Grumman (flotte société)",
+   "model": "CESSNA 680",
+   "year": "2014",
+   "owner": "NORTHROP GRUMMAN SYSTEMS CORP (EL SEGUNDO CA)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a432a5",
+   "reg": "N37NG",
+   "group": "sp500",
+   "entity": "Northrop Grumman",
+   "person": "Northrop Grumman (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2018",
+   "owner": "NORTHROP GRUMMAN SYSTEMS CORP (EL SEGUNDO CA)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a45a24",
+   "reg": "N38NG",
+   "group": "sp500",
+   "entity": "Northrop Grumman",
+   "person": "Northrop Grumman (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GV-SP (G550)",
+   "year": "2015",
+   "owner": "NORTHROP GRUMMAN SYSTEMS CORP (EL SEGUNDO CA)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "add17d",
+   "reg": "N99NG",
+   "group": "sp500",
+   "entity": "Northrop Grumman",
+   "person": "Northrop Grumman (flotte société)",
+   "model": "GULFSTREAM AEROSPACE G-V",
+   "year": "1998",
+   "owner": "NORTHROP GRUMMAN SYSTEMS CORP (EL SEGUNDO CA)",
+   "confidence": "haute",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aa1ae3",
+   "reg": "N750JT",
+   "group": "sp500",
+   "entity": "Nucor",
+   "person": "Nucor (flotte société)",
+   "model": "CESSNA 750",
+   "year": "2009",
+   "owner": "NUCOR CORP (CHARLOTTE NC)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ad0df6",
+   "reg": "N940JF",
+   "group": "sp500",
+   "entity": "Nucor",
+   "person": "Nucor (flotte société)",
+   "model": "TEXTRON AVIATION INC 680A",
+   "year": "2016",
+   "owner": "NUCOR CORP (CHARLOTTE NC)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "adabf2",
+   "reg": "N980JF",
+   "group": "sp500",
+   "entity": "Nucor",
+   "person": "Nucor (flotte société)",
+   "model": "TEXTRON AVIATION INC 680A",
+   "year": "2017",
+   "owner": "NUCOR CORP (CHARLOTTE NC)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a32038",
+   "reg": "N300KE",
+   "group": "sp500",
+   "entity": "Oneok",
+   "person": "Oneok (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2011",
+   "owner": "ONEOK INC (TULSA OK)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a347b7",
+   "reg": "N310KE",
+   "group": "sp500",
+   "entity": "Oneok",
+   "person": "Oneok (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2024",
+   "owner": "ONEOK INC (TULSA OK)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a43416",
+   "reg": "N370D",
+   "group": "sp500",
+   "entity": "Paccar",
+   "person": "Paccar (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2025",
+   "owner": "PACCAR INC (SEATAC WA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a9598a",
+   "reg": "N701P",
+   "group": "sp500",
+   "entity": "Paccar",
+   "person": "Paccar (flotte société)",
+   "model": "DASSAULT AVIATION MYSTERE-FALCON 50",
+   "year": "2000",
+   "owner": "PACCAR INC (SEATAC WA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a96c1d",
+   "reg": "N706P",
+   "group": "sp500",
+   "entity": "Paccar",
+   "person": "Paccar (flotte société)",
+   "model": "DASSAULT AVIATION MYSTERE-FALCON 50",
+   "year": "2001",
+   "owner": "PACCAR INC (SEATAC WA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ac1f7e",
+   "reg": "N880T",
+   "group": "sp500",
+   "entity": "Paccar",
+   "person": "Paccar (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2025",
+   "owner": "PACCAR INC (SEATAC WA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a31ae0",
+   "reg": "N3CP",
+   "group": "sp500",
+   "entity": "Pfizer",
+   "person": "Pfizer (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVIII-G800",
+   "year": "2024",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a4a82f",
+   "reg": "N4CP",
+   "group": "sp500",
+   "entity": "Pfizer",
+   "person": "Pfizer (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVIII-G800",
+   "year": "2025",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a7c2cd",
+   "reg": "N6CP",
+   "group": "sp500",
+   "entity": "Pfizer",
+   "person": "Pfizer (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2018",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a0014e",
+   "reg": "N1PG",
+   "group": "sp500",
+   "entity": "Procter & Gamble",
+   "person": "Procter & Gamble (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2017",
+   "owner": "PROCTER & GAMBLE LEASING LLC (CINCINNATI OH)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a18e9d",
+   "reg": "N2PG",
+   "group": "sp500",
+   "entity": "Procter & Gamble",
+   "person": "Procter & Gamble (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2017",
+   "owner": "PROCTER & GAMBLE LEASING LLC (CINCINNATI OH)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a6368a",
+   "reg": "N5PG",
+   "group": "sp500",
+   "entity": "Procter & Gamble",
+   "person": "Procter & Gamble (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G500",
+   "year": "2025",
+   "owner": "PROCTER & GAMBLE LEASING LLC (CINCINNATI OH)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a7c3d9",
+   "reg": "N6PG",
+   "group": "sp500",
+   "entity": "Procter & Gamble",
+   "person": "Procter & Gamble (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVII-G500",
+   "year": "2025",
+   "owner": "PROCTER & GAMBLE LEASING LLC (CINCINNATI OH)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a95128",
+   "reg": "N7PG",
+   "group": "sp500",
+   "entity": "Procter & Gamble",
+   "person": "Procter & Gamble (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2014",
+   "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE (NORTH SALT LAKE UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a4dbe4",
+   "reg": "N412DL",
+   "group": "sp500",
+   "entity": "PNC Financial Services",
+   "person": "PNC Financial Services (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2024",
+   "owner": "PNC FINANCIAL SERVICES GROUP INC (PITTSBURGH PA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a66cea",
+   "reg": "N513DL",
+   "group": "sp500",
+   "entity": "PNC Financial Services",
+   "person": "PNC Financial Services (flotte société)",
+   "model": "BOMBARDIER INC BD-700-1A11",
+   "year": "2017",
+   "owner": "PNC FINANCIAL SERVICES GROUP INC (PITTSBURGH PA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a6ead5",
+   "reg": "N545DL",
+   "group": "sp500",
+   "entity": "PNC Financial Services",
+   "person": "PNC Financial Services (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2025",
+   "owner": "PNC FINANCIAL SERVICES GROUP INC (PITTSBURGH PA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "abaf1c",
+   "reg": "N852DL",
+   "group": "sp500",
+   "entity": "PNC Financial Services",
+   "person": "PNC Financial Services (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2020",
+   "owner": "PNC FINANCIAL SERVICES GROUP INC (PITTSBURGH PA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a1bf34",
+   "reg": "N211WG",
+   "group": "sp500",
+   "entity": "Pentair",
+   "person": "Pentair (flotte société)",
+   "model": "DASSAULT AVIATION MYSTERE FALCON 900",
+   "year": "2006",
+   "owner": "PENTAIR LLC (PALMETTO FL)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ab4b73",
+   "reg": "N827GA",
+   "group": "sp500",
+   "entity": "PPG Industries",
+   "person": "PPG Industries (flotte société)",
+   "model": "GULFSTREAM AEROSPACE G-IV",
+   "year": "1999",
+   "owner": "PPG INDUSTRIES INC (WEST MIFFLIN PA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "abc1f0",
+   "reg": "N857GA",
+   "group": "sp500",
+   "entity": "PPG Industries",
+   "person": "PPG Industries (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GV-SP (G550)",
+   "year": "2019",
+   "owner": "PPG INDUSTRIES INC (WEST MIFFLIN PA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a91382",
+   "reg": "N684QS",
+   "group": "sp500",
+   "entity": "PPL Corporation",
+   "person": "PPL Corporation (flotte société)",
+   "model": "TEXTRON AVIATION INC 680A",
+   "year": "2019",
+   "owner": "LHM INVESTMENTS LLC (OKLAHOMA CITY OK)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a7086c",
+   "reg": "N552SC",
+   "group": "sp500",
+   "entity": "PTC Inc.",
+   "person": "PTC Inc. (flotte société)",
+   "model": "CESSNA 560XL",
+   "year": "2001",
+   "owner": "PTC AVIATION LLC (NORTHPORT AL)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a4c18c",
+   "reg": "N4050",
+   "group": "sp500",
+   "entity": "PayPal",
+   "person": "PayPal (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2019",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a5941e",
+   "reg": "N459FX",
+   "group": "sp500",
+   "entity": "Regeneron Pharmaceuticals",
+   "person": "Regeneron Pharmaceuticals (flotte société)",
+   "model": "GULFSTREAM AEROSPACE GIV-X (G450)",
+   "year": "2013",
+   "owner": "DAB-JAB AIR LLC (CLEVELAND OH)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a6d20f",
+   "reg": "N539CA",
+   "group": "sp500",
+   "entity": "ResMed|",
+   "person": "ResMed| (flotte société)",
+   "model": "DASSAULT AVIATION FALCON 900EX",
+   "year": "2007",
+   "owner": "RESMED INC (SAN DIEGO CA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a74c12",
+   "reg": "N57AB",
+   "group": "sp500",
+   "entity": "Rockwell Automation",
+   "person": "Rockwell Automation (flotte société)",
+   "model": "BOMBARDIER INC CL-600-2B16(CL-604)",
+   "year": "2014",
+   "owner": "ROCKWELL AUTOMATION INC (MILWAUKEE WI)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a900e0",
+   "reg": "N68AB",
+   "group": "sp500",
+   "entity": "Rockwell Automation",
+   "person": "Rockwell Automation (flotte société)",
+   "model": "BOMBARDIER INC CL-600-2B16",
+   "year": "2024",
+   "owner": "ROCKWELL AUTOMATION INC (MILWAUKEE WI)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a31c25",
+   "reg": "N3RP",
+   "group": "sp500",
+   "entity": "Roper Technologies",
+   "person": "Roper Technologies (flotte société)",
+   "model": "DASSAULT AVIATION FALCON 6X",
+   "year": "2021",
+   "owner": "ROPER TECHNOLOGIES INC (SARASOTA FL)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a16692",
+   "reg": "N19HS",
+   "group": "sp500",
+   "entity": "Starbucks",
+   "person": "Starbucks (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2019",
+   "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE (NORTH SALT LAKE UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a16579",
+   "reg": "N1897S",
+   "group": "sp500",
+   "entity": "J.M. Smucker Company (The)",
+   "person": "J.M. Smucker Company (The) (flotte société)",
+   "model": "DASSAULT AVIATION FALCON 2000EX",
+   "year": "2012",
+   "owner": "J M SMUCKER CO (ORRVILLE OH)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ad82e5",
+   "reg": "N97SJ",
+   "group": "sp500",
+   "entity": "J.M. Smucker Company (The)",
+   "person": "J.M. Smucker Company (The) (flotte société)",
+   "model": "DASSAULT AVIATION FALCON 900EX",
+   "year": "2024",
+   "owner": "J M SMUCKER COMPANY (ORRVILLE OH)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a7ef51",
+   "reg": "N610FX",
+   "group": "sp500",
+   "entity": "Solventum",
+   "person": "Solventum (flotte société)",
+   "model": "EMBRAER SA EMB-550",
+   "year": "2024",
+   "owner": "ROGER FERRIS & PARTNERS LLC (CLEVELAND OH)",
+   "confidence": "moyenne",
+   "source": "FAA (copropriété)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a6a1d6",
+   "reg": "N5262",
+   "group": "sp500",
+   "entity": "State Street Corporation",
+   "person": "State Street Corporation (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2006",
+   "owner": "STATE STREET CORP (SHELTON CT)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a500e9",
+   "reg": "N421SC",
+   "group": "sp500",
+   "entity": "Stryker Corporation",
+   "person": "Stryker Corporation (flotte société)",
+   "model": "DASSAULT AVIATION FALCON 2000EX",
+   "year": "2016",
+   "owner": "STRYKER CORP (PORTAGE MI)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a68a81",
+   "reg": "N520SC",
+   "group": "sp500",
+   "entity": "Stryker Corporation",
+   "person": "Stryker Corporation (flotte société)",
+   "model": "DASSAULT AVIATION FALCON 2000EX",
+   "year": "2017",
+   "owner": "STRYKER CORP (PORTAGE MI)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a82a63",
+   "reg": "N625SC",
+   "group": "sp500",
+   "entity": "Stryker Corporation",
+   "person": "Stryker Corporation (flotte société)",
+   "model": "BOMBARDIER INC BD-700-1A11",
+   "year": "2014",
+   "owner": "STRYKER CORP (PORTAGE MI)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a5f7e5",
+   "reg": "N484EM",
+   "group": "sp500",
+   "entity": "Target Corporation",
+   "person": "Target Corporation (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2018",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ab73d7",
+   "reg": "N837RE",
+   "group": "sp500",
+   "entity": "UDR, Inc.",
+   "person": "UDR, Inc. (flotte société)",
+   "model": "HAWKER BEECHCRAFT CORP 4000",
+   "year": "2010",
+   "owner": "UDR INC (HIGHLANDS RANCH CO)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a40460",
+   "reg": "N358V",
+   "group": "sp500",
+   "entity": "Visa Inc.",
+   "person": "Visa Inc. (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2015",
+   "owner": "US BANK NA (MARSHALL MN)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a26f42",
+   "reg": "N256RC",
+   "group": "sp500",
+   "entity": "Vulcan Materials Company",
+   "person": "Vulcan Materials Company (flotte société)",
+   "model": "DASSAULT AVIATION FALCON 2000EX",
+   "year": "2021",
+   "owner": "VULCAN MATERIALS COMPANY (VESTAVIA AL)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ad5022",
+   "reg": "N957RC",
+   "group": "sp500",
+   "entity": "Vulcan Materials Company",
+   "person": "Vulcan Materials Company (flotte société)",
+   "model": "DASSAULT AVIATION FALCON 900EX",
+   "year": "2014",
+   "owner": "VULCAN MATERIALS CO (BIRMINGHAM AL)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a9f224",
+   "reg": "N74VZ",
+   "group": "sp500",
+   "entity": "Verizon",
+   "person": "Verizon (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GV-SP (G550)",
+   "year": "2020",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "aa4122",
+   "reg": "N76VZ",
+   "group": "sp500",
+   "entity": "Verizon",
+   "person": "Verizon (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GV-SP (G550)",
+   "year": "2020",
+   "owner": "(masqué par la FAA) ( )",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a16d01",
+   "reg": "N191MM",
+   "group": "sp500",
+   "entity": "Workday, Inc.",
+   "person": "Workday, Inc. (flotte société)",
+   "model": "DASSAULT AVIATION FALCON 7X",
+   "year": "2012",
+   "owner": "WORKDAY INC (PLEASANTON CA)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a2d3a9",
+   "reg": "N281WC",
+   "group": "sp500",
+   "entity": "Williams Companies",
+   "person": "Williams Companies (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2024",
+   "owner": "WILLIAMS COMPANIES INC (TULSA OK)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a0c82f",
+   "reg": "N15DP",
+   "group": "sp500",
+   "entity": "Walmart",
+   "person": "Walmart (flotte société)",
+   "model": "TEXTRON AVIATION INC 680",
+   "year": "2017",
+   "owner": "WALMART INC (BENTONVILLE AR)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a0ef95",
+   "reg": "N16CP",
+   "group": "sp500",
+   "entity": "Walmart",
+   "person": "Walmart (flotte société)",
+   "model": "TEXTRON AVIATION INC 680",
+   "year": "2016",
+   "owner": "WALMART INC (BENTONVILLE AR)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a11921",
+   "reg": "N17ZP",
+   "group": "sp500",
+   "entity": "Walmart",
+   "person": "Walmart (flotte société)",
+   "model": "TEXTRON AVIATION INC 680",
+   "year": "2016",
+   "owner": "WALMART INC (BENTONVILLE AR)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a57061",
+   "reg": "N45GH",
+   "group": "sp500",
+   "entity": "Walmart",
+   "person": "Walmart (flotte société)",
+   "model": "LEARJET INC 45",
+   "year": "",
+   "owner": "WALMART INC (BENTONVILLE AR)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a5707c",
+   "reg": "N45HK",
+   "group": "sp500",
+   "entity": "Walmart",
+   "person": "Walmart (flotte société)",
+   "model": "LEARJET INC 45",
+   "year": "2007",
+   "owner": "WALMART INC (BENTONVILLE AR)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "adc192",
+   "reg": "N986BL",
+   "group": "sp500",
+   "entity": "Walmart",
+   "person": "Walmart (flotte société)",
+   "model": "LEARJET INC 45",
+   "year": "",
+   "owner": "WALMART INC (BENTONVILLE AR)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a16068",
+   "reg": "N188WR",
+   "group": "sp500",
+   "entity": "Wynn Resorts",
+   "person": "Wynn Resorts (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2014",
+   "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE (NORTH SALT LAKE UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ac1d80",
+   "reg": "N88WR",
+   "group": "sp500",
+   "entity": "Wynn Resorts",
+   "person": "Wynn Resorts (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVIII-G700",
+   "year": "2025",
+   "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE (NORTH SALT LAKE UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "ad7f99",
+   "reg": "N969WR",
+   "group": "sp500",
+   "entity": "Wynn Resorts",
+   "person": "Wynn Resorts (flotte société)",
+   "model": "IAI LTD GULFSTREAM G280",
+   "year": "2018",
+   "owner": "BANK OF UTAH TRUSTEE (SALT LAKE CITY UT)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a3f9a1",
+   "reg": "N355ZB",
+   "group": "sp500",
+   "entity": "Zimmer Biomet",
+   "person": "Zimmer Biomet (flotte société)",
+   "model": "BOMBARDIER INC BD-100-1A10",
+   "year": "2025",
+   "owner": "ZIMMER BIOMET LEASING LLC (WARSAW IN)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
+   }
+  },
+  {
+   "hex": "a88efb",
+   "reg": "N650ZB",
+   "group": "sp500",
+   "entity": "Zimmer Biomet",
+   "person": "Zimmer Biomet (flotte société)",
+   "model": "GULFSTREAM AEROSPACE CORP GVI (G650ER)",
+   "year": "2022",
+   "owner": "ZIMMER BIOMET LEASING LLC (OXFORD CT)",
+   "confidence": "haute",
+   "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 0
    }
   }
  ],

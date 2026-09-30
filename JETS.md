@@ -74,7 +74,7 @@ seulement réservées par POPLAR GLEN LLC (voir plus bas).
 ## Statut en direct
 
 <!-- STATUS:START -->
-_Relevé du 2026-09-30 08:26 UTC — statut : adsb.lol ; vols 90 j : OpenSky (nombre de vols / jours déjà récupérés sur les 90 derniers). Section générée par `python update.py`._
+_Relevé du 2026-09-30 09:26 UTC — statut : adsb.lol ; vols 90 j : OpenSky (nombre de vols / jours déjà récupérés sur les 90 derniers). Section générée par `python update.py`._
 
 | Immat. | Hex | Entité | Statut actuel | Position actuelle | Vols 90 j |
 |---|---|---|---|---|---|
@@ -106,6 +106,200 @@ _Relevé du 2026-09-30 08:26 UTC — statut : adsb.lol ; vols 90 j : OpenSky (no
 | N68KP | `a901cd` | Ken Griffin | ⚪ Non détecté | — | 0 vols / 7 j |
 | N302AK | `a326ca` | Ken Griffin | ⚪ Non détecté | — | 0 vols / 7 j |
 | N47EG | `a5bf2c` | Michael Bloomberg | ⚪ Non détecté | — | 3 vols / 7 j |
+| N554AV | `a70e5b` | AbbVie (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N100AL | `a004bf` | Abbott Laboratories (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N550AL | `a6ff76` | Abbott Laboratories (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N900AL | `ac6f37` | Abbott Laboratories (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N82123 | `ab374c` | Adobe Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N288QS | `a2ed22` | Autodesk (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N71F | `a97a31` | AES Corporation (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N280AF | `a2ce01` | Aflac (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N285AF | `a2e094` | Aflac (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N612AF | `a7f632` | Ameriprise Financial (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N616AF | `a8050e` | Ameriprise Financial (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N25ZG | `a2576b` | A. O. Smith (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N26HH | `a27d5b` | APA Corporation (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N289QS | `a2f0d9` | Amphenol (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N332FX | `a39dd0` | Axon Enterprise (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N650GB | `a88d52` | American Express (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N228BA | `a1fed3` | Bank of America (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N285BA | `a2e0a8` | Bank of America (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N676BA | `a8f21c` | Bank of America (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N400BC | `a4acbd` | Ball Corporation (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N394BB | `a491c0` | Brown & Brown (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N396BB | `a4992e` | Brown & Brown (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N1812C | `a14704` | Citigroup (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N175CT | `a12c04` | Caterpillar Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N797CT | `aad24a` | Caterpillar Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N711QS | `a98133` | Ciena (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N204QS | `a1a24e` | Clorox (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N63XF | `a83d76` | Comcast (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N281CE | `a2d1e9` | Cummins (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N282CE | `a2d5a0` | Cummins (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N283CE | `a2d957` | Cummins (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N804CE | `aaf0f0` | Cummins (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N102CE | `a00c59` | CenterPoint Energy (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N595FX | `a7b08d` | Capital One (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N660FX | `a8b4cc` | Coherent Corp. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N881RC | `ac2306` | Cooper Companies (The) (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N284CP | `a2dd17` | ConocoPhillips (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N793CP | `aac36a` | ConocoPhillips (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N795CP | `aacad8` | ConocoPhillips (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N797CP | `aad246` | ConocoPhillips (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N220FX | `a1e194` | Copart (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N394WJ | `a493a2` | Copart (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N516FX | `a6784c` | Copart (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N650HA | `a88d6a` | Marc Benioff | ⚪ Non détecté | — | 0 vols / 0 j |
+| N1876P | `a15de5` | Chevron Corporation (flotte société) | 🟢 En vol — N1876P, 41000 ft, 565 kt | survol : 43 km de YLAO (Lameroo Airport, AU) | 0 vols / 0 j |
+| N1895T | `a16534` | Chevron Corporation (flotte société) | 🟢 En vol — N1895T, 41000 ft, 528 kt | survol : 15 km de YTGV (The Grove Airport, AU) | 0 vols / 0 j |
+| N1901G | `a16aad` | Chevron Corporation (flotte société) | 🟢 En vol — N1901G, 41000 ft, 546 kt | survol : 45 km de YCNO (Conargo Airport, AU) | 0 vols / 0 j |
+| N884GL | `ac2d52` | Chevron Corporation (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N604D | `a7d666` | Dominion Energy (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N607D | `a7e18b` | Dominion Energy (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N581D | `a779ea` | DuPont (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N855DG | `abba3d` | Dollar General (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N288DX | `a2ec14` | Quest Diagnostics (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N648DX | `a88354` | Quest Diagnostics (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N899DX | `ac6724` | Quest Diagnostics (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N343FX | `a3c906` | Everest Group (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N21FE | `a1b7ab` | FedEx Freight (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N39FE | `a480f2` | FedEx Freight (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N280GD | `a2ce95` | General Dynamics (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N585G | `a78911` | General Dynamics (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N586G | `a78cc8` | General Dynamics (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N587G | `a7907f` | General Dynamics (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N628G | `a8348b` | General Dynamics (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N101FX | `a008fe` | GE Vernova (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N18CG | `a13e8c` | Corning Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N28CG | `a2cbdb` | Corning Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N295ML | `a3092b` | Corning Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N38CG | `a4592a` | Corning Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N48CG | `a5e679` | Corning Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N58CG | `a773c8` | Corning Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N788CG | `aaae77` | Corning Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N28GP | `a2cc46` | Genuine Parts Company (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N183TS | `a14d8b` | Global Payments (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N288SF | `a2ed49` | Global Payments (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N794BC | `aac6fd` | Global Payments (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N300WB | `a32148` | Garmin (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N78XL | `aa9045` | Garmin (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N820UT | `ab32af` | Garmin (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N888GL | `ac3c2e` | Garmin (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N8CB | `aadd5f` | Huntington Bancshares (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N889H | `ac3ff3` | Honeywell Aerospace (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N933H | `acf17d` | Honeywell Aerospace (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N222VR | `a1ea5a` | HP Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N592FX | `a7a568` | HP Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N7SB | `a9516e` | HP Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N198HF | `a18698` | Hormel Foods (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N199HF | `a18a4f` | Hormel Foods (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N733A | `a9d630` | Humana (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N733H | `a9d6df` | Humana (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N733K | `a9d711` | Humana (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N780RW | `aa9212` | IBM (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N780TW | `aa9244` | IBM (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N231CE | `a20c6e` | Intercontinental Exchange (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N414QS | `a4e46b` | IDEX Corporation (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N496QS | `a627d1` | International Paper (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N2291R | `a204fb` | Ingersoll Rand (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N780JH | `aa9156` | Jack Henry & Associates (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N894JH | `ac5500` | Jack Henry & Associates (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N895JH | `ac58b7` | Jack Henry & Associates (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N1930J | `a175b1` | Johnson & Johnson (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N30QJ | `a31e60` | Johnson & Johnson (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N400J | `a4ad69` | Johnson & Johnson (flotte société) | 🟢 En vol — N400J, 40100 ft, 492 kt | survol : 75 km de ZGLD (Yunfu (Luoding), CN) | 0 vols / 0 j |
+| N60QJ | `a7c64d` | Johnson & Johnson (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N800J | `aae2a5` | Johnson & Johnson (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N886RW | `ac35ab` | Coca-Cola Company (The) (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N300KC | `a32036` | Kroger (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N302KC | `a327a4` | Kroger (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N304KC | `a32f12` | Kroger (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N618CR | `a80cb8` | Leidos (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N108DB | `a022b9` | Labcorp (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N517LH | `a67c72` | Labcorp (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N344RS | `a3cdb2` | Lockheed Martin (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N359GS | `a406e3` | Lockheed Martin (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N650VC | `a88e98` | Lockheed Martin (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N33LC | `a39473` | Lowe's (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N336LS | `a3ad24` | Las Vegas Sands (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N337LS | `a3b0db` | Las Vegas Sands (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N338LS | `a3b492` | Las Vegas Sands (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N339LS | `a3b849` | Las Vegas Sands (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N885LS | `ac3173` | Las Vegas Sands (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N889LS | `ac404f` | Las Vegas Sands (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N404MM | `a4bc9c` | Martin Marietta Materials (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N93M | `ace463` | 3M (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N422MP | `a5042e` | Marathon Petroleum (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N513FX | `a66d27` | Motorola Solutions (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N533GV | `a6bc3c` | Netflix (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N714CG | `a98b22` | NiSource (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N1972 | `a184ca` | Nike, Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N3546 | `a3f6d3` | Nike, Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N6453 | `a87a8f` | Nike, Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N23NG | `a2075a` | Northrop Grumman (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N37NG | `a432a5` | Northrop Grumman (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N38NG | `a45a24` | Northrop Grumman (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N99NG | `add17d` | Northrop Grumman (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N750JT | `aa1ae3` | Nucor (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N940JF | `ad0df6` | Nucor (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N980JF | `adabf2` | Nucor (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N300KE | `a32038` | Oneok (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N310KE | `a347b7` | Oneok (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N370D | `a43416` | Paccar (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N701P | `a9598a` | Paccar (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N706P | `a96c1d` | Paccar (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N880T | `ac1f7e` | Paccar (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N3CP | `a31ae0` | Pfizer (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N4CP | `a4a82f` | Pfizer (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N6CP | `a7c2cd` | Pfizer (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N1PG | `a0014e` | Procter & Gamble (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N2PG | `a18e9d` | Procter & Gamble (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N5PG | `a6368a` | Procter & Gamble (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N6PG | `a7c3d9` | Procter & Gamble (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N7PG | `a95128` | Procter & Gamble (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N412DL | `a4dbe4` | PNC Financial Services (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N513DL | `a66cea` | PNC Financial Services (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N545DL | `a6ead5` | PNC Financial Services (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N852DL | `abaf1c` | PNC Financial Services (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N211WG | `a1bf34` | Pentair (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N827GA | `ab4b73` | PPG Industries (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N857GA | `abc1f0` | PPG Industries (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N684QS | `a91382` | PPL Corporation (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N552SC | `a7086c` | PTC Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N4050 | `a4c18c` | PayPal (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N459FX | `a5941e` | Regeneron Pharmaceuticals (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N539CA | `a6d20f` | ResMed| (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N57AB | `a74c12` | Rockwell Automation (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N68AB | `a900e0` | Rockwell Automation (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N3RP | `a31c25` | Roper Technologies (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N19HS | `a16692` | Starbucks (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N1897S | `a16579` | J.M. Smucker Company (The) (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N97SJ | `ad82e5` | J.M. Smucker Company (The) (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N610FX | `a7ef51` | Solventum (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N5262 | `a6a1d6` | State Street Corporation (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N421SC | `a500e9` | Stryker Corporation (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N520SC | `a68a81` | Stryker Corporation (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N625SC | `a82a63` | Stryker Corporation (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N484EM | `a5f7e5` | Target Corporation (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N837RE | `ab73d7` | UDR, Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N358V | `a40460` | Visa Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N256RC | `a26f42` | Vulcan Materials Company (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N957RC | `ad5022` | Vulcan Materials Company (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N74VZ | `a9f224` | Verizon (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N76VZ | `aa4122` | Verizon (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N191MM | `a16d01` | Workday, Inc. (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N281WC | `a2d3a9` | Williams Companies (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N15DP | `a0c82f` | Walmart (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N16CP | `a0ef95` | Walmart (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N17ZP | `a11921` | Walmart (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N45GH | `a57061` | Walmart (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N45HK | `a5707c` | Walmart (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N986BL | `adc192` | Walmart (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N188WR | `a16068` | Wynn Resorts (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N88WR | `ac1d80` | Wynn Resorts (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N969WR | `ad7f99` | Wynn Resorts (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N355ZB | `a3f9a1` | Zimmer Biomet (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
+| N650ZB | `a88efb` | Zimmer Biomet (flotte société) | ⚪ Non détecté | — | 0 vols / 0 j |
 <!-- STATUS:END -->
 
 **Lecture du statut :**

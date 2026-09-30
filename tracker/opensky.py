@@ -71,9 +71,15 @@ class OpenSky:
             self.remaining = int(value)
 
     def flights(self, hex_code, begin, end):
-        """Liste des vols de la fenêtre ; lève QuotaExhausted sur un 429."""
-        req = urllib.request.Request(config.OPENSKY_FLIGHTS_URL.format(hex=hex_code, begin=begin, end=end),
-                                     headers=self._auth_header())
+        """Vols d'un avion sur la fenêtre ; lève QuotaExhausted sur un 429."""
+        return self._get(config.OPENSKY_FLIGHTS_URL.format(hex=hex_code, begin=begin, end=end))
+
+    def all_flights(self, begin, end):
+        """Tous les vols (tous avions) sur une tranche de 2 h maximum."""
+        return self._get(config.OPENSKY_ALL_URL.format(begin=begin, end=end))
+
+    def _get(self, url):
+        req = urllib.request.Request(url, headers=self._auth_header())
         try:
             with urllib.request.urlopen(req, timeout=60) as r:
                 self._read_remaining(r.headers)
@@ -123,8 +129,29 @@ def plan_requests(hexes, done, today_ts):
     return first + rest
 
 
+def slot_is_final(slot_start, fetched_at):
+    """Tranche de 2 h définitive si téléchargée au moins 6 h après la fin de sa journée UTC
+    (le traitement nocturne d'OpenSky a eu lieu)."""
+    return fetched_at >= (slot_start // DAY + 1) * DAY + 6 * 3600
+
+
+def slots_recent_first(today_ts):
+    """Tranches de 2 h de la veille puis des jours précédents, jusqu'au début de l'historique."""
+    cutoff = config.history_start(today_ts)
+    return list(range(today_ts - config.SLOT_SECONDS, cutoff - 1, -config.SLOT_SECONDS))
+
+
+def plan_global(done, today_ts):
+    """Ordre des requêtes [(slot_start, GLOBAL_KEY)] en mode /flights/all."""
+    key = config.GLOBAL_KEY
+    return [(s, key) for s in slots_recent_first(today_ts)
+            if (key, s) not in done or not slot_is_final(s, done[(key, s)])]
+
+
 def collect(conn, hexes, today_ts, max_calls=None, log=print):
-    """Étape OpenSky. Renvoie {status, requests, credits_remaining, message, new_flights}."""
+    """Étape OpenSky. Renvoie {status, requests, credits_remaining, message, new_flights}.
+    Mode par avion (/flights/aircraft) pour une petite flotte, mode global (/flights/all)
+    au-delà de GLOBAL_MODE_MIN_AIRCRAFT avions."""
     result = {"status": "ok", "requests": 0, "credits_remaining": None, "message": "", "new_flights": 0}
     creds = credentials_path()
     if creds is None:
@@ -132,12 +159,18 @@ def collect(conn, hexes, today_ts, max_calls=None, log=print):
         return result
 
     done = {(h, w): fa for h, w, fa in conn.execute("SELECT icao24, window_start, fetched_at FROM windows")}
-    todo = plan_requests(hexes, done, today_ts)
-    log(f"  OpenSky : {len(todo)} fenêtres (avion x 2 jours) à récupérer")
+    global_mode = len(hexes) >= config.GLOBAL_MODE_MIN_AIRCRAFT
+    if global_mode:
+        todo = plan_global(done, today_ts)
+        log(f"  OpenSky (mode global /flights/all) : {len(todo)} tranches de 2 h à récupérer")
+    else:
+        todo = plan_requests(hexes, done, today_ts)
+        log(f"  OpenSky : {len(todo)} fenêtres (avion x 2 jours) à récupérer")
     if not todo:
         result["message"] = "historique à jour"
         return result
 
+    tracked = set(hexes)
     api = OpenSky(creds)
     stop = None
     try:
@@ -149,9 +182,14 @@ def collect(conn, hexes, today_ts, max_calls=None, log=print):
                 stop = "budget de crédits du jour épuisé"
                 break
             result["requests"] += 1
-            flights = api.flights(h, w, w + WINDOW - 1)
-            for fl in flights:
-                result["new_flights"] += save_flight(conn, h, fl)
+            if global_mode:
+                for fl in api.all_flights(w, w + config.SLOT_SECONDS):
+                    icao = (fl.get("icao24") or "").lower()
+                    if icao in tracked:
+                        result["new_flights"] += save_flight(conn, icao, fl)
+            else:
+                for fl in api.flights(h, w, w + WINDOW - 1):
+                    result["new_flights"] += save_flight(conn, h, fl)
             conn.execute("INSERT OR REPLACE INTO windows VALUES (?,?,?)", (h, w, int(time.time())))
             conn.commit()
     except QuotaExhausted:
@@ -167,7 +205,7 @@ def collect(conn, hexes, today_ts, max_calls=None, log=print):
         left = len(todo) - result["requests"] + (1 if stop == "quota atteint (429)" else 0)
         if stop and left > 0:
             result["status"] = "partial"
-            result["message"] = f"{stop} ; {left} fenêtres restantes"
+            result["message"] = f"{stop} ; {left} {'tranches' if global_mode else 'fenêtres'} restantes"
         else:
             result["message"] = "historique à jour"
     result["message"] = f"{result['new_flights']} vols enregistrés ; " + result["message"]

@@ -24,23 +24,29 @@ New_project/
 ├── JETS.md                   rapport / référentiel (section « Statut » générée entre marqueurs)
 ├── PLAN.md                   plan du site web (architecture, phases, features)
 ├── update.py                 POINT D'ENTRÉE UNIQUE : collecte + génération du site
+├── serve.py                  serveur local du site + bouton « Get live data »
 ├── docs/
 │   └── DATA_CONTRACT.md      contrat d'interface collecte ↔ site (CSV et site/data.js)
 ├── tracker/                  package de collecte et de génération
 │   ├── config.py             chemins et constantes (90 j, fenêtres de 2 j, 30 crédits/requête…)
 │   ├── db.py                 schéma SQLite, CSV → jets.db → CSV, rétention, dédoublonnage
-│   ├── opensky.py            historique des vols (OpenSky /flights/aircraft)
-│   ├── snapshot.py           relevé instantané (adsb.lol, un seul appel groupé)
+│   ├── opensky.py            historique des vols (OpenSky /flights/aircraft, ou /flights/all au-delà de 40 avions)
+│   ├── snapshot.py           relevé instantané (adsb.lol, appels groupés par 100 avions)
 │   ├── airports.py           aéroports OurAirports : plus proche, recherche par code
 │   └── build.py              génère site/data.js et la section « Statut » de JETS.md
 ├── scripts/
-│   └── faa_search.py         recherche de jets dans le registre FAA par nom de propriétaire
+│   ├── faa_search.py         recherche de jets dans le registre FAA par nom de propriétaire
+│   └── sp500_fleet.py        jets d'affaires des sociétés du S&P 500 et de leurs dirigeants
 ├── site/
-│   └── data.js               données du site (généré ; index.html, style.css, app.js : Phase 2)
+│   ├── index.html, style.css, app.js   le site (carte, flotte, historique)
+│   ├── live.js               bouton « Get live data » (nécessite serve.py)
+│   └── data.js               données du site (généré)
 ├── tests/
 │   └── test_tracker.py       tests unitaires (unittest)
 └── data/
-    ├── targets.csv           LA liste des avions suivis (éditée à la main)
+    ├── targets.csv           LA liste des avions suivis (groupes watchlist / autres / sp500)
+    ├── sp500.csv             constituants du S&P 500 (datasets/s-and-p-500-companies)
+    ├── sp500_candidates.csv  jets trouvés par sp500_fleet.py (à relire avant fusion)
     ├── flights.csv           vols OpenSky des 90 derniers jours      ┐
     ├── windows.csv           fenêtres OpenSky déjà récupérées         │ source de vérité,
     ├── snapshots.csv         relevés adsb.lol (1 ligne/avion/relevé)  │ committés
@@ -59,6 +65,7 @@ python update.py                      # OpenSky (tout le quota du jour) + adsb.l
 python update.py --max-calls 10       # plafonne les requêtes OpenSky
 python update.py --skip-opensky       # relevé adsb.lol + site uniquement
 python update.py --skip-snapshot      # sans relevé adsb.lol
+python serve.py                       # site sur http://localhost:8000 avec le bouton « Get live data »
 python -m unittest discover -s tests  # tests
 ```
 
@@ -85,6 +92,13 @@ Déroulé : **CSV → `jets.db` → OpenSky → adsb.lol → `site/data.js` + `J
   reste moins de 30 crédits (étape `partial`) ; relancé le lendemain, il reprend où il
   s'était arrêté. Rattrapage initial : ~45 fenêtres × 28 avions ≈ 1 300 requêtes ≈ 10 jours
   de quota ; ensuite ~1 requête par avion et par jour.
+- **Mode global (à partir de 40 avions, `GLOBAL_MODE_MIN_AIRCRAFT`) :** un appel par avion
+  coûterait trop cher (222 avions × 30 crédits ≈ 6 700 crédits/jour). Le script interroge
+  alors `/flights/all` par tranches de 2 h (12 appels par jour, quel que soit le nombre
+  d'avions) et ne garde que les vols des avions suivis. Les tranches sont notées dans
+  `windows.csv` avec `icao24 = *`. Rattrapage : 90 jours × 12 = 1 080 tranches. **Le coût
+  en crédits de `/flights/all` n'est pas documenté** : il est mesuré au premier lancement
+  (`credits_remaining` dans `runs.csv`).
 - Retélécharge les fenêtres récentes tant qu'elles ne sont pas définitives, et dédoublonne
   les vols qu'OpenSky renvoie en double (on garde la version la plus complète).
 - Identifiants : fichier JSON `{"clientId", "clientSecret"}` désigné par la variable
@@ -119,6 +133,26 @@ python scripts/faa_search.py "QUALCOMM" "FALCON LANDING"
 ```
 Sortie : `motif|immatriculation|hex|modèle|année|propriétaire|ville|date dernière action`.
 Pour ajouter un avion au suivi, reporter la ligne dans `data/targets.csv`.
+
+### `serve.py` : site local et données en direct
+Sert `site/` sur http://localhost:8000. Le bouton **Get live data** appelle `POST /api/live` :
+relevé adsb.lol de toute la flotte, régénération de `data.js` et des CSV, puis rechargement
+de la page. Le navigateur ne peut pas interroger adsb.lol lui-même (pas d'en-tête CORS),
+d'où ce relais. Un relevé de moins de 30 s est réutilisé. Sans serveur (fichier ouvert
+depuis le disque, site statique hébergé), le bouton est désactivé.
+
+### `scripts/sp500_fleet.py` : flotte S&P 500
+Rapproche les 503 sociétés du S&P 500 du registre FAA, par le propriétaire ou un
+co-propriétaire (copropriétés NetJets/Flexjet), et de plane-alert-db (flottes de société et
+dirigeants connus). Règles de filtrage :
+- jets d'affaires uniquement ;
+- ni compagnies aériennes, ni fret, ni constructeurs (Boeing, Textron) ;
+- attributions plane-alert-db écartées si le propriétaire FAA actuel est une autre société.
+
+```bash
+python scripts/sp500_fleet.py           # écrit data/sp500_candidates.csv
+python scripts/sp500_fleet.py --merge   # ajoute les nouveaux à data/targets.csv (groupe sp500)
+```
 
 ## Fichiers de données
 

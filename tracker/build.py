@@ -46,10 +46,22 @@ def top_airport(flights, airports):
     return {"code": code, "city": (info["city"] or info["name"]) if info else "", "count": count}
 
 
-def coverage_days(window_rows, start, end):
+def global_covered_days(slot_rows):
+    """Jours dont les 12 tranches /flights/all ont été téléchargées après la fin du jour
+    (valables pour tous les avions). `slot_rows` : [(slot_start, fetched_at)]."""
+    per_day = Counter()
+    for s, fetched in slot_rows:
+        day = s // DAY * DAY
+        if fetched >= day + DAY:
+            per_day[day] += 1
+    return frozenset(d for d, n in per_day.items() if n >= DAY // config.SLOT_SECONDS)
+
+
+def coverage_days(window_rows, start, end, global_days=frozenset()):
     """Jours de [start, end) couverts par une fenêtre téléchargée après la fin de ce jour.
-    `window_rows` : [(window_start, fetched_at)] d'un avion."""
-    covered = set()
+    `window_rows` : [(window_start, fetched_at)] d'un avion ; `global_days` : jours
+    couverts par le mode /flights/all."""
+    covered = {d for d in global_days if start <= d < end}
     for w, fetched in window_rows:
         for d in range(w, w + config.WINDOW_DAYS * DAY, DAY):
             if start <= d < end and fetched >= d + DAY:
@@ -57,12 +69,12 @@ def coverage_days(window_rows, start, end):
     return len(covered)
 
 
-def aircraft_stats(flights, window_rows, start, end, airports):
+def aircraft_stats(flights, window_rows, start, end, airports, global_days=frozenset()):
     in_history = [f for f in flights if start <= f["first_seen"] < end]
     return {"d7": period_stats(flights, end, 7), "d30": period_stats(flights, end, 30),
             "d90": period_stats(flights, end, config.HISTORY_DAYS),
             "top_airport": top_airport(in_history, airports),
-            "coverage_days": coverage_days(window_rows, start, end)}
+            "coverage_days": coverage_days(window_rows, start, end, global_days)}
 
 
 # ---------------------------------------------------------------- relevé adsb.lol
@@ -100,6 +112,8 @@ def build_data(conn, targets, airports, today_ts, generated_at=None):
     for h, w, fa in conn.execute("SELECT icao24, window_start, fetched_at FROM windows"):
         windows.setdefault(h, []).append((w, fa))
 
+    global_days = global_covered_days(windows.get(config.GLOBAL_KEY, []))
+
     snap_ts, snaps = latest_snapshot(conn)
     aircraft, counts = [], Counter()
     for t in targets:
@@ -122,7 +136,7 @@ def build_data(conn, targets, airports, today_ts, generated_at=None):
             "owner": t["proprietaire_faa"], "confidence": t["confiance"], "source": t["source"],
             "status": status, "position": pos, "nearest_airport": nearest,
             "last_flight": None if last is None else {k: last[k] for k in ("first_seen", "last_seen", "dep", "arr")},
-            "stats": aircraft_stats(mine, windows.get(h, []), start, end, airports),
+            "stats": aircraft_stats(mine, windows.get(h, []), start, end, airports, global_days),
         })
 
     codes = sorted({c for f in flights for c in (f["dep"], f["arr"]) if c})
