@@ -1,0 +1,29 @@
+groupe,entite,personne_ou_entreprise,immatriculation,hex,modele,annee,proprietaire_faa,confiance,source
+watchlist,SpaceX / Tesla / xAI,Elon Musk,N628TS,a835af,Gulfstream G650ER,2015,FALCON LANDING LLC (Hawthorne CA),haute,FAA + plane-alert-db
+watchlist,SpaceX / Tesla / xAI,Elon Musk,N272BG,a2ae0a,Gulfstream G550,2007,FALCON LANDING LLC (Hawthorne CA),haute,FAA
+watchlist,Alphabet (Google),Google (flotte dirigeants),N10XG,a0046f,Gulfstream G550,2008,BANK OF UTAH TRUSTEE,moyenne,plane-alert-db + FAA (trust)
+watchlist,Alphabet (Google),Google (flotte dirigeants),N232G,a21084,Gulfstream G650ER,2018,BANK OF UTAH TRUSTEE,moyenne,plane-alert-db + FAA (trust)
+watchlist,Alphabet (Google),Google (flotte dirigeants),N651WE,a8926a,Gulfstream G650ER,2015,(masque par la FAA),moyenne,plane-alert-db
+watchlist,Alphabet (Google),Eric Schmidt (ex-CEO),N652WE,a89621,Gulfstream G650ER,2021,(masque par la FAA),moyenne,plane-alert-db
+watchlist,Meta,Mark Zuckerberg,N68885,a9247d,Gulfstream G650ER,2021,A7P TRUST CO INC TRUSTEE (Cheyenne WY),moyenne,plane-alert-db + FAA (trust)
+watchlist,Meta,Mark Zuckerberg,N3880,a47b5a,Gulfstream G700,2024,A7P TRUST COMPANY INC TRUSTEE (Cheyenne WY),moyenne,plane-alert-db + FAA (trust)
+watchlist,Microsoft,Steve Ballmer (ex-CEO),N709DS,a97659,Gulfstream G800,2025,CRUISING ALTITUDE LLC (Seattle WA),moyenne,plane-alert-db + FAA
+watchlist,AMD,AMD (copropriete Flexjet),N558FX,a71db6,Bombardier Challenger 350,2020,FLEXJET LLC (AMD co-proprietaire),haute,FAA (fractional)
+watchlist,AMD,AMD (copropriete Flexjet),N664FX,a8c3a8,Gulfstream G650ER,2018,PLM SERVICES LLC / Flexjet (AMD co-proprietaire),haute,FAA (fractional)
+watchlist,Anduril,Anduril (copropriete NetJets),N894QS,ac559f,Cessna Citation Longitude,2026,NETJETS SALES INC (Anduril co-proprietaire),haute,FAA (fractional)
+watchlist,Constellation Energy,Constellation Energy,N482EC,a5f06e,Dassault Falcon 2000EX,2020,CONSTELLATION ENERGY GENERATION LLC,haute,FAA
+watchlist,Constellation Energy,Constellation Energy,N484EC,a5f7dc,Dassault Falcon 2000EX,,CONSTELLATION ENERGY GENERATION LLC,haute,FAA
+watchlist,Quanta Services,Quanta Services,N282QA,a2d6c8,Gulfstream G280,2014,QUANTA SERVICES INC,haute,FAA
+watchlist,Quanta Services,Quanta Services,N283QA,a2da7f,Gulfstream G280,,QUANTA SERVICES INC,haute,FAA
+autres,Oracle,Larry Ellison,N817GS,ab2404,Gulfstream G650,2014,WING AND A PRAYER INC (Walnut Creek CA),moyenne,plane-alert-db + FAA
+autres,Palantir / Founders Fund,Peter Thiel,N878DB,ac145b,Gulfstream G-V SP,2007,THORONDOR LLC (Palo Alto CA),moyenne,plane-alert-db + FAA
+autres,Qualcomm,Qualcomm,N880WT,ac1fdb,Gulfstream G800,2025,QUALCOMM INC,haute,FAA
+autres,Qualcomm,Qualcomm,N882WT,ac2749,Gulfstream G650ER,2022,QUALCOMM INC,haute,FAA
+autres,Micron,Micron Technology,N684MT,a91338,Gulfstream G650ER,2016,MICRON TECHNOLOGY INC,haute,FAA
+autres,Micron,Micron Technology,N778MT,aa87e4,Gulfstream G280,2018,MICRON TECHNOLOGY INC,haute,FAA
+autres,Micron,Micron Technology,N831MT,ab5d36,Gulfstream G280,2021,MICRON TECHNOLOGY INC,haute,FAA
+autres,Texas Instruments,Texas Instruments,N45GX,a5706f,Bombardier Global Express,2011,TEXAS INSTRUMENTS INC,haute,FAA
+autres,Texas Instruments,Texas Instruments,N46GX,a597ee,Bombardier Global Express,2011,TEXAS INSTRUMENTS INC,haute,FAA
+autres,Citadel,Ken Griffin,N68KP,a901cd,Bombardier Global 6500,2021,WILMINGTON TRUST CO TRUSTEE,moyenne,plane-alert-db + FAA (trust)
+autres,Citadel,Ken Griffin,N302AK,a326ca,Bombardier Global 6000,2012,TVPX AIRCRAFT SOLUTIONS INC TRUSTEE,moyenne,plane-alert-db + FAA (trust)
+autres,Bloomberg LP,Michael Bloomberg,N47EG,a5bf2c,Dassault Falcon 900EX,2018,WING AND ROTOR TRANSPORTATION HOLDINGS LLC,moyenne,plane-alert-db + FAA

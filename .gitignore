@@ -1,0 +1,7 @@
+data/faa/
+data/ReleasableAircraft.zip
+data/airports.csv
+data/plane-alert-db.csv
+data/jets.db
+*credentials*.json
+__pycache__/
