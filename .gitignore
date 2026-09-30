@@ -2,6 +2,10 @@ data/faa/
 data/ReleasableAircraft.zip
 data/airports.csv
 data/plane-alert-db.csv
+# Cache SQLite jetable, reconstruit à chaque exécution depuis les CSV committés
+# (data/flights.csv, windows.csv, snapshots.csv, runs.csv : NE PAS ignorer)
 data/jets.db
+*.tmp
+PLAN.md
 *credentials*.json
 __pycache__/

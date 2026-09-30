@@ -1,0 +1,13 @@
+ts,step,status,requests,credits_remaining,message
+1790756537,opensky,partial,1,,"0 vols enregistrés ; quota atteint (429), réessayer dans 12 h ; 1159 fenêtres restantes"
+1790756537,snapshot,ok,1,,"0 en vol, 0 au sol, 28 non détectés"
+1790756538,build,ok,0,,"28 avions, 158 vols, 82 aéroports"
+1790756629,opensky,skipped,,,ignoré (option de ligne de commande)
+1790756629,snapshot,ok,1,,"0 en vol, 0 au sol, 28 non détectés"
+1790756630,build,ok,0,,"28 avions, 158 vols, 85 aéroports"
+1790756750,opensky,skipped,,,ignoré (option de ligne de commande)
+1790756750,snapshot,skipped,,,ignoré (option de ligne de commande)
+1790756751,build,ok,0,,"28 avions, 158 vols, 85 aéroports"
+1790756791,opensky,skipped,,,ignoré (option de ligne de commande)
+1790756791,snapshot,ok,1,,"0 en vol, 0 au sol, 28 non détectés"
+1790756792,build,ok,0,,"28 avions, 158 vols, 85 aéroports"

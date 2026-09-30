@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Suivi des jets</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">&#9992;</span>
+      <div>
+        <h1>Suivi des jets</h1>
+        <div class="sub" id="generated">&nbsp;</div>
+      </div>
+    </div>
+    <div class="kpis" id="kpis"></div>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <div id="nodata" class="nodata" hidden>
+    <h2>Aucune donnée : lancez <code>python update.py</code></h2>
+    <p>Le fichier <code>site/data.js</code> est absent ou invalide. Il est généré par le script de collecte.</p>
+  </div>
+
+  <main id="app" hidden>
+    <section class="panel map-panel">
+      <div class="panel-head">
+        <h2>Carte <span class="muted" id="map-caption"></span></h2>
+        <div class="toggles">
+          <label><input type="checkbox" id="tg-ground"> Jets au sol</label>
+          <label><input type="checkbox" id="tg-routes"> Routes 7 derniers jours</label>
+        </div>
+      </div>
+      <div id="map"></div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Récapitulatif flotte <span class="muted" id="fleet-caption"></span></h2>
+        <div class="hint">Cliquer sur une ligne : centre la carte et filtre l’historique</div>
+      </div>
+      <div class="table-wrap">
+        <table class="grid" id="fleet">
+          <thead><tr>
+            <th data-k="reg">Immat.</th>
+            <th data-k="entity">Société</th>
+            <th data-k="person">Personne</th>
+            <th data-k="model">Modèle</th>
+            <th data-k="status">Statut</th>
+            <th data-k="last">Dernier vol (UTC)</th>
+            <th data-k="d7" class="num">7 j</th>
+            <th data-k="d30" class="num">30 j</th>
+            <th data-k="d90" class="num">90 j</th>
+            <th data-k="top">Aéroport principal</th>
+            <th data-k="conf">Confiance</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Historique des vols <span class="muted" id="flights-count"></span></h2>
+      </div>
+      <div class="filters">
+        <div class="seg" id="period">
+          <button data-p="1">Jour</button>
+          <button data-p="7">Semaine</button>
+          <button data-p="30">Mois</button>
+          <button data-p="90" class="on">90 jours</button>
+        </div>
+        <select id="f-aircraft"><option value="">Tous les jets</option></select>
+        <select id="f-entity"><option value="">Toutes les sociétés</option></select>
+        <select id="f-airport"><option value="">Tous les aéroports</option></select>
+        <input type="search" id="f-search" placeholder="Rechercher (immat., ville, indicatif…)">
+        <button id="f-reset" class="btn">Réinitialiser</button>
+        <span class="muted" id="period-range"></span>
+      </div>
+      <div class="table-wrap">
+        <table class="grid" id="flights">
+          <thead><tr>
+            <th data-k="t">Décollage (UTC)</th>
+            <th data-k="reg">Immat.</th>
+            <th data-k="entity">Société</th>
+            <th data-k="dep">Départ</th>
+            <th class="arrow-col"></th>
+            <th data-k="arr">Arrivée</th>
+            <th data-k="dur" class="num">Durée</th>
+            <th data-k="dist" class="num">Distance</th>
+            <th data-k="cs">Indicatif</th>
+          </tr></thead>
+          <tbody></tbody>
+        </table>
+        <div class="empty" id="flights-empty" hidden>Aucun vol ne correspond aux filtres.</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

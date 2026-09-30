@@ -66,19 +66,22 @@ python update.py
 - [x] Statut en direct (adsb.lol), historique OpenSky glissant sur 90 jours, dédoublonnage
 
 ### Phase 1 : le script unique
-- [ ] Package `tracker/` : `db.py` (schéma), `opensky.py` (repris de `scripts/opensky_flights.py`),
+- [x] Package `tracker/` : `db.py` (schéma), `opensky.py` (repris de `scripts/opensky_flights.py`),
       `snapshot.py` (repris de `scripts/update_status.py`), `build.py` (génère `site/data.js`)
-- [ ] `update.py` à la racine : collecte OpenSky → relevé adsb.lol → génération du site, avec un
+- [x] `update.py` à la racine : collecte OpenSky → relevé adsb.lol → génération du site, avec un
       journal dans `runs`
-- [ ] Calculs : durée et distance de chaque vol, heures de vol par jet sur 7, 30 et 90 jours
-- [ ] Budget OpenSky : les vols de la veille passent en premier, le rattrapage des 90 jours
+- [x] Calculs : durée et distance de chaque vol, heures de vol par jet sur 7, 30 et 90 jours
+- [x] Budget OpenSky : les vols de la veille passent en premier, le rattrapage des 90 jours
       utilise le reste du quota
-- [ ] `JETS.md` reste généré (le statut devient une vue du dernier relevé)
+- [x] `JETS.md` reste généré (le statut devient une vue du dernier relevé)
+
+- [x] Stockage : les CSV de `data/` sont la source de vérité (committables, adaptés à
+      GitHub Actions) ; `jets.db` est reconstruit à chaque exécution. Voir `docs/DATA_CONTRACT.md`
 
 ### Phase 2 : le site statique
 - [ ] `site/index.html`, `style.css`, `app.js` : en-tête, carte Leaflet, récapitulatif flotte,
       historique filtrable
-- [ ] Mise en page lisible sur mobile, thème clair et sombre
+- [ ] Thème sombre uniquement, écran d'ordinateur uniquement (pas d'adaptation mobile)
 - [ ] **Critère de fin :** `python update.py` puis ouvrir `site/index.html` affiche tout sans serveur
 
 ### Phase 3 : fiabilisation (une fois l'historique de 90 jours complet, ~10 jours de quota)

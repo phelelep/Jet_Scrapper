@@ -2,7 +2,7 @@
 
 Référentiel des jets d'affaires liés aux sociétés de la watchlist `News_agent`, plus quelques
 grands dirigeants. Données brutes : [`data/targets.csv`](data/targets.csv).
-Statut en direct régénéré par `python scripts/update_status.py`.
+Statut en direct régénéré par `python update.py`.
 
 **Cadre :** on suit des avions d'entreprise, pas des personnes. Rien n'est publié en temps réel.
 
@@ -15,7 +15,7 @@ Statut en direct régénéré par `python scripts/update_status.py`.
 | API adsb.lol | Position en temps réel | Gratuite, sans clé |
 | OurAirports | Position → aéroport le plus proche | |
 | airplanes.live | *(prévu)* | **L'API exige de les contacter par e-mail** (contact@airplanes.live) avec une description du projet |
-| OpenSky Network | Historique glissant 90 j → « Vols 90 j » (`scripts/opensky_flights.py`) | Compte requis ; 30 crédits/requête, 4 000 crédits/jour → rattrapage initial en ~10 jours |
+| OpenSky Network | Historique glissant 90 j → « Vols 90 j » (`tracker/opensky.py`, via `python update.py`) | Compte requis ; 30 crédits/requête, 4 000 crédits/jour → rattrapage initial en ~10 jours |
 
 ## Référentiel
 
@@ -74,38 +74,38 @@ seulement réservées par POPLAR GLEN LLC (voir plus bas).
 ## Statut en direct
 
 <!-- STATUS:START -->
-_Relevé du 2026-09-29 21:13 UTC — statut : adsb.lol ; vols 2026 : OpenSky (nombre de vols / jours de 2026 déjà récupérés)._
+_Relevé du 2026-09-30 08:26 UTC — statut : adsb.lol ; vols 90 j : OpenSky (nombre de vols / jours déjà récupérés sur les 90 derniers). Section générée par `python update.py`._
 
 | Immat. | Hex | Entité | Statut actuel | Position actuelle | Vols 90 j |
 |---|---|---|---|---|---|
-| N628TS | `a835af` | Elon Musk | ⚪ Non détecté | — | 7 vols / 10 j |
-| N272BG | `a2ae0a` | Elon Musk | ⚪ Non détecté | — | 12 vols / 10 j |
-| N10XG | `a0046f` | Google (flotte dirigeants) | ⚪ Non détecté | — | 2 vols / 10 j |
-| N232G | `a21084` | Google (flotte dirigeants) | ⚪ Non détecté | — | 0 vols / 10 j |
-| N651WE | `a8926a` | Google (flotte dirigeants) | ⚪ Non détecté | — | 6 vols / 10 j |
-| N652WE | `a89621` | Eric Schmidt (ex-CEO) | ⚪ Non détecté | — | 5 vols / 10 j |
-| N68885 | `a9247d` | Mark Zuckerberg | ⚪ Non détecté | — | 2 vols / 10 j |
-| N3880 | `a47b5a` | Mark Zuckerberg | 🟡 Au sol, transpondeur actif | 0 km de KIAD (Dulles, US) | 8 vols / 10 j |
-| N709DS | `a97659` | Steve Ballmer (ex-CEO) | ⚪ Non détecté | — | 8 vols / 10 j |
-| N558FX | `a71db6` | AMD (copropriete Flexjet) | 🟢 En vol — LXJ558, 42975 ft, 417.3 kt | survol : 6 km de OH99 (Cecil, US) | 16 vols / 10 j |
-| N664FX | `a8c3a8` | AMD (copropriete Flexjet) | ⚪ Non détecté | — | 6 vols / 10 j |
-| N894QS | `ac559f` | Anduril (copropriete NetJets) | ⚪ Non détecté | — | 24 vols / 10 j |
-| N482EC | `a5f06e` | Constellation Energy | ⚪ Non détecté | — | 7 vols / 10 j |
-| N484EC | `a5f7dc` | Constellation Energy | ⚪ Non détecté | — | 9 vols / 10 j |
-| N282QA | `a2d6c8` | Quanta Services | ⚪ Non détecté | — | 3 vols / 10 j |
-| N283QA | `a2da7f` | Quanta Services | 🟡 Au sol, transpondeur actif | 1 km de KTEB (Teterboro, US) | 6 vols / 10 j |
-| N817GS | `ab2404` | Larry Ellison | ⚪ Non détecté | — | 4 vols / 8 j |
-| N878DB | `ac145b` | Peter Thiel | 🟢 En vol — TWY800, 47000 ft, 423.8 kt | survol : 12 km de K1L7 (Escalante, US) | 3 vols / 8 j |
-| N880WT | `ac1fdb` | Qualcomm | ⚪ Non détecté | — | 0 vols / 8 j |
-| N882WT | `ac2749` | Qualcomm | ⚪ Non détecté | — | 4 vols / 8 j |
-| N684MT | `a91338` | Micron Technology | 🟢 En vol — N684MT, 43000 ft, 480.2 kt | survol : 4 km de 0IL2 (Alma, US) | 5 vols / 8 j |
-| N778MT | `aa87e4` | Micron Technology | ⚪ Non détecté | — | 0 vols / 8 j |
-| N831MT | `ab5d36` | Micron Technology | 🟢 En vol — N831MT, 41000 ft, 519.9 kt | survol : 21 km de 6SD4 (Edgemont, US) | 18 vols / 8 j |
-| N45GX | `a5706f` | Texas Instruments | ⚪ Non détecté | — | 0 vols / 8 j |
-| N46GX | `a597ee` | Texas Instruments | ⚪ Non détecté | — | 0 vols / 8 j |
-| N68KP | `a901cd` | Ken Griffin | ⚪ Non détecté | — | 0 vols / 8 j |
-| N302AK | `a326ca` | Ken Griffin | ⚪ Non détecté | — | 0 vols / 8 j |
-| N47EG | `a5bf2c` | Michael Bloomberg | ⚪ Non détecté | — | 3 vols / 8 j |
+| N628TS | `a835af` | Elon Musk | ⚪ Non détecté | — | 7 vols / 9 j |
+| N272BG | `a2ae0a` | Elon Musk | ⚪ Non détecté | — | 12 vols / 9 j |
+| N10XG | `a0046f` | Google (flotte dirigeants) | ⚪ Non détecté | — | 2 vols / 9 j |
+| N232G | `a21084` | Google (flotte dirigeants) | ⚪ Non détecté | — | 0 vols / 9 j |
+| N651WE | `a8926a` | Google (flotte dirigeants) | ⚪ Non détecté | — | 6 vols / 9 j |
+| N652WE | `a89621` | Eric Schmidt (ex-CEO) | ⚪ Non détecté | — | 5 vols / 9 j |
+| N68885 | `a9247d` | Mark Zuckerberg | ⚪ Non détecté | — | 2 vols / 9 j |
+| N3880 | `a47b5a` | Mark Zuckerberg | ⚪ Non détecté | — | 8 vols / 9 j |
+| N709DS | `a97659` | Steve Ballmer (ex-CEO) | ⚪ Non détecté | — | 8 vols / 9 j |
+| N558FX | `a71db6` | AMD (copropriete Flexjet) | ⚪ Non détecté | — | 16 vols / 9 j |
+| N664FX | `a8c3a8` | AMD (copropriete Flexjet) | ⚪ Non détecté | — | 6 vols / 9 j |
+| N894QS | `ac559f` | Anduril (copropriete NetJets) | ⚪ Non détecté | — | 24 vols / 9 j |
+| N482EC | `a5f06e` | Constellation Energy | ⚪ Non détecté | — | 7 vols / 9 j |
+| N484EC | `a5f7dc` | Constellation Energy | ⚪ Non détecté | — | 9 vols / 9 j |
+| N282QA | `a2d6c8` | Quanta Services | ⚪ Non détecté | — | 3 vols / 9 j |
+| N283QA | `a2da7f` | Quanta Services | ⚪ Non détecté | — | 6 vols / 9 j |
+| N817GS | `ab2404` | Larry Ellison | ⚪ Non détecté | — | 4 vols / 7 j |
+| N878DB | `ac145b` | Peter Thiel | ⚪ Non détecté | — | 3 vols / 7 j |
+| N880WT | `ac1fdb` | Qualcomm | ⚪ Non détecté | — | 0 vols / 7 j |
+| N882WT | `ac2749` | Qualcomm | ⚪ Non détecté | — | 4 vols / 7 j |
+| N684MT | `a91338` | Micron Technology | ⚪ Non détecté | — | 5 vols / 7 j |
+| N778MT | `aa87e4` | Micron Technology | ⚪ Non détecté | — | 0 vols / 7 j |
+| N831MT | `ab5d36` | Micron Technology | ⚪ Non détecté | — | 18 vols / 7 j |
+| N45GX | `a5706f` | Texas Instruments | ⚪ Non détecté | — | 0 vols / 7 j |
+| N46GX | `a597ee` | Texas Instruments | ⚪ Non détecté | — | 0 vols / 7 j |
+| N68KP | `a901cd` | Ken Griffin | ⚪ Non détecté | — | 0 vols / 7 j |
+| N302AK | `a326ca` | Ken Griffin | ⚪ Non détecté | — | 0 vols / 7 j |
+| N47EG | `a5bf2c` | Michael Bloomberg | ⚪ Non détecté | — | 3 vols / 7 j |
 <!-- STATUS:END -->
 
 **Lecture du statut :**
@@ -144,8 +144,8 @@ d'immatriculation.
 ## Prochaines étapes
 
 - [ ] Écrire à airplanes.live pour obtenir l'accès à l'API.
-- [x] Compte OpenSky : historique en cours de rattrapage (`scripts/opensky_flights.py`, à lancer chaque jour).
-- [ ] Planifier `update_status.py` toutes les 10 min et stocker l'historique dans SQLite.
+- [x] Compte OpenSky : historique en cours de rattrapage (`python update.py`, à lancer chaque jour).
+- [ ] Planifier `python update.py` (relevés stockés dans `data/snapshots.csv`).
 - [ ] Trouver les avions manquants (Tesla, NVIDIA, Apple…) : chercher dans le registre FAA les
       numéros de série connus et les copropriétés.
 - [ ] Surveiller les nouvelles réservations dans `RESERVED.txt` (comparaison quotidienne).

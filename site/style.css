@@ -1,0 +1,172 @@
+:root {
+  --bg: #0b0f14;
+  --panel: #121820;
+  --panel-2: #18202a;
+  --row-hover: #1c2632;
+  --row-sel: #20344a;
+  --border: #243040;
+  --text: #d6dde6;
+  --text-dim: #8391a3;
+  --text-faint: #5d6b7c;
+  --accent: #4cc2ff;
+  --air: #ffb547;
+  --ground: #7fd68a;
+  --unseen: #6b7788;
+  --route: #4cc2ff;
+  --danger: #ff6b6b;
+  --mono: ui-monospace, "Cascadia Mono", "Consolas", "SFMono-Regular", monospace;
+  --sans: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--text); }
+body { font: 13px/1.4 var(--sans); min-width: 1200px; }
+code { font-family: var(--mono); color: var(--accent); }
+.muted { color: var(--text-dim); font-weight: normal; }
+.mono { font-family: var(--mono); }
+[hidden] { display: none !important; }
+
+/* ---------- En-tête ---------- */
+.topbar {
+  display: flex; align-items: center; gap: 28px;
+  padding: 12px 20px; background: var(--panel);
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: 0; z-index: 2000;
+}
+.brand { display: flex; align-items: center; gap: 10px; min-width: 230px; }
+.brand-mark { font-size: 22px; color: var(--air); transform: rotate(-45deg); display: inline-block; }
+.brand h1 { font-size: 16px; margin: 0; letter-spacing: .3px; }
+.brand .sub { color: var(--text-dim); font-size: 11px; }
+
+.kpis { display: flex; gap: 8px; }
+.kpi {
+  background: var(--panel-2); border: 1px solid var(--border); border-radius: 6px;
+  padding: 5px 12px; min-width: 88px;
+}
+.kpi .v { font: 600 18px/1.1 var(--mono); }
+.kpi .l { color: var(--text-dim); font-size: 11px; text-transform: uppercase; letter-spacing: .5px; }
+.kpi.air .v { color: var(--air); }
+.kpi.ground .v { color: var(--ground); }
+.kpi.unseen .v { color: var(--unseen); }
+
+.meta { margin-left: auto; display: grid; grid-template-columns: auto auto; gap: 2px 12px; font-size: 12px; }
+.meta .k { color: var(--text-dim); text-align: right; }
+.meta .v { font-family: var(--mono); }
+
+/* ---------- Message sans données ---------- */
+.nodata {
+  margin: 80px auto; max-width: 640px; padding: 28px 32px; text-align: center;
+  background: var(--panel); border: 1px solid var(--danger); border-radius: 8px;
+}
+.nodata h2 { margin: 0 0 8px; font-size: 20px; }
+.nodata p { color: var(--text-dim); margin: 0; }
+
+/* ---------- Panneaux ---------- */
+main { padding: 14px 20px 40px; display: flex; flex-direction: column; gap: 14px; }
+.panel { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+.panel-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 8px 14px; border-bottom: 1px solid var(--border); background: var(--panel-2);
+}
+.panel-head h2 { margin: 0; font-size: 13px; text-transform: uppercase; letter-spacing: .6px; }
+.hint { color: var(--text-faint); font-size: 11px; }
+.toggles { display: flex; gap: 18px; }
+.toggles label { cursor: pointer; user-select: none; color: var(--text); }
+.toggles input { accent-color: var(--accent); vertical-align: -2px; margin-right: 4px; }
+
+/* ---------- Carte ---------- */
+#map { height: 470px; background: #0e1116; }
+.map-msg { display: flex; align-items: center; justify-content: center; height: 100%; color: var(--text-dim); }
+.plane-icon svg { display: block; filter: drop-shadow(0 0 3px rgba(0,0,0,.9)); }
+.plane-label {
+  position: absolute; left: 26px; top: 4px; white-space: nowrap;
+  font: 600 11px var(--mono); color: var(--air); text-shadow: 0 0 3px #000, 0 0 3px #000;
+}
+.ground-label { color: var(--ground); }
+
+.leaflet-container { font: 12px var(--sans); }
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+  background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
+  box-shadow: 0 4px 16px rgba(0,0,0,.6);
+}
+.leaflet-popup-content { margin: 10px 12px; min-width: 220px; }
+.leaflet-container a.leaflet-popup-close-button { color: var(--text-dim); }
+.leaflet-control-attribution { background: rgba(11,15,20,.8) !important; color: var(--text-faint); }
+.leaflet-control-attribution a { color: var(--text-dim); }
+.leaflet-bar a { background: var(--panel-2); color: var(--text); border-color: var(--border); }
+.leaflet-bar a:hover { background: var(--row-hover); color: var(--text); }
+.pop-title { font: 600 14px var(--mono); margin-bottom: 2px; }
+.pop-sub { color: var(--text-dim); margin-bottom: 6px; }
+.pop-grid { display: grid; grid-template-columns: auto 1fr; gap: 1px 10px; }
+.pop-grid .k { color: var(--text-dim); }
+.pop-grid .v { font-family: var(--mono); }
+
+/* ---------- Tableaux ---------- */
+.table-wrap { max-height: 560px; overflow: auto; }
+table.grid { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+.grid th {
+  position: sticky; top: 0; z-index: 2; background: var(--panel-2);
+  text-align: left; font-weight: 600; color: var(--text-dim);
+  padding: 7px 10px; border-bottom: 1px solid var(--border); white-space: nowrap;
+  font-size: 11px; text-transform: uppercase; letter-spacing: .4px;
+}
+.grid th[data-k] { cursor: pointer; user-select: none; }
+.grid th[data-k]:hover { color: var(--text); }
+.grid th.sorted { color: var(--accent); }
+.grid th.sorted::after { content: " \25B2"; font-size: 9px; }
+.grid th.sorted.desc::after { content: " \25BC"; }
+.grid td { padding: 5px 10px; border-bottom: 1px solid #1a222c; white-space: nowrap; }
+.grid .num { text-align: right; font-variant-numeric: tabular-nums; }
+.grid tbody tr:hover { background: var(--row-hover); }
+#fleet tbody tr { cursor: pointer; }
+#fleet tbody tr.sel { background: var(--row-sel); box-shadow: inset 3px 0 0 var(--accent); }
+.grid .reg { font-family: var(--mono); font-weight: 600; color: var(--text); }
+.grid .code { font-family: var(--mono); color: var(--accent); }
+.grid .city { color: var(--text-dim); }
+.grid .unk { color: var(--text-faint); }
+.grid .dim { color: var(--text-dim); }
+.grid .t { font-family: var(--mono); }
+.arrow-col { width: 1px; padding: 0 !important; color: var(--text-faint); }
+.stat b { font-weight: 600; font-family: var(--mono); }
+.stat .h { color: var(--text-dim); font-family: var(--mono); display: inline-block; min-width: 64px; text-align: right; }
+.stat .h::before { content: "· "; color: var(--text-faint); }
+.stat.zero { color: var(--text-faint); }
+.empty { padding: 26px; text-align: center; color: var(--text-dim); }
+
+.badge {
+  display: inline-block; padding: 1px 7px; border-radius: 10px; font-size: 11px; font-weight: 600;
+  border: 1px solid currentColor;
+}
+.badge.airborne { color: var(--air); background: rgba(255,181,71,.10); }
+.badge.ground { color: var(--ground); background: rgba(127,214,138,.10); }
+.badge.unseen { color: var(--unseen); }
+.conf-haute { color: var(--ground); }
+.conf-moyenne { color: var(--air); }
+
+/* ---------- Filtres ---------- */
+.filters {
+  display: flex; align-items: center; gap: 8px; flex-wrap: wrap;
+  padding: 9px 14px; border-bottom: 1px solid var(--border);
+}
+.seg { display: inline-flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; }
+.seg button {
+  background: var(--panel-2); color: var(--text-dim); border: 0; border-right: 1px solid var(--border);
+  padding: 5px 12px; font: inherit; cursor: pointer;
+}
+.seg button:last-child { border-right: 0; }
+.seg button.on { background: var(--accent); color: #04121c; font-weight: 600; }
+.seg button:not(.on):hover { color: var(--text); background: var(--row-hover); }
+.filters select, .filters input, .btn {
+  background: var(--panel-2); color: var(--text); border: 1px solid var(--border);
+  border-radius: 6px; padding: 5px 8px; font: inherit;
+}
+.filters select { max-width: 240px; }
+.filters input[type=search] { width: 260px; }
+.filters select:focus, .filters input:focus { outline: 1px solid var(--accent); border-color: var(--accent); }
+.filters select.active { border-color: var(--accent); color: var(--accent); }
+.btn { cursor: pointer; }
+.btn:hover { background: var(--row-hover); }
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--panel); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 5px; }
