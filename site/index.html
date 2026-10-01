@@ -43,26 +43,21 @@
 
     <section class="panel">
       <div class="panel-head">
-        <h2>Récapitulatif flotte <span class="muted" id="fleet-caption"></span></h2>
+        <h2>Jets de la watchlist <span class="muted" id="fleet-wl-caption"></span></h2>
         <div class="hint">Cliquer sur une ligne : centre la carte et filtre l’historique</div>
       </div>
       <div class="table-wrap">
-        <table class="grid" id="fleet">
-          <thead><tr>
-            <th data-k="reg">Immat.</th>
-            <th data-k="entity">Société</th>
-            <th data-k="person">Personne</th>
-            <th data-k="model">Modèle</th>
-            <th data-k="status">Statut</th>
-            <th data-k="last">Dernier vol (UTC)</th>
-            <th data-k="d7" class="num">7 j</th>
-            <th data-k="d30" class="num">30 j</th>
-            <th data-k="d90" class="num">90 j</th>
-            <th data-k="top">Aéroport principal</th>
-            <th data-k="conf">Confiance</th>
-          </tr></thead>
-          <tbody></tbody>
-        </table>
+        <table class="grid fleet" id="fleet-wl"><thead></thead><tbody></tbody></table>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-head">
+        <h2>Autres jets <span class="muted" id="fleet-other-caption"></span></h2>
+        <div class="hint">Dirigeants, sociétés du S&amp;P 500, personnalités</div>
+      </div>
+      <div class="table-wrap">
+        <table class="grid fleet" id="fleet-other"><thead></thead><tbody></tbody></table>
       </div>
     </section>
 

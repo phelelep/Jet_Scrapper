@@ -281,12 +281,18 @@
   }
   initMap();
 
-  // ---------- Récapitulatif flotte ----------
-  var fleetTable = document.getElementById("fleet"), fleetBody = fleetTable.querySelector("tbody");
+  // ---------- Récapitulatifs flotte (watchlist / autres jets) ----------
   var selectedHex = null;
   var STATUS_ORDER = { airborne: 0, ground: 1, unseen: 2 };
+  var FLEET_HEAD = "<tr>" + [
+    ["reg", "Immat."], ["entity", "Société"], ["person", "Personne"], ["model", "Modèle"],
+    ["status", "Statut"], ["last", "Dernier vol (UTC)"], ["d7", "7 j", "num"], ["d30", "30 j", "num"],
+    ["d90", "90 j", "num"], ["top", "Aéroport principal"], ["conf", "Confiance"]
+  ].map(function (c) {
+    return '<th data-k="' + c[0] + '"' + (c[2] ? ' class="' + c[2] + '"' : "") + ">" + c[1] + "</th>";
+  }).join("") + "</tr>";
   function st(a, k) { return a.stats && a.stats[k] && num(a.stats[k].flights) != null ? a.stats[k].flights : 0; }
-  var fleetSort = makeSortable(fleetTable, { key: "status", dir: 1 }, {
+  var FLEET_KEYS = {
     reg: { v: function (a) { return a.reg; } },
     entity: { v: function (a) { return a.entity; } },
     person: { v: function (a) { return a.person; } },
@@ -298,33 +304,55 @@
     d90: { v: function (a) { return st(a, "d90") * 1e4 + ((a.stats && a.stats.d90 && a.stats.d90.hours) || 0); }, desc: true },
     top: { v: function (a) { return a.stats && a.stats.top_airport ? a.stats.top_airport.code : null; } },
     conf: { v: function (a) { return a.confidence; } }
-  }, renderFleet);
+  };
 
-  function renderFleet() {
-    var rows = fleetSort(aircraft);
-    fleetBody.innerHTML = rows.map(function (a) {
-      var lf = a.last_flight, s = a.stats || {}, top = s.top_airport;
-      var last = lf
-        ? '<span class="t">' + fmtUTC(lf.first_seen) + "</span> " + (lf.dep ? '<span class="code">' + esc(lf.dep) + "</span>" : '<span class="unk">?</span>') +
-          ' <span class="unk">→</span> ' + (lf.arr ? '<span class="code">' + esc(lf.arr) + "</span>" : '<span class="unk">?</span>')
-        : '<span class="unk">aucun vol</span>';
-      return '<tr data-hex="' + esc(a.hex) + '"' + (a.hex === selectedHex ? ' class="sel"' : "") + ">" +
-        '<td class="reg">' + esc(a.reg || a.hex) + "</td>" +
-        "<td>" + esc(a.entity || "—") + "</td>" +
-        '<td class="dim">' + esc(a.person || "—") + "</td>" +
-        "<td>" + esc(a.model || "—") + (a.year ? ' <span class="unk">' + esc(a.year) + "</span>" : "") + "</td>" +
-        "<td>" + badge(a.status) + "</td>" +
-        "<td>" + last + "</td>" +
-        '<td class="num">' + stat(s.d7) + "</td>" +
-        '<td class="num">' + stat(s.d30) + "</td>" +
-        '<td class="num">' + stat(s.d90) + "</td>" +
-        "<td>" + (top ? apHTML(top.code) + (num(top.count) != null ? ' <span class="unk">×' + top.count + "</span>" : "") : '<span class="unk">—</span>') + "</td>" +
-        '<td class="conf-' + esc(a.confidence) + '">' + esc(a.confidence || "—") + "</td></tr>";
-    }).join("");
-    var nf = aircraft.filter(function (a) { return !a.last_flight; }).length;
-    document.getElementById("fleet-caption").textContent = "· " + aircraft.length + (aircraft.length > 1 ? " jets" : " jet") + (nf ? " · " + nf + " sans vol sur 90 j" : "");
+  function fleetRow(a) {
+    var lf = a.last_flight, s = a.stats || {}, top = s.top_airport;
+    var last = lf
+      ? '<span class="t">' + fmtUTC(lf.first_seen) + "</span> " + (lf.dep ? '<span class="code">' + esc(lf.dep) + "</span>" : '<span class="unk">?</span>') +
+        ' <span class="unk">→</span> ' + (lf.arr ? '<span class="code">' + esc(lf.arr) + "</span>" : '<span class="unk">?</span>')
+      : '<span class="unk">aucun vol</span>';
+    return '<tr data-hex="' + esc(a.hex) + '"' + (a.hex === selectedHex ? ' class="sel"' : "") + ">" +
+      '<td class="reg">' + esc(a.reg || a.hex) + "</td>" +
+      "<td>" + esc(a.entity || "—") + "</td>" +
+      '<td class="dim">' + esc(a.person || "—") + "</td>" +
+      "<td>" + esc(a.model || "—") + (a.year ? ' <span class="unk">' + esc(a.year) + "</span>" : "") + "</td>" +
+      "<td>" + badge(a.status) + "</td>" +
+      "<td>" + last + "</td>" +
+      '<td class="num">' + stat(s.d7) + "</td>" +
+      '<td class="num">' + stat(s.d30) + "</td>" +
+      '<td class="num">' + stat(s.d90) + "</td>" +
+      "<td>" + (top ? apHTML(top.code) + (num(top.count) != null ? ' <span class="unk">×' + top.count + "</span>" : "") : '<span class="unk">—</span>') + "</td>" +
+      '<td class="conf-' + esc(a.confidence) + '">' + esc(a.confidence || "—") + "</td></tr>";
   }
-  fleetBody.addEventListener("click", function (e) {
+
+  // Une vue par tableau : ses avions, son tri, sa légende.
+  function fleetView(tableId, captionId, list) {
+    var table = document.getElementById(tableId), body = table.querySelector("tbody");
+    table.querySelector("thead").innerHTML = FLEET_HEAD;
+    var sort = makeSortable(table, { key: "status", dir: 1 }, FLEET_KEYS, render);
+    function render() {
+      body.innerHTML = list.length ? sort(list).map(fleetRow).join("")
+        : '<tr><td colspan="11" class="unk">Aucun avion dans ce groupe.</td></tr>';
+      var nf = list.filter(function (a) { return !a.last_flight; }).length;
+      document.getElementById(captionId).textContent = "· " + list.length + (list.length > 1 ? " jets" : " jet") +
+        (nf ? " · " + nf + " sans vol sur 90 j" : "");
+    }
+    body.addEventListener("click", onFleetClick);
+    render();
+    return body;
+  }
+  var fleetBodies = [
+    fleetView("fleet-wl", "fleet-wl-caption", aircraft.filter(function (a) { return a.group === "watchlist"; })),
+    fleetView("fleet-other", "fleet-other-caption", aircraft.filter(function (a) { return a.group !== "watchlist"; }))
+  ];
+  function markSelected() {
+    fleetBodies.forEach(function (b) {
+      b.querySelectorAll("tr[data-hex]").forEach(function (r) { r.classList.toggle("sel", r.dataset.hex === selectedHex); });
+    });
+  }
+
+  function onFleetClick(e) {
     var tr = e.target.closest("tr[data-hex]");
     if (!tr) return;
     var hex = tr.dataset.hex, a = byHex[hex];
@@ -338,11 +366,9 @@
         document.querySelector(".map-panel").scrollIntoView({ behavior: "smooth", block: "nearest" });
       }
     }
-    fleetBody.querySelectorAll("tr.sel").forEach(function (r) { r.classList.remove("sel"); });
-    if (selectedHex) tr.classList.add("sel");
+    markSelected();
     renderFlights();
-  });
-  renderFleet();
+  }
 
   // ---------- Historique des vols ----------
   var flTable = document.getElementById("flights"), flBody = flTable.querySelector("tbody");
@@ -435,7 +461,7 @@
   });
   fAircraft.addEventListener("change", function () {
     selectedHex = fAircraft.value || null;
-    fleetBody.querySelectorAll("tr").forEach(function (r) { r.classList.toggle("sel", r.dataset.hex === selectedHex); });
+    markSelected();
     renderFlights();
   });
   [fEntity, fAirport].forEach(function (s) { s.addEventListener("change", renderFlights); });
@@ -444,7 +470,7 @@
   document.getElementById("f-reset").addEventListener("click", function () {
     fAircraft.value = fEntity.value = fAirport.value = fSearch.value = "";
     selectedHex = null;
-    fleetBody.querySelectorAll("tr.sel").forEach(function (r) { r.classList.remove("sel"); });
+    markSelected();
     period = 90;
     document.querySelectorAll("#period button").forEach(function (x) { x.classList.toggle("on", x.dataset.p === "90"); });
     renderFlights();

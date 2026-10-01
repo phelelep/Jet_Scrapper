@@ -118,8 +118,8 @@ table.grid { width: 100%; border-collapse: collapse; font-size: 12.5px; }
 .grid td { padding: 5px 10px; border-bottom: 1px solid #1a222c; white-space: nowrap; }
 .grid .num { text-align: right; font-variant-numeric: tabular-nums; }
 .grid tbody tr:hover { background: var(--row-hover); }
-#fleet tbody tr { cursor: pointer; }
-#fleet tbody tr.sel { background: var(--row-sel); box-shadow: inset 3px 0 0 var(--accent); }
+table.fleet tbody tr { cursor: pointer; }
+table.fleet tbody tr.sel { background: var(--row-sel); box-shadow: inset 3px 0 0 var(--accent); }
 .grid .reg { font-family: var(--mono); font-weight: 600; color: var(--text); }
 .grid .code { font-family: var(--mono); color: var(--accent); }
 .grid .city { color: var(--text-dim); }
@@ -142,6 +142,7 @@ table.grid { width: 100%; border-collapse: collapse; font-size: 12.5px; }
 .badge.unseen { color: var(--unseen); }
 .conf-haute { color: var(--ground); }
 .conf-moyenne { color: var(--air); }
+.conf-faible { color: var(--danger); }
 
 /* ---------- Filtres ---------- */
 .filters {

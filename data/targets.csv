@@ -2,7 +2,7 @@ groupe,entite,personne_ou_entreprise,immatriculation,hex,modele,annee,proprietai
 watchlist,SpaceX / Tesla / xAI,Elon Musk,N628TS,a835af,Gulfstream G650ER,2015,FALCON LANDING LLC (Hawthorne CA),haute,FAA + plane-alert-db
 watchlist,SpaceX / Tesla / xAI,Elon Musk,N272BG,a2ae0a,Gulfstream G550,2007,FALCON LANDING LLC (Hawthorne CA),haute,FAA
 watchlist,Alphabet (Google),Google (flotte dirigeants),N10XG,a0046f,Gulfstream G550,2008,BANK OF UTAH TRUSTEE,moyenne,plane-alert-db + FAA (trust)
-watchlist,Alphabet (Google),Google (flotte dirigeants),N232G,a21084,Gulfstream G650ER,2018,BANK OF UTAH TRUSTEE,moyenne,plane-alert-db + FAA (trust)
+watchlist,Alphabet (Google),Sergey Brin (co-fondateur),N232G,a21084,Gulfstream G650ER,2018,BANK OF UTAH TRUSTEE,moyenne,plane-alert-db + celebplanes + FAA (trust)
 watchlist,Alphabet (Google),Google (flotte dirigeants),N651WE,a8926a,Gulfstream G650ER,2015,(masque par la FAA),moyenne,plane-alert-db
 watchlist,Alphabet (Google),Eric Schmidt (ex-CEO),N652WE,a89621,Gulfstream G650ER,2021,(masque par la FAA),moyenne,plane-alert-db
 watchlist,Meta,Mark Zuckerberg,N68885,a9247d,Gulfstream G650ER,2021,A7P TRUST CO INC TRUSTEE (Cheyenne WY),moyenne,plane-alert-db + FAA (trust)
@@ -15,6 +15,19 @@ watchlist,Constellation Energy,Constellation Energy,N482EC,a5f06e,Dassault Falco
 watchlist,Constellation Energy,Constellation Energy,N484EC,a5f7dc,Dassault Falcon 2000EX,,CONSTELLATION ENERGY GENERATION LLC,haute,FAA
 watchlist,Quanta Services,Quanta Services,N282QA,a2d6c8,Gulfstream G280,2014,QUANTA SERVICES INC,haute,FAA
 watchlist,Quanta Services,Quanta Services,N283QA,a2da7f,Gulfstream G280,,QUANTA SERVICES INC,haute,FAA
+watchlist,SpaceX / Tesla / xAI,Elon Musk,N7628,aa4c66,Gulfstream G700,2025,(masque par la FAA),moyenne,FAA (S/N 87108) + aerocorner
+watchlist,SpaceX / Tesla / xAI,Elon Musk,N8628,abd9b5,Gulfstream G800,2026,(masque par la FAA),moyenne,FAA (S/N 88013) + celebplanes + aerocorner
+watchlist,SpaceX / Tesla / xAI,SpaceX (navette equipes),N154TS,a0dac5,Boeing 737-800,2002,FALCON AVIATION HOLDINGS LLC (Hawthorne CA),haute,FAA + plane-alert-db + celebplanes
+watchlist,SpaceX / Tesla / xAI,Elon Musk,N450GG,a572b9,Gulfstream G450,2007,TVPX AIRCRAFT SOLUTIONS INC TRUSTEE,faible,celebplanes + FAA (trust)
+watchlist,Tesla,Kimbal Musk (administrateur Tesla),N831FR,ab5c9e,Gulfstream G600,2021,FREEDOM 105 LLC,faible,celebplanes + FAA
+watchlist,Amazon,Jeff Bezos,N11AF,a029e0,Gulfstream G700,2024,(masque par la FAA),moyenne,celebplanes + aerocorner + presse (S/N 87020)
+watchlist,Amazon,Jeff Bezos,N756LB,aa314f,Gulfstream G650ER,2019,(masque par la FAA),moyenne,aerocorner (ex-N758PB) + FAA
+watchlist,Amazon,Jeff Bezos,N194PJ,a17855,Pilatus PC-24,2020,GUIDRY AVIATION LLC (Breaux Bridge LA),faible,celebplanes + aerocorner + FAA
+watchlist,Microsoft,Bill Gates (co-fondateur),N887GV,ac3880,Gulfstream G650ER,2018,MENTE LLC (Seattle WA),moyenne,celebplanes + FAA
+watchlist,Alphabet (Google),Larry Page (co-fondateur),N618PB,a80dbd,Gulfstream G650ER,2022,MAURICE JAMES AIRPLANE LLC,moyenne,celebplanes + FAA
+watchlist,Alphabet (Google),Google (flotte dirigeants),N904G,ac7e9e,Gulfstream G550,2006,BANK OF UTAH TRUSTEE,moyenne,celebplanes + FAA (trust)
+watchlist,NVIDIA,Jensen Huang (affretement VistaJet),9H-VID,4d230d,Bombardier Global 7500,2020,(registre maltais : VistaJet Malta),faible,celebplanes + presse (Taipei 2025) + AirNav (hex)
+watchlist,Arm (SoftBank),Masayoshi Son,N302TR,a32879,Gulfstream G650ER,2017,TVPX AIRCRAFT SOLUTIONS INC TRUSTEE,faible,celebplanes + FAA (trust)
 autres,Oracle,Larry Ellison,N817GS,ab2404,Gulfstream G650,2014,WING AND A PRAYER INC (Walnut Creek CA),moyenne,plane-alert-db + FAA
 autres,Palantir / Founders Fund,Peter Thiel,N878DB,ac145b,Gulfstream G-V SP,2007,THORONDOR LLC (Palo Alto CA),moyenne,plane-alert-db + FAA
 autres,Qualcomm,Qualcomm,N880WT,ac1fdb,Gulfstream G800,2025,QUALCOMM INC,haute,FAA
@@ -221,3 +234,79 @@ sp500,Wynn Resorts,Wynn Resorts (flotte société),N88WR,ac1d80,GULFSTREAM AEROS
 sp500,Wynn Resorts,Wynn Resorts (flotte société),N969WR,ad7f99,IAI LTD GULFSTREAM G280,2018,BANK OF UTAH TRUSTEE (SALT LAKE CITY UT),moyenne,plane-alert-db + FAA
 sp500,Zimmer Biomet,Zimmer Biomet (flotte société),N355ZB,a3f9a1,BOMBARDIER INC BD-100-1A10,2025,ZIMMER BIOMET LEASING LLC (WARSAW IN),haute,FAA
 sp500,Zimmer Biomet,Zimmer Biomet (flotte société),N650ZB,a88efb,GULFSTREAM AEROSPACE CORP GVI (G650ER),2022,ZIMMER BIOMET LEASING LLC (OXFORD CT),haute,FAA
+personnalites,Trump Organization,Donald Trump,N757AF,aa3410,Boeing 757-200,1991,DJT OPERATIONS I LLC,haute,FAA + plane-alert-db + celebplanes
+personnalites,Etats-Unis (presidence),Air Force One (Donald Trump),82-8000,adfdf8,Boeing VC-25A,,"(USAF, hors registre civil)",haute,plane-alert-db + celebplanes
+personnalites,Etats-Unis (presidence),Air Force One (Donald Trump),92-9000,adfdf9,Boeing VC-25A,,"(USAF, hors registre civil)",haute,plane-alert-db + celebplanes
+personnalites,Etats-Unis (presidence),Air Force One (Donald Trump),25-3300,af83f3,"Boeing VC-25B (747-8, ex-Qatar)",,"(USAF, hors registre civil)",moyenne,plane-alert-db
+personnalites,Etats-Unis (vice-presidence / cabinet),"Air Force Two (JD Vance, Marco Rubio...)",98-0001,adfeb7,Boeing C-32A (757-200),,"(USAF, flotte partagee)",moyenne,plane-alert-db
+personnalites,Etats-Unis (vice-presidence / cabinet),"Air Force Two (JD Vance, Marco Rubio...)",98-0002,adfeb8,Boeing C-32A (757-200),,"(USAF, flotte partagee)",moyenne,plane-alert-db
+personnalites,Etats-Unis (vice-presidence / cabinet),"Air Force Two (JD Vance, Marco Rubio...)",99-0003,adfeb9,Boeing C-32A (757-200),,"(USAF, flotte partagee)",moyenne,plane-alert-db
+personnalites,Etats-Unis (vice-presidence / cabinet),"Air Force Two (JD Vance, Marco Rubio...)",99-0004,adfeba,Boeing C-32A (757-200),,"(USAF, flotte partagee)",moyenne,plane-alert-db
+personnalites,Etats-Unis (vice-presidence / cabinet),"Air Force Two (JD Vance, Marco Rubio...)",09-0015,ae4ae6,Boeing C-32A (757-200),,"(USAF, flotte partagee)",moyenne,plane-alert-db
+personnalites,Etats-Unis (vice-presidence / cabinet),"Air Force Two (JD Vance, Marco Rubio...)",09-0016,ae4ae8,Boeing C-32A (757-200),,"(USAF, flotte partagee)",moyenne,plane-alert-db
+personnalites,Etats-Unis (vice-presidence / cabinet),"Air Force Two (JD Vance, Marco Rubio...)",09-0017,ae4aea,Boeing C-32A (757-200),,"(USAF, flotte partagee)",moyenne,plane-alert-db
+personnalites,Etats-Unis (vice-presidence / cabinet),"Air Force Two (JD Vance, Marco Rubio...)",19-0018,ae4aec,Boeing C-32A (757-200),,"(USAF, flotte partagee)",moyenne,plane-alert-db
+personnalites,Chine (gouvernement),Xi Jinping,B-2479,7bc006,Boeing 747-400,,,moyenne,plane-alert-db + celebplanes + hexdb.io
+personnalites,Chine (gouvernement),Xi Jinping,B-2481,780d2c,Boeing 747-8 (Air China),,,moyenne,plane-alert-db + celebplanes + hexdb.io
+personnalites,Chine (gouvernement),Xi Jinping,B-3999,7807fc,Boeing 737 BBJ (Beijing Airlines),,,moyenne,plane-alert-db + celebplanes + hexdb.io
+personnalites,France (gouvernement),Emmanuel Macron,F-RARF,3b76ae,Airbus A330-223 (Cotam 001),,,haute,plane-alert-db + celebplanes
+personnalites,France (gouvernement),Emmanuel Macron,F-RAFA,3b770d,Dassault Falcon 7X,,,haute,plane-alert-db + celebplanes
+personnalites,France (gouvernement),Emmanuel Macron,F-RAFB,3b76b3,Dassault Falcon 7X,,,haute,plane-alert-db + celebplanes
+personnalites,France (gouvernement),Emmanuel Macron,F-UJCU,3b7542,Airbus A330 MRTT Phenix,,,moyenne,plane-alert-db + celebplanes
+personnalites,Royaume-Uni (gouvernement),Premier ministre / famille royale,G-GBNI,407dfc,Airbus A321neo,,,haute,plane-alert-db + celebplanes
+personnalites,Royaume-Uni (gouvernement),Premier ministre / famille royale,G-ZABH,407d90,Dassault Falcon 900LX,,,haute,plane-alert-db + celebplanes
+personnalites,Royaume-Uni (gouvernement),Premier ministre / famille royale,G-ZAHS,407d8f,Dassault Falcon 900LX,,,haute,plane-alert-db + celebplanes
+personnalites,Allemagne (gouvernement),Chancelier,10+01,3ea12c,Airbus A350-941,,,haute,plane-alert-db
+personnalites,Allemagne (gouvernement),Chancelier,10+02,3f5d91,Airbus A350-941,,,haute,plane-alert-db
+personnalites,Allemagne (gouvernement),Chancelier,10+03,3e854f,Airbus A350-941,,,haute,plane-alert-db
+personnalites,Japon (gouvernement),Premier ministre,80-1111,87c002,Boeing 777-300ER,,,haute,plane-alert-db + celebplanes
+personnalites,Japon (gouvernement),Premier ministre,80-1112,87c003,Boeing 777-300ER,,,haute,plane-alert-db + celebplanes
+personnalites,Inde (gouvernement),Narendra Modi,K7066,800585,Boeing 777-300ER (Air India One),,,haute,plane-alert-db + celebplanes + hexdb.io
+personnalites,Inde (gouvernement),Narendra Modi,K7067,800c3d,Boeing 777-300ER (Air India One),,,haute,plane-alert-db + celebplanes + hexdb.io
+personnalites,Inde (gouvernement),Narendra Modi,K5012,8002f6,Boeing 737 BBJ,,,haute,plane-alert-db + celebplanes + hexdb.io
+personnalites,Turquie (gouvernement),Recep Tayyip Erdogan,TC-TUR,4bd2b2,Airbus ACJ330,,,haute,plane-alert-db + celebplanes
+personnalites,Turquie (gouvernement),Recep Tayyip Erdogan,TC-TRK,4bd24b,Boeing 747-8 BBJ,,,haute,plane-alert-db + celebplanes
+personnalites,Turquie (gouvernement),Recep Tayyip Erdogan,TC-CAN,4b8c2e,Airbus A340-500,,,haute,plane-alert-db + celebplanes
+personnalites,Turquie (gouvernement),Recep Tayyip Erdogan,TC-ATA,4b8681,Gulfstream G-IV,,,haute,plane-alert-db + celebplanes
+personnalites,Bresil (gouvernement),Lula da Silva,FAB2101,e400d9,Airbus VC-1A (A319),,,haute,plane-alert-db + celebplanes
+personnalites,Canada (gouvernement),Premier ministre,330-002,c2c363,Airbus CC-330 Husky,,,haute,plane-alert-db + celebplanes
+personnalites,Canada (gouvernement),Premier ministre,144-619,c2c1f1,Bombardier CC-144D Challenger,,,haute,plane-alert-db + celebplanes
+personnalites,Canada (gouvernement),Premier ministre,144-620,c2c1fb,Bombardier CC-144D Challenger,,,haute,plane-alert-db + celebplanes
+personnalites,Israel (gouvernement),Premier ministre,4X-ISR,7386c0,Boeing 767-300ER (Wing of Zion),,,haute,plane-alert-db + celebplanes
+personnalites,Coree du Sud (gouvernement),President,22-001,71be43,Boeing 747-8,,,haute,plane-alert-db + celebplanes
+personnalites,Arabie saoudite,Mohammed ben Salmane,HZ-HM1,710333,Boeing 747-400,,,haute,plane-alert-db + celebplanes
+personnalites,Arabie saoudite,Mohammed ben Salmane,HZ-HMS2,710334,Airbus A340-200,,,moyenne,plane-alert-db (celebplanes donne 71032f)
+personnalites,Arabie saoudite,Mohammed ben Salmane,HZ-HM3,710195,Boeing 787-8 BBJ,,,faible,celebplanes + hexdb.io (hex differents selon les sources)
+personnalites,Arabie saoudite,Mohammed ben Salmane,HZ-HM4,71019b,Boeing 787-8 BBJ,,,faible,celebplanes + hexdb.io (hex differents selon les sources)
+personnalites,Arabie saoudite,Mohammed ben Salmane,HZ-HM5,710190,Boeing 777-300ER,,,faible,celebplanes + hexdb.io (hex differents selon les sources)
+personnalites,Arabie saoudite,Ministere des Finances,HZ-MF6,71022b,Boeing 737NG,,,moyenne,plane-alert-db + celebplanes
+personnalites,Emirats arabes unis (Abu Dhabi),Mohammed ben Zayed,A6-ALN,896264,Boeing 777-200ER,,,haute,plane-alert-db + celebplanes
+personnalites,Emirats arabes unis (Abu Dhabi),Mohammed ben Zayed,A6-PFA,8962e9,Boeing 747-8,,,haute,plane-alert-db + celebplanes
+personnalites,Emirats arabes unis (Abu Dhabi),Mohammed ben Zayed,A6-PFC,89636e,Boeing 787,,,moyenne,plane-alert-db + celebplanes
+personnalites,Emirats arabes unis (Abu Dhabi),Mohammed ben Zayed,A6-PFE,8964c9,Boeing 787 BBJ,,,moyenne,plane-alert-db + celebplanes
+personnalites,Qatar (Qatar Amiri Flight),Emir Tamim ben Hamad Al Thani,A7-HHE,06a0a2,Boeing 747-8 BBJ,,,haute,plane-alert-db + celebplanes
+personnalites,Qatar (Qatar Amiri Flight),Emir Tamim ben Hamad Al Thani,A7-HHF,06a2c3,Boeing 747-8 BBJ,,,haute,plane-alert-db + celebplanes
+personnalites,Qatar (Qatar Amiri Flight),Emir Tamim ben Hamad Al Thani,A7-HHH,06a021,Airbus A340-541,,,haute,plane-alert-db + celebplanes
+personnalites,Emirats arabes unis (Dubai Air Wing),Mohammed ben Rachid Al Maktoum,A6-COM,8961b4,Boeing 747,,,haute,plane-alert-db + celebplanes
+personnalites,Emirats arabes unis (Dubai Air Wing),Mohammed ben Rachid Al Maktoum,A6-MMM,8960ae,Boeing 747,,,haute,plane-alert-db + celebplanes
+personnalites,Emirats arabes unis (Dubai Air Wing),Mohammed ben Rachid Al Maktoum,A6-HRM,8960b4,Boeing 747,,,moyenne,plane-alert-db + celebplanes
+personnalites,Emirats arabes unis (Dubai Air Wing),Mohammed ben Rachid Al Maktoum,A6-HHH,896438,Gulfstream G650,,,moyenne,plane-alert-db + celebplanes
+personnalites,Emirats arabes unis (Dubai Air Wing),Mohammed ben Rachid Al Maktoum,A6-HRS,89605a,Boeing 737 BBJ,,,moyenne,plane-alert-db + celebplanes
+personnalites,Emirats arabes unis (Dubai Air Wing),Mohammed ben Rachid Al Maktoum,A6-GGP,896272,Boeing 747-400F,,,moyenne,plane-alert-db + celebplanes
+personnalites,Jordanie (gouvernement),Roi Abdallah II,VQ-BNZ,4243fd,Gulfstream G650ER,,,faible,plane-alert-db (celebplanes donne 424269)
+personnalites,Monaco,Prince Albert II,3A-MGA,4d403f,Dassault Falcon 8X,,,haute,plane-alert-db + celebplanes
+personnalites,Oracle,Larry Ellison,N417C,a4ee53,Cessna Citation CJ4,2010,WING AND A PRAYER INC,moyenne,celebplanes + FAA
+personnalites,Dell,Michael Dell,N6D,a7c2d8,Gulfstream G700,2024,WILMINGTON TRUST CO TRUSTEE,moyenne,celebplanes + FAA (trust)
+personnalites,Dell,Michael Dell,N228ZD,a200fc,Gulfstream G650ER,2015,TVPX AIRCRAFT SOLUTIONS INC TRUSTEE,moyenne,celebplanes + FAA (trust)
+personnalites,Strategy (MicroStrategy),Michael Saylor,N3877,a47898,Bombardier Global Express XRS,2008,821 393 LLC,moyenne,celebplanes + FAA + hexdb.io
+personnalites,News Corp / Fox,Rupert Murdoch,N898NC,ac643b,Gulfstream G650ER,2015,BANK OF UTAH TRUSTEE,moyenne,plane-alert-db + celebplanes + FAA (trust)
+personnalites,Emerson Collective,Laurene Powell Jobs,N2N,a18e7d,Gulfstream G650,2017,BANK OF UTAH TRUSTEE,moyenne,celebplanes + hexdb.io (Marmalade Skies LLC) + FAA (trust)
+personnalites,Alibaba,Jack Ma,VP-CAM,424779,Boeing 737 BBJ,,,faible,plane-alert-db (celebplanes indique VP-CZM)
+personnalites,Reliance Industries,Mukesh Ambani,VT-AKV,80169f,Boeing 737 MAX 9 BBJ,,,haute,plane-alert-db + celebplanes
+personnalites,Reliance Industries,Mukesh Ambani,VT-ASR,801533,Bombardier Global 7500,,,moyenne,celebplanes + hexdb.io
+personnalites,Adani Group,Gautam Adani,VT-AGL,8014b9,Bombardier Global 6500,,,moyenne,celebplanes + hexdb.io (Karnavati Aviation)
+personnalites,Adani Group,Gautam Adani,VT-AHM,801567,Embraer Legacy 650,,,moyenne,celebplanes + hexdb.io (Karnavati Aviation)
+personnalites,Grupo Carso / America Movil,Carlos Slim,XA-ATL,0d02f1,Gulfstream G550,,,moyenne,celebplanes + hexdb.io (Aerofrisco)
+personnalites,Grupo Carso / America Movil,Carlos Slim,XA-CLR,0d0bd1,Gulfstream G650,,,moyenne,celebplanes + hexdb.io (Aerofrisco)
+personnalites,Millhouse,Roman Abramovich,LX-RAY,4d0207,Gulfstream G650ER,,,moyenne,plane-alert-db + celebplanes
+personnalites,Virgin Group,Richard Branson,M-GGAL,4ca001,,,,faible,celebplanes seul

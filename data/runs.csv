@@ -30,3 +30,26 @@ ts,step,status,requests,credits_remaining,message
 1790803411,opensky,partial,133,10,637 vols enregistrés ; budget de crédits du jour épuisé ; 947 tranches restantes
 1790803411,snapshot,skipped,,,ignoré (option de ligne de commande)
 1790803414,build,ok,0,,"222 avions, 739 vols, 386 aéroports"
+1790839593,snapshot,ok,3,,"2 en vol, 0 au sol, 220 non détectés"
+1790839593,build,ok,0,,"222 avions, 739 vols, 0 aéroports"
+1790839810,snapshot,ok,3,,"2 en vol, 0 au sol, 220 non détectés"
+1790839810,build,ok,0,,"222 avions, 739 vols, 0 aéroports"
+1790839864,snapshot,error,,,HTTPError: HTTP Error 429: Too Many Requests
+1790839864,build,ok,0,,"222 avions, 739 vols, 0 aéroports"
+1790847440,snapshot,ok,3,,"1 en vol, 0 au sol, 221 non détectés"
+1790847440,build,ok,0,,"222 avions, 739 vols, 0 aéroports"
+1790848772,opensky,skipped,,,ignoré (option de ligne de commande)
+1790848777,snapshot,ok,3,,"2 en vol, 0 au sol, 233 non détectés"
+1790848777,build,ok,0,,"235 avions, 739 vols, 0 aéroports"
+1790848788,opensky,skipped,,,ignoré (option de ligne de commande)
+1790848791,snapshot,error,,,HTTPError: HTTP Error 429: Too Many Requests
+1790848792,build,ok,0,,"235 avions, 739 vols, 386 aéroports"
+1790856075,snapshot,ok,4,,"14 en vol, 0 au sol, 297 non détectés"
+1790856080,build,ok,0,,"311 avions, 739 vols, 386 aéroports"
+1790856096,opensky,skipped,,,ignoré (option de ligne de commande)
+1790856098,snapshot,error,,,HTTPError: HTTP Error 429: Too Many Requests
+1790856103,build,ok,0,,"311 avions, 739 vols, 386 aéroports"
+1790857257,snapshot,ok,4,,"15 en vol, 1 au sol, 295 non détectés"
+1790857261,build,ok,0,,"311 avions, 739 vols, 386 aéroports"
+1790857698,snapshot,ok,4,,"13 en vol, 1 au sol, 297 non détectés"
+1790857701,build,ok,0,,"311 avions, 739 vols, 386 aéroports"

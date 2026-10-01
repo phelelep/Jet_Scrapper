@@ -41,13 +41,13 @@ window.JETS_DATA = {
     {
       "hex": "a835af",
       "reg": "N628TS",
-      "group": "watchlist",            // "watchlist" | "autres" | "sp500"
+      "group": "watchlist",            // "watchlist" | "autres" | "sp500" | "personnalites"
       "entity": "SpaceX / Tesla / xAI",
       "person": "Elon Musk",
       "model": "Gulfstream G650ER",
       "year": "2015",                  // chaîne, peut être ""
       "owner": "FALCON LANDING LLC (Hawthorne CA)",
-      "confidence": "haute",           // "haute" | "moyenne"
+      "confidence": "haute",           // "haute" | "moyenne" | "faible"
       "source": "FAA + plane-alert-db",
 
       "status": "airborne",            // "airborne" | "ground" | "unseen" (au moment du relevé)

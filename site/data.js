@@ -1,16 +1,16 @@
 window.JETS_DATA = {
- "generated_at": 1790803414,
- "snapshot_at": 1790799325,
+ "generated_at": 1790857701,
+ "snapshot_at": 1790857691,
  "history": {
   "days": 90,
-  "start": 1782950400,
-  "end": 1790726400
+  "start": 1783036800,
+  "end": 1790812800
  },
  "counts": {
-  "total": 222,
-  "airborne": 25,
+  "total": 311,
+  "airborne": 13,
   "ground": 1,
-  "unseen": 196
+  "unseen": 297
  },
  "aircraft": [
   {
@@ -76,8 +76,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 7,
-     "hours": 8.6
+     "flights": 6,
+     "hours": 7.9
     },
     "d30": {
      "flights": 12,
@@ -141,12 +141,12 @@ window.JETS_DATA = {
    "reg": "N232G",
    "group": "watchlist",
    "entity": "Alphabet (Google)",
-   "person": "Google (flotte dirigeants)",
+   "person": "Sergey Brin (co-fondateur)",
    "model": "Gulfstream G650ER",
    "year": "2018",
    "owner": "BANK OF UTAH TRUSTEE",
    "confidence": "moyenne",
-   "source": "plane-alert-db + FAA (trust)",
+   "source": "plane-alert-db + celebplanes + FAA (trust)",
    "status": "unseen",
    "position": null,
    "nearest_airport": null,
@@ -231,8 +231,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 3,
-     "hours": 10.5
+     "flights": 2,
+     "hours": 9.8
     },
     "d30": {
      "flights": 5,
@@ -313,8 +313,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 8,
-     "hours": 15.2
+     "flights": 7,
+     "hours": 14.9
     },
     "d30": {
      "flights": 8,
@@ -384,23 +384,9 @@ window.JETS_DATA = {
    "owner": "FLEXJET LLC (AMD co-proprietaire)",
    "confidence": "haute",
    "source": "FAA (fractional)",
-   "status": "airborne",
-   "position": {
-    "lat": 38.15035,
-    "lon": -102.062093,
-    "alt_ft": 45000,
-    "gs_kt": 401.0,
-    "track_deg": 251.84,
-    "callsign": "LXJ558",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "KK08",
-    "name": "Holly Airport",
-    "city": "Holly",
-    "country": "US",
-    "dist_km": 13.7
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790712211,
     "last_seen": 1790716297,
@@ -409,8 +395,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 17,
-     "hours": 23.2
+     "flights": 16,
+     "hours": 19.5
     },
     "d30": {
      "flights": 18,
@@ -450,8 +436,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 6,
-     "hours": 11.4
+     "flights": 3,
+     "hours": 6.5
     },
     "d30": {
      "flights": 6,
@@ -480,23 +466,9 @@ window.JETS_DATA = {
    "owner": "NETJETS SALES INC (Anduril co-proprietaire)",
    "confidence": "haute",
    "source": "FAA (fractional)",
-   "status": "airborne",
-   "position": {
-    "lat": 29.932846,
-    "lon": -95.914037,
-    "alt_ft": 2050,
-    "gs_kt": 159.6,
-    "track_deg": 142.13,
-    "callsign": "EJA894",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "US-1769",
-    "name": "Pfeffer 2 Airport",
-    "city": "Waller",
-    "country": "US",
-    "dist_km": 3.1
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790707213,
     "last_seen": 1790713504,
@@ -505,8 +477,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 14,
-     "hours": 20.1
+     "flights": 12,
+     "hours": 14.9
     },
     "d30": {
      "flights": 24,
@@ -546,8 +518,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 3,
-     "hours": 4.6
+     "flights": 2,
+     "hours": 3.2
     },
     "d30": {
      "flights": 7,
@@ -576,23 +548,9 @@ window.JETS_DATA = {
    "owner": "CONSTELLATION ENERGY GENERATION LLC",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 31.472292,
-    "lon": -96.643817,
-    "alt_ft": 23000,
-    "gs_kt": 377.3,
-    "track_deg": 186.39,
-    "callsign": "N484EC",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "01TS",
-    "name": "Fort Parker Flying Field",
-    "city": "Groesbeck",
-    "country": "US",
-    "dist_km": 13.9
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790697593,
     "last_seen": 1790700541,
@@ -601,8 +559,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 6,
-     "hours": 23.1
+     "flights": 4,
+     "hours": 7.2
     },
     "d30": {
      "flights": 10,
@@ -642,8 +600,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 4,
-     "hours": 5.6
+     "flights": 3,
+     "hours": 3.5
     },
     "d30": {
      "flights": 4,
@@ -683,8 +641,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 5,
-     "hours": 11.7
+     "flights": 4,
+     "hours": 9.3
     },
     "d30": {
      "flights": 6,
@@ -699,6 +657,422 @@ window.JETS_DATA = {
      "city": "Houston",
      "count": 4
     },
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "aa4c66",
+   "reg": "N7628",
+   "group": "watchlist",
+   "entity": "SpaceX / Tesla / xAI",
+   "person": "Elon Musk",
+   "model": "Gulfstream G700",
+   "year": "2025",
+   "owner": "(masque par la FAA)",
+   "confidence": "moyenne",
+   "source": "FAA (S/N 87108) + aerocorner",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "abd9b5",
+   "reg": "N8628",
+   "group": "watchlist",
+   "entity": "SpaceX / Tesla / xAI",
+   "person": "Elon Musk",
+   "model": "Gulfstream G800",
+   "year": "2026",
+   "owner": "(masque par la FAA)",
+   "confidence": "moyenne",
+   "source": "FAA (S/N 88013) + celebplanes + aerocorner",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "a0dac5",
+   "reg": "N154TS",
+   "group": "watchlist",
+   "entity": "SpaceX / Tesla / xAI",
+   "person": "SpaceX (navette equipes)",
+   "model": "Boeing 737-800",
+   "year": "2002",
+   "owner": "FALCON AVIATION HOLDINGS LLC (Hawthorne CA)",
+   "confidence": "haute",
+   "source": "FAA + plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "a572b9",
+   "reg": "N450GG",
+   "group": "watchlist",
+   "entity": "SpaceX / Tesla / xAI",
+   "person": "Elon Musk",
+   "model": "Gulfstream G450",
+   "year": "2007",
+   "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE",
+   "confidence": "faible",
+   "source": "celebplanes + FAA (trust)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "ab5c9e",
+   "reg": "N831FR",
+   "group": "watchlist",
+   "entity": "Tesla",
+   "person": "Kimbal Musk (administrateur Tesla)",
+   "model": "Gulfstream G600",
+   "year": "2021",
+   "owner": "FREEDOM 105 LLC",
+   "confidence": "faible",
+   "source": "celebplanes + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "a029e0",
+   "reg": "N11AF",
+   "group": "watchlist",
+   "entity": "Amazon",
+   "person": "Jeff Bezos",
+   "model": "Gulfstream G700",
+   "year": "2024",
+   "owner": "(masque par la FAA)",
+   "confidence": "moyenne",
+   "source": "celebplanes + aerocorner + presse (S/N 87020)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "aa314f",
+   "reg": "N756LB",
+   "group": "watchlist",
+   "entity": "Amazon",
+   "person": "Jeff Bezos",
+   "model": "Gulfstream G650ER",
+   "year": "2019",
+   "owner": "(masque par la FAA)",
+   "confidence": "moyenne",
+   "source": "aerocorner (ex-N758PB) + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "a17855",
+   "reg": "N194PJ",
+   "group": "watchlist",
+   "entity": "Amazon",
+   "person": "Jeff Bezos",
+   "model": "Pilatus PC-24",
+   "year": "2020",
+   "owner": "GUIDRY AVIATION LLC (Breaux Bridge LA)",
+   "confidence": "faible",
+   "source": "celebplanes + aerocorner + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "ac3880",
+   "reg": "N887GV",
+   "group": "watchlist",
+   "entity": "Microsoft",
+   "person": "Bill Gates (co-fondateur)",
+   "model": "Gulfstream G650ER",
+   "year": "2018",
+   "owner": "MENTE LLC (Seattle WA)",
+   "confidence": "moyenne",
+   "source": "celebplanes + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "a80dbd",
+   "reg": "N618PB",
+   "group": "watchlist",
+   "entity": "Alphabet (Google)",
+   "person": "Larry Page (co-fondateur)",
+   "model": "Gulfstream G650ER",
+   "year": "2022",
+   "owner": "MAURICE JAMES AIRPLANE LLC",
+   "confidence": "moyenne",
+   "source": "celebplanes + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "ac7e9e",
+   "reg": "N904G",
+   "group": "watchlist",
+   "entity": "Alphabet (Google)",
+   "person": "Google (flotte dirigeants)",
+   "model": "Gulfstream G550",
+   "year": "2006",
+   "owner": "BANK OF UTAH TRUSTEE",
+   "confidence": "moyenne",
+   "source": "celebplanes + FAA (trust)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "4d230d",
+   "reg": "9H-VID",
+   "group": "watchlist",
+   "entity": "NVIDIA",
+   "person": "Jensen Huang (affretement VistaJet)",
+   "model": "Bombardier Global 7500",
+   "year": "2020",
+   "owner": "(registre maltais : VistaJet Malta)",
+   "confidence": "faible",
+   "source": "celebplanes + presse (Taipei 2025) + AirNav (hex)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "a32879",
+   "reg": "N302TR",
+   "group": "watchlist",
+   "entity": "Arm (SoftBank)",
+   "person": "Masayoshi Son",
+   "model": "Gulfstream G650ER",
+   "year": "2017",
+   "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE",
+   "confidence": "faible",
+   "source": "celebplanes + FAA (trust)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
     "coverage_days": 11
    }
   },
@@ -724,8 +1098,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 3,
-     "hours": 1.3
+     "flights": 0,
+     "hours": 0.0
     },
     "d30": {
      "flights": 4,
@@ -941,9 +1315,23 @@ window.JETS_DATA = {
    "owner": "MICRON TECHNOLOGY INC",
    "confidence": "haute",
    "source": "FAA",
-   "status": "unseen",
-   "position": null,
-   "nearest_airport": null,
+   "status": "ground",
+   "position": {
+    "lat": 43.568035,
+    "lon": -116.245092,
+    "alt_ft": null,
+    "gs_kt": 0.1,
+    "track_deg": null,
+    "callsign": "N831MT",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "KBOI",
+    "name": "Boise Air Terminal/Gowen Field",
+    "city": "Boise",
+    "country": "US",
+    "dist_km": 1.8
+   },
    "last_flight": {
     "first_seen": 1790712282,
     "last_seen": 1790716305,
@@ -952,8 +1340,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 14,
-     "hours": 16.4
+     "flights": 12,
+     "hours": 13.8
     },
     "d30": {
      "flights": 18,
@@ -1308,8 +1696,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 4,
-     "hours": 4.7
+     "flights": 3,
+     "hours": 2.9
     },
     "d30": {
      "flights": 4,
@@ -1338,23 +1726,9 @@ window.JETS_DATA = {
    "owner": "ARCFLIGHT LLC (OKLAHOMA CITY OK)",
    "confidence": "moyenne",
    "source": "FAA (copropriété)",
-   "status": "ground",
-   "position": {
-    "lat": 26.072919,
-    "lon": -80.156197,
-    "alt_ft": null,
-    "gs_kt": 0.1,
-    "track_deg": null,
-    "callsign": "EJA288",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "KFLL",
-    "name": "Fort Lauderdale Hollywood International Airport",
-    "city": "Fort Lauderdale",
-    "country": "US",
-    "dist_km": 0.4
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790708747,
     "last_seen": 1790709989,
@@ -1363,8 +1737,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 7,
-     "hours": 6.4
+     "flights": 6,
+     "hours": 6.0
     },
     "d30": {
      "flights": 19,
@@ -1548,23 +1922,9 @@ window.JETS_DATA = {
    "owner": "AMERIPRISE FINANCIAL INC (OXFORD CT)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 41.984299,
-    "lon": -86.654663,
-    "alt_ft": 45000,
-    "gs_kt": 536.2,
-    "track_deg": 91.39,
-    "callsign": "N616AF",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "MI25",
-    "name": "Myers Airport",
-    "city": "Bridgman",
-    "country": "US",
-    "dist_km": 11.4
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790535189,
     "last_seen": 1790537253,
@@ -1687,8 +2047,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 11,
-     "hours": 7.3
+     "flights": 10,
+     "hours": 6.6
     },
     "d30": {
      "flights": 11,
@@ -1728,8 +2088,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 3,
-     "hours": 1.6
+     "flights": 2,
+     "hours": 1.1
     },
     "d30": {
      "flights": 7,
@@ -1904,23 +2264,9 @@ window.JETS_DATA = {
    "owner": "BALL CORP (BROOMFIELD CO)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 43.191422,
-    "lon": -81.072012,
-    "alt_ft": 27525,
-    "gs_kt": 506.4,
-    "track_deg": 61.97,
-    "callsign": "N400BC",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "CA-0995",
-    "name": "Cherry Hill Field",
-    "city": "Thorndale",
-    "country": "CA",
-    "dist_km": 4.1
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790346958,
     "last_seen": 1790347889,
@@ -1970,8 +2316,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 1,
-     "hours": 0.2
+     "flights": 0,
+     "hours": 0.0
     },
     "d30": {
      "flights": 1,
@@ -2146,23 +2492,9 @@ window.JETS_DATA = {
    "owner": "CIENA CORP (OKLAHOMA CITY OK)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 36.359579,
-    "lon": -101.635223,
-    "alt_ft": 42975,
-    "gs_kt": 403.2,
-    "track_deg": 288.21,
-    "callsign": "EJA711",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "K2E3",
-    "name": "Cluck Ranch Airport",
-    "city": "Gruver",
-    "country": "US",
-    "dist_km": 21.0
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790612386,
     "last_seen": 1790618393,
@@ -2171,8 +2503,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 2,
-     "hours": 2.1
+     "flights": 1,
+     "hours": 1.7
     },
     "d30": {
      "flights": 6,
@@ -2283,23 +2615,9 @@ window.JETS_DATA = {
    "owner": "CUMMINS INC (COLUMBUS IN)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 39.176468,
-    "lon": -81.99228,
-    "alt_ft": 39075,
-    "gs_kt": 421.8,
-    "track_deg": 273.53,
-    "callsign": "N281CE",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "OI59",
-    "name": "Miller Airport",
-    "city": "Pomeroy",
-    "country": "US",
-    "dist_km": 7.2
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790713818,
     "last_seen": 1790715944,
@@ -2431,8 +2749,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 4,
-     "hours": 4.5
+     "flights": 3,
+     "hours": 3.2
     },
     "d30": {
      "flights": 4,
@@ -2545,8 +2863,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 4,
-     "hours": 2.6
+     "flights": 3,
+     "hours": 2.2
     },
     "d30": {
      "flights": 7,
@@ -2618,8 +2936,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 1,
-     "hours": 0.5
+     "flights": 0,
+     "hours": 0.0
     },
     "d30": {
      "flights": 3,
@@ -2712,23 +3030,9 @@ window.JETS_DATA = {
    "owner": "CONOCOPHILLIPS CO (HOUSTON TX)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 60.887009,
-    "lon": -149.22417,
-    "alt_ft": 13950,
-    "gs_kt": 312.2,
-    "track_deg": 291.22,
-    "callsign": "N797CP",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "AQY",
-    "name": "Girdwood-Alyeska Airport",
-    "city": "Girdwood",
-    "country": "US",
-    "dist_km": 10.7
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790162198,
     "last_seen": 1790164585,
@@ -2737,8 +3041,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 1,
-     "hours": 0.7
+     "flights": 0,
+     "hours": 0.0
     },
     "d30": {
      "flights": 1,
@@ -2778,8 +3082,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 6,
-     "hours": 4.7
+     "flights": 5,
+     "hours": 4.4
     },
     "d30": {
      "flights": 11,
@@ -2860,8 +3164,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 12,
-     "hours": 8.9
+     "flights": 11,
+     "hours": 8.0
     },
     "d30": {
      "flights": 19,
@@ -2922,9 +3226,23 @@ window.JETS_DATA = {
    "owner": "CHEVRON U S A INC (SUGAR LAND TX)",
    "confidence": "haute",
    "source": "plane-alert-db + FAA",
-   "status": "unseen",
-   "position": null,
-   "nearest_airport": null,
+   "status": "airborne",
+   "position": {
+    "lat": -30.903657,
+    "lon": 156.002344,
+    "alt_ft": 41000,
+    "gs_kt": 546.9,
+    "track_deg": 47.0,
+    "callsign": "N1876P",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "YCFS",
+    "name": "Coffs Harbour Airport",
+    "city": "Coffs Harbour",
+    "country": "AU",
+    "dist_km": 283.7
+   },
    "last_flight": {
     "first_seen": 1790575571,
     "last_seen": 1790577446,
@@ -3097,8 +3415,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 6,
-     "hours": 5.5
+     "flights": 5,
+     "hours": 4.6
     },
     "d30": {
      "flights": 9,
@@ -3179,8 +3497,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 3,
-     "hours": 1.6
+     "flights": 1,
+     "hours": 0.3
     },
     "d30": {
      "flights": 5,
@@ -3323,9 +3641,23 @@ window.JETS_DATA = {
    "owner": "QUEST DIAGNOSTICS CLINICAL LABORATORIES INC (READING PA)",
    "confidence": "haute",
    "source": "plane-alert-db + FAA",
-   "status": "unseen",
-   "position": null,
-   "nearest_airport": null,
+   "status": "airborne",
+   "position": {
+    "lat": 40.941622,
+    "lon": -74.052783,
+    "alt_ft": 1525,
+    "gs_kt": 151.3,
+    "track_deg": 183.79,
+    "callsign": "LBQ500",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "KTEB",
+    "name": "Teterboro Airport",
+    "city": "Teterboro",
+    "country": "US",
+    "dist_km": 10.2
+   },
    "last_flight": null,
    "stats": {
     "d7": {
@@ -3366,8 +3698,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 9,
-     "hours": 7.2
+     "flights": 7,
+     "hours": 4.8
     },
     "d30": {
      "flights": 10,
@@ -3437,23 +3769,9 @@ window.JETS_DATA = {
    "owner": "FEDEX FREIGHT INC (MEMPHIS TN)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 41.008797,
-    "lon": -78.570536,
-    "alt_ft": 22000,
-    "gs_kt": 401.5,
-    "track_deg": 281.79,
-    "callsign": "N39FE",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "0PS4",
-    "name": "Old Orchard Airport",
-    "city": "Curwensville",
-    "country": "US",
-    "dist_km": 0.7
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790546910,
     "last_seen": 1790549204,
@@ -3492,23 +3810,9 @@ window.JETS_DATA = {
    "owner": "GENERAL DYNAMICS ORDNANCE AND TACTICAL SYSTEMS INC (SAINT PETERSBURG FL)",
    "confidence": "haute",
    "source": "plane-alert-db + FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 27.804022,
-    "lon": -82.535265,
-    "alt_ft": 2725,
-    "gs_kt": 236.0,
-    "track_deg": 7.55,
-    "callsign": "N280GD",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "KMCF",
-    "name": "MacDill Air Force Base",
-    "city": "Tampa",
-    "country": "US",
-    "dist_km": 5.2
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790023088,
     "last_seen": 1790026129,
@@ -3640,8 +3944,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 2,
-     "hours": 2.0
+     "flights": 1,
+     "hours": 0.9
     },
     "d30": {
      "flights": 2,
@@ -3736,20 +4040,20 @@ window.JETS_DATA = {
    "source": "FAA",
    "status": "airborne",
    "position": {
-    "lat": 42.708001,
-    "lon": -79.553088,
-    "alt_ft": 29975,
-    "gs_kt": 427.5,
-    "track_deg": 285.47,
+    "lat": 41.960372,
+    "lon": -77.219451,
+    "alt_ft": 36000,
+    "gs_kt": 421.6,
+    "track_deg": 289.68,
     "callsign": "N18CG",
     "stale_min": 0
    },
    "nearest_airport": {
-    "code": "CPE5",
-    "name": "Port Colborne Airport",
-    "city": "Wainfleet",
-    "country": "CA",
-    "dist_km": 24.9
+    "code": "PA75",
+    "name": "Baker Airport",
+    "city": "Elkland",
+    "country": "US",
+    "dist_km": 8.0
    },
    "last_flight": {
     "first_seen": 1790706696,
@@ -3759,8 +4063,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 10,
-     "hours": 8.7
+     "flights": 8,
+     "hours": 7.9
     },
     "d30": {
      "flights": 10,
@@ -3914,8 +4218,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 1,
-     "hours": 0.6
+     "flights": 0,
+     "hours": 0.0
     },
     "d30": {
      "flights": 1,
@@ -3985,9 +4289,23 @@ window.JETS_DATA = {
    "owner": "CORNING INC (CORNING NY)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "unseen",
-   "position": null,
-   "nearest_airport": null,
+   "status": "airborne",
+   "position": {
+    "lat": 35.984461,
+    "lon": -80.295391,
+    "alt_ft": 20375,
+    "gs_kt": 412.7,
+    "track_deg": 213.54,
+    "callsign": "N788CG",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "6NC8",
+    "name": "Marchmont Plantation Airpark",
+    "city": "Advance",
+    "country": "US",
+    "dist_km": 9.5
+   },
    "last_flight": {
     "first_seen": 1790721000,
     "last_seen": 1790722403,
@@ -3996,8 +4314,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 8,
-     "hours": 5.1
+     "flights": 5,
+     "hours": 2.7
     },
     "d30": {
      "flights": 9,
@@ -4026,23 +4344,9 @@ window.JETS_DATA = {
    "owner": "GENUINE PARTS CO (ATLANTA GA)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 34.751432,
-    "lon": -82.418575,
-    "alt_ft": 40975,
-    "gs_kt": 411.2,
-    "track_deg": 54.8,
-    "callsign": "N28GP",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "KGYH",
-    "name": "Donaldson Field Airport",
-    "city": "Greenville",
-    "country": "US",
-    "dist_km": 3.9
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": null,
    "stats": {
     "d7": {
@@ -4072,9 +4376,23 @@ window.JETS_DATA = {
    "owner": "PINNACLE BANK (COLUMBUS GA)",
    "confidence": "moyenne",
    "source": "FAA (copropriété)",
-   "status": "unseen",
-   "position": null,
-   "nearest_airport": null,
+   "status": "airborne",
+   "position": {
+    "lat": 37.403229,
+    "lon": -78.036122,
+    "alt_ft": 22000,
+    "gs_kt": 443.6,
+    "track_deg": 41.34,
+    "callsign": "N183TS",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "US-0123",
+    "name": "Fighting Creek Farm Airport",
+    "city": "Powhatan",
+    "country": "US",
+    "dist_km": 16.6
+   },
    "last_flight": {
     "first_seen": 1790707410,
     "last_seen": 1790709012,
@@ -4083,8 +4401,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 8,
-     "hours": 4.3
+     "flights": 5,
+     "hours": 2.8
     },
     "d30": {
      "flights": 8,
@@ -4124,8 +4442,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 7,
-     "hours": 4.2
+     "flights": 6,
+     "hours": 3.6
     },
     "d30": {
      "flights": 12,
@@ -4186,23 +4504,9 @@ window.JETS_DATA = {
    "owner": "GARMIN INTERNATIONAL INC (OLATHE KS)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 38.530915,
-    "lon": -95.232239,
-    "alt_ft": 18700,
-    "gs_kt": 317.0,
-    "track_deg": 230.89,
-    "callsign": "GARMN16",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "KOWI",
-    "name": "Ottawa Municipal Airport",
-    "city": "Ottawa",
-    "country": "US",
-    "dist_km": 2.0
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790694803,
     "last_seen": 1790696802,
@@ -4617,8 +4921,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 2,
-     "hours": 0.7
+     "flights": 0,
+     "hours": 0.0
     },
     "d30": {
      "flights": 2,
@@ -4658,8 +4962,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 1,
-     "hours": 1.1
+     "flights": 0,
+     "hours": 0.0
     },
     "d30": {
      "flights": 3,
@@ -4690,20 +4994,20 @@ window.JETS_DATA = {
    "source": "FAA",
    "status": "airborne",
    "position": {
-    "lat": 38.644409,
-    "lon": -77.605957,
-    "alt_ft": 5950,
-    "gs_kt": 229.1,
-    "track_deg": 257.91,
+    "lat": 39.325195,
+    "lon": -80.471271,
+    "alt_ft": 41000,
+    "gs_kt": 428.5,
+    "track_deg": 278.32,
     "callsign": "N733H",
     "stale_min": 0
    },
    "nearest_airport": {
-    "code": "VG57",
-    "name": "Maples Field",
-    "city": "Catlett",
+    "code": "WV28",
+    "name": "Ruth Field STOLport",
+    "city": "Clarksburg",
     "country": "US",
-    "dist_km": 4.7
+    "dist_km": 6.3
    },
    "last_flight": {
     "first_seen": 1790287553,
@@ -4713,8 +5017,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 5,
-     "hours": 5.9
+     "flights": 3,
+     "hours": 2.7
     },
     "d30": {
      "flights": 7,
@@ -4939,23 +5243,9 @@ window.JETS_DATA = {
    "owner": "BJ'S WHOLESALE CLUB INC (OKLAHOMA CITY OK)",
    "confidence": "moyenne",
    "source": "FAA (copropriété)",
-   "status": "airborne",
-   "position": {
-    "lat": 45.096037,
-    "lon": -114.398424,
-    "alt_ft": 39000,
-    "gs_kt": 450.3,
-    "track_deg": 6.89,
-    "callsign": "EJA496",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "US-4050",
-    "name": "Hoodoo Meadows Airport",
-    "city": "Salmon",
-    "country": "US",
-    "dist_km": 13.4
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790699022,
     "last_seen": 1790703603,
@@ -5026,9 +5316,23 @@ window.JETS_DATA = {
    "owner": "JACK HENRY & ASSOCIATES INC (MONETT MO)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "unseen",
-   "position": null,
-   "nearest_airport": null,
+   "status": "airborne",
+   "position": {
+    "lat": 35.880936,
+    "lon": -87.880726,
+    "alt_ft": 39975,
+    "gs_kt": 437.1,
+    "track_deg": 283.5,
+    "callsign": "N780JH",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "K0M4",
+    "name": "Benton County Airport",
+    "city": "Camden",
+    "country": "US",
+    "dist_km": 26.2
+   },
    "last_flight": {
     "first_seen": 1790721746,
     "last_seen": 1790723132,
@@ -5037,8 +5341,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 5,
-     "hours": 3.2
+     "flights": 1,
+     "hours": 0.4
     },
     "d30": {
      "flights": 7,
@@ -5119,8 +5423,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 3,
-     "hours": 2.7
+     "flights": 1,
+     "hours": 1.3
     },
     "d30": {
      "flights": 4,
@@ -5368,9 +5672,23 @@ window.JETS_DATA = {
    "owner": "KROGER CO (CINCINNATI OH)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "unseen",
-   "position": null,
-   "nearest_airport": null,
+   "status": "airborne",
+   "position": {
+    "lat": 35.372772,
+    "lon": -89.699249,
+    "alt_ft": 4975,
+    "gs_kt": 240.2,
+    "track_deg": 244.61,
+    "callsign": "N300KC",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "TN58",
+    "name": "Parsons Field",
+    "city": "Brighton",
+    "country": "US",
+    "dist_km": 4.4
+   },
    "last_flight": {
     "first_seen": 1790713653,
     "last_seen": 1790716403,
@@ -5452,8 +5770,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 2,
-     "hours": 1.3
+     "flights": 1,
+     "hours": 0.8
     },
     "d30": {
      "flights": 2,
@@ -5639,8 +5957,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 4,
-     "hours": 2.6
+     "flights": 3,
+     "hours": 2.1
     },
     "d30": {
      "flights": 4,
@@ -6084,23 +6402,9 @@ window.JETS_DATA = {
    "owner": "MOTOROLA SOLUTIONS INC (CLEVELAND OH)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 39.058594,
-    "lon": -107.759638,
-    "alt_ft": 24400,
-    "gs_kt": 428.4,
-    "track_deg": 69.79,
-    "callsign": "LXJ513",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "51CO",
-    "name": "Flying W No.2 Airport",
-    "city": "Hotchkiss",
-    "country": "US",
-    "dist_km": 19.6
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790542299,
     "last_seen": 1790544383,
@@ -6150,8 +6454,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 1,
-     "hours": 0.9
+     "flights": 0,
+     "hours": 0.0
     },
     "d30": {
      "flights": 1,
@@ -6223,8 +6527,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 2,
-     "hours": 1.1
+     "flights": 1,
+     "hours": 0.6
     },
     "d30": {
      "flights": 2,
@@ -6513,23 +6817,9 @@ window.JETS_DATA = {
    "owner": "NUCOR CORP (CHARLOTTE NC)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 29.072845,
-    "lon": -91.566186,
-    "alt_ft": 41000,
-    "gs_kt": 398.3,
-    "track_deg": 60.02,
-    "callsign": "N940JF",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "KPTN",
-    "name": "Harry P Williams Memorial Airport",
-    "city": "Patterson",
-    "country": "US",
-    "dist_km": 74.1
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": null,
    "stats": {
     "d7": {
@@ -6559,23 +6849,9 @@ window.JETS_DATA = {
    "owner": "NUCOR CORP (CHARLOTTE NC)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 34.398193,
-    "lon": -93.574368,
-    "alt_ft": 38000,
-    "gs_kt": 415.4,
-    "track_deg": 267.52,
-    "callsign": "N980JF",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "72AR",
-    "name": "Caddo Landing",
-    "city": "Glenwood",
-    "country": "US",
-    "dist_km": 13.8
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790698064,
     "last_seen": 1790702352,
@@ -6584,8 +6860,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 2,
-     "hours": 2.3
+     "flights": 1,
+     "hours": 1.2
     },
     "d30": {
      "flights": 2,
@@ -6625,8 +6901,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 6,
-     "hours": 4.3
+     "flights": 5,
+     "hours": 3.6
     },
     "d30": {
      "flights": 10,
@@ -6666,8 +6942,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 1,
-     "hours": 0.5
+     "flights": 0,
+     "hours": 0.0
     },
     "d30": {
      "flights": 5,
@@ -6696,23 +6972,9 @@ window.JETS_DATA = {
    "owner": "PACCAR INC (SEATAC WA)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 39.470153,
-    "lon": -90.298523,
-    "alt_ft": 43000,
-    "gs_kt": 442.5,
-    "track_deg": 229.4,
-    "callsign": "N370D",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "IL29",
-    "name": "Yates Restricted Landing Area",
-    "city": "Murrayville",
-    "country": "US",
-    "dist_km": 10.0
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790339688,
     "last_seen": 1790342117,
@@ -6783,23 +7045,9 @@ window.JETS_DATA = {
    "owner": "PACCAR INC (SEATAC WA)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 46.645798,
-    "lon": -120.601345,
-    "alt_ft": 26475,
-    "gs_kt": 427.7,
-    "track_deg": 304.62,
-    "callsign": "N706P",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "KYKM",
-    "name": "Yakima Air Terminal McAllister Field",
-    "city": "Yakima",
-    "country": "US",
-    "dist_km": 9.7
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790694004,
     "last_seen": 1790694953,
@@ -7109,8 +7357,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 5,
-     "hours": 3.9
+     "flights": 3,
+     "hours": 2.2
     },
     "d30": {
      "flights": 6,
@@ -7171,23 +7419,9 @@ window.JETS_DATA = {
    "owner": "PNC FINANCIAL SERVICES GROUP INC (PITTSBURGH PA)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 40.918076,
-    "lon": -74.054504,
-    "alt_ft": 1100,
-    "gs_kt": 134.2,
-    "track_deg": 182.99,
-    "callsign": "00000000",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "KTEB",
-    "name": "Teterboro Airport",
-    "city": "Teterboro",
-    "country": "US",
-    "dist_km": 7.6
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790641340,
     "last_seen": 1790643613,
@@ -7196,8 +7430,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 4,
-     "hours": 2.2
+     "flights": 3,
+     "hours": 1.7
     },
     "d30": {
      "flights": 5,
@@ -7237,8 +7471,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 1,
-     "hours": 0.8
+     "flights": 0,
+     "hours": 0.0
     },
     "d30": {
      "flights": 2,
@@ -7278,8 +7512,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 4,
-     "hours": 3.9
+     "flights": 3,
+     "hours": 3.1
     },
     "d30": {
      "flights": 4,
@@ -7319,8 +7553,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 2,
-     "hours": 1.5
+     "flights": 0,
+     "hours": 0.0
     },
     "d30": {
      "flights": 2,
@@ -7433,8 +7667,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 2,
-     "hours": 2.6
+     "flights": 1,
+     "hours": 1.2
     },
     "d30": {
      "flights": 2,
@@ -7474,8 +7708,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 9,
-     "hours": 6.7
+     "flights": 8,
+     "hours": 6.4
     },
     "d30": {
      "flights": 14,
@@ -7504,23 +7738,9 @@ window.JETS_DATA = {
    "owner": "PTC AVIATION LLC (NORTHPORT AL)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 33.068848,
-    "lon": -83.272192,
-    "alt_ft": 36000,
-    "gs_kt": 440.9,
-    "track_deg": 273.64,
-    "callsign": "N552SC",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "KMLJ",
-    "name": "Baldwin County Regional Airport",
-    "city": "Milledgeville",
-    "country": "US",
-    "dist_km": 9.9
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790712872,
     "last_seen": 1790715958,
@@ -7684,8 +7904,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 3,
-     "hours": 2.3
+     "flights": 2,
+     "hours": 1.6
     },
     "d30": {
      "flights": 5,
@@ -7725,8 +7945,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 1,
-     "hours": 1.4
+     "flights": 0,
+     "hours": 0.0
     },
     "d30": {
      "flights": 1,
@@ -7919,23 +8139,9 @@ window.JETS_DATA = {
    "owner": "ROGER FERRIS & PARTNERS LLC (CLEVELAND OH)",
    "confidence": "moyenne",
    "source": "FAA (copropriété)",
-   "status": "airborne",
-   "position": {
-    "lat": 38.286072,
-    "lon": -117.433212,
-    "alt_ft": 45000,
-    "gs_kt": 477.0,
-    "track_deg": 89.88,
-    "callsign": "LXJ610",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "KTPH",
-    "name": "Tonopah Airport",
-    "city": "Tonopah",
-    "country": "US",
-    "dist_km": 39.3
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790684366,
     "last_seen": 1790686798,
@@ -7944,8 +8150,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 6,
-     "hours": 4.6
+     "flights": 5,
+     "hours": 3.4
     },
     "d30": {
      "flights": 15,
@@ -8017,8 +8223,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 2,
-     "hours": 1.8
+     "flights": 1,
+     "hours": 1.4
     },
     "d30": {
      "flights": 3,
@@ -8286,8 +8492,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 3,
-     "hours": 3.1
+     "flights": 2,
+     "hours": 1.7
     },
     "d30": {
      "flights": 3,
@@ -8553,23 +8759,9 @@ window.JETS_DATA = {
    "owner": "WALMART INC (BENTONVILLE AR)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 36.808868,
-    "lon": -105.00309,
-    "alt_ft": 40000,
-    "gs_kt": 411.0,
-    "track_deg": 269.58,
-    "callsign": "N17ZP",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "3CO4",
-    "name": "Tercio Ranch Airstrip",
-    "city": "Stonewall",
-    "country": "US",
-    "dist_km": 29.2
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": {
     "first_seen": 1790542784,
     "last_seen": 1790546346,
@@ -8619,8 +8811,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 3,
-     "hours": 3.4
+     "flights": 2,
+     "hours": 2.2
     },
     "d30": {
      "flights": 4,
@@ -8690,9 +8882,23 @@ window.JETS_DATA = {
    "owner": "WALMART INC (BENTONVILLE AR)",
    "confidence": "haute",
    "source": "FAA",
-   "status": "unseen",
-   "position": null,
-   "nearest_airport": null,
+   "status": "airborne",
+   "position": {
+    "lat": 37.038264,
+    "lon": -95.147692,
+    "alt_ft": 34450,
+    "gs_kt": 377.6,
+    "track_deg": 260.09,
+    "callsign": "N986BL",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "75KS",
+    "name": "7Up Ranch Airport",
+    "city": "Bartlett",
+    "country": "US",
+    "dist_km": 6.4
+   },
    "last_flight": null,
    "stats": {
     "d7": {
@@ -8722,23 +8928,9 @@ window.JETS_DATA = {
    "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE (NORTH SALT LAKE UT)",
    "confidence": "moyenne",
    "source": "plane-alert-db + FAA",
-   "status": "airborne",
-   "position": {
-    "lat": 30.598938,
-    "lon": -92.252844,
-    "alt_ft": 41000,
-    "gs_kt": 541.8,
-    "track_deg": 118.08,
-    "callsign": "N188WR",
-    "stale_min": 0
-   },
-   "nearest_airport": {
-    "code": "US-4671",
-    "name": "Chataignier Airport",
-    "city": "Ville Platte",
-    "country": "US",
-    "dist_km": 0.9
-   },
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
    "last_flight": null,
    "stats": {
     "d7": {
@@ -8861,8 +9053,8 @@ window.JETS_DATA = {
    },
    "stats": {
     "d7": {
-     "flights": 2,
-     "hours": 1.5
+     "flights": 1,
+     "hours": 0.9
     },
     "d30": {
      "flights": 2,
@@ -8891,6 +9083,2494 @@ window.JETS_DATA = {
    "owner": "ZIMMER BIOMET LEASING LLC (OXFORD CT)",
    "confidence": "haute",
    "source": "FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "aa3410",
+   "reg": "N757AF",
+   "group": "personnalites",
+   "entity": "Trump Organization",
+   "person": "Donald Trump",
+   "model": "Boeing 757-200",
+   "year": "1991",
+   "owner": "DJT OPERATIONS I LLC",
+   "confidence": "haute",
+   "source": "FAA + plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "adfdf8",
+   "reg": "82-8000",
+   "group": "personnalites",
+   "entity": "Etats-Unis (presidence)",
+   "person": "Air Force One (Donald Trump)",
+   "model": "Boeing VC-25A",
+   "year": "",
+   "owner": "(USAF, hors registre civil)",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "adfdf9",
+   "reg": "92-9000",
+   "group": "personnalites",
+   "entity": "Etats-Unis (presidence)",
+   "person": "Air Force One (Donald Trump)",
+   "model": "Boeing VC-25A",
+   "year": "",
+   "owner": "(USAF, hors registre civil)",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "af83f3",
+   "reg": "25-3300",
+   "group": "personnalites",
+   "entity": "Etats-Unis (presidence)",
+   "person": "Air Force One (Donald Trump)",
+   "model": "Boeing VC-25B (747-8, ex-Qatar)",
+   "year": "",
+   "owner": "(USAF, hors registre civil)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "adfeb7",
+   "reg": "98-0001",
+   "group": "personnalites",
+   "entity": "Etats-Unis (vice-presidence / cabinet)",
+   "person": "Air Force Two (JD Vance, Marco Rubio...)",
+   "model": "Boeing C-32A (757-200)",
+   "year": "",
+   "owner": "(USAF, flotte partagee)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "adfeb8",
+   "reg": "98-0002",
+   "group": "personnalites",
+   "entity": "Etats-Unis (vice-presidence / cabinet)",
+   "person": "Air Force Two (JD Vance, Marco Rubio...)",
+   "model": "Boeing C-32A (757-200)",
+   "year": "",
+   "owner": "(USAF, flotte partagee)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "adfeb9",
+   "reg": "99-0003",
+   "group": "personnalites",
+   "entity": "Etats-Unis (vice-presidence / cabinet)",
+   "person": "Air Force Two (JD Vance, Marco Rubio...)",
+   "model": "Boeing C-32A (757-200)",
+   "year": "",
+   "owner": "(USAF, flotte partagee)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "adfeba",
+   "reg": "99-0004",
+   "group": "personnalites",
+   "entity": "Etats-Unis (vice-presidence / cabinet)",
+   "person": "Air Force Two (JD Vance, Marco Rubio...)",
+   "model": "Boeing C-32A (757-200)",
+   "year": "",
+   "owner": "(USAF, flotte partagee)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "ae4ae6",
+   "reg": "09-0015",
+   "group": "personnalites",
+   "entity": "Etats-Unis (vice-presidence / cabinet)",
+   "person": "Air Force Two (JD Vance, Marco Rubio...)",
+   "model": "Boeing C-32A (757-200)",
+   "year": "",
+   "owner": "(USAF, flotte partagee)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "ae4ae8",
+   "reg": "09-0016",
+   "group": "personnalites",
+   "entity": "Etats-Unis (vice-presidence / cabinet)",
+   "person": "Air Force Two (JD Vance, Marco Rubio...)",
+   "model": "Boeing C-32A (757-200)",
+   "year": "",
+   "owner": "(USAF, flotte partagee)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "ae4aea",
+   "reg": "09-0017",
+   "group": "personnalites",
+   "entity": "Etats-Unis (vice-presidence / cabinet)",
+   "person": "Air Force Two (JD Vance, Marco Rubio...)",
+   "model": "Boeing C-32A (757-200)",
+   "year": "",
+   "owner": "(USAF, flotte partagee)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "ae4aec",
+   "reg": "19-0018",
+   "group": "personnalites",
+   "entity": "Etats-Unis (vice-presidence / cabinet)",
+   "person": "Air Force Two (JD Vance, Marco Rubio...)",
+   "model": "Boeing C-32A (757-200)",
+   "year": "",
+   "owner": "(USAF, flotte partagee)",
+   "confidence": "moyenne",
+   "source": "plane-alert-db",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "7bc006",
+   "reg": "B-2479",
+   "group": "personnalites",
+   "entity": "Chine (gouvernement)",
+   "person": "Xi Jinping",
+   "model": "Boeing 747-400",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + celebplanes + hexdb.io",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "780d2c",
+   "reg": "B-2481",
+   "group": "personnalites",
+   "entity": "Chine (gouvernement)",
+   "person": "Xi Jinping",
+   "model": "Boeing 747-8 (Air China)",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + celebplanes + hexdb.io",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "7807fc",
+   "reg": "B-3999",
+   "group": "personnalites",
+   "entity": "Chine (gouvernement)",
+   "person": "Xi Jinping",
+   "model": "Boeing 737 BBJ (Beijing Airlines)",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + celebplanes + hexdb.io",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "3b76ae",
+   "reg": "F-RARF",
+   "group": "personnalites",
+   "entity": "France (gouvernement)",
+   "person": "Emmanuel Macron",
+   "model": "Airbus A330-223 (Cotam 001)",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "3b770d",
+   "reg": "F-RAFA",
+   "group": "personnalites",
+   "entity": "France (gouvernement)",
+   "person": "Emmanuel Macron",
+   "model": "Dassault Falcon 7X",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "airborne",
+   "position": {
+    "lat": 47.890274,
+    "lon": 5.299255,
+    "alt_ft": 18000,
+    "gs_kt": 442.7,
+    "track_deg": 264.95,
+    "callsign": "CTM1282",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "LFSU",
+    "name": "Langres-Rolampont Airfield",
+    "city": "Rolampont, Haute-Marne",
+    "country": "FR",
+    "dist_km": 8.3
+   },
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "3b76b3",
+   "reg": "F-RAFB",
+   "group": "personnalites",
+   "entity": "France (gouvernement)",
+   "person": "Emmanuel Macron",
+   "model": "Dassault Falcon 7X",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "3b7542",
+   "reg": "F-UJCU",
+   "group": "personnalites",
+   "entity": "France (gouvernement)",
+   "person": "Emmanuel Macron",
+   "model": "Airbus A330 MRTT Phenix",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "407dfc",
+   "reg": "G-GBNI",
+   "group": "personnalites",
+   "entity": "Royaume-Uni (gouvernement)",
+   "person": "Premier ministre / famille royale",
+   "model": "Airbus A321neo",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "407d90",
+   "reg": "G-ZABH",
+   "group": "personnalites",
+   "entity": "Royaume-Uni (gouvernement)",
+   "person": "Premier ministre / famille royale",
+   "model": "Dassault Falcon 900LX",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "407d8f",
+   "reg": "G-ZAHS",
+   "group": "personnalites",
+   "entity": "Royaume-Uni (gouvernement)",
+   "person": "Premier ministre / famille royale",
+   "model": "Dassault Falcon 900LX",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "3ea12c",
+   "reg": "10+01",
+   "group": "personnalites",
+   "entity": "Allemagne (gouvernement)",
+   "person": "Chancelier",
+   "model": "Airbus A350-941",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db",
+   "status": "airborne",
+   "position": {
+    "lat": 51.433777,
+    "lon": 12.271654,
+    "alt_ft": 1250,
+    "gs_kt": 168.4,
+    "track_deg": 86.25,
+    "callsign": "GAF940",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "EDDP",
+    "name": "Leipzig/Halle Airport",
+    "city": "Schkeuditz",
+    "country": "DE",
+    "dist_km": 3.1
+   },
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "3f5d91",
+   "reg": "10+02",
+   "group": "personnalites",
+   "entity": "Allemagne (gouvernement)",
+   "person": "Chancelier",
+   "model": "Airbus A350-941",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db",
+   "status": "airborne",
+   "position": {
+    "lat": 39.169146,
+    "lon": -7.574463,
+    "alt_ft": 30725,
+    "gs_kt": 484.3,
+    "track_deg": 1.89,
+    "callsign": "GAF937",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "PT-0090",
+    "name": "Aerodromo de Monforte",
+    "city": "Monforte",
+    "country": "PT",
+    "dist_km": 17.9
+   },
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "3e854f",
+   "reg": "10+03",
+   "group": "personnalites",
+   "entity": "Allemagne (gouvernement)",
+   "person": "Chancelier",
+   "model": "Airbus A350-941",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "87c002",
+   "reg": "80-1111",
+   "group": "personnalites",
+   "entity": "Japon (gouvernement)",
+   "person": "Premier ministre",
+   "model": "Boeing 777-300ER",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "87c003",
+   "reg": "80-1112",
+   "group": "personnalites",
+   "entity": "Japon (gouvernement)",
+   "person": "Premier ministre",
+   "model": "Boeing 777-300ER",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "800585",
+   "reg": "K7066",
+   "group": "personnalites",
+   "entity": "Inde (gouvernement)",
+   "person": "Narendra Modi",
+   "model": "Boeing 777-300ER (Air India One)",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes + hexdb.io",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "800c3d",
+   "reg": "K7067",
+   "group": "personnalites",
+   "entity": "Inde (gouvernement)",
+   "person": "Narendra Modi",
+   "model": "Boeing 777-300ER (Air India One)",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes + hexdb.io",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "8002f6",
+   "reg": "K5012",
+   "group": "personnalites",
+   "entity": "Inde (gouvernement)",
+   "person": "Narendra Modi",
+   "model": "Boeing 737 BBJ",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes + hexdb.io",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "4bd2b2",
+   "reg": "TC-TUR",
+   "group": "personnalites",
+   "entity": "Turquie (gouvernement)",
+   "person": "Recep Tayyip Erdogan",
+   "model": "Airbus ACJ330",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "4bd24b",
+   "reg": "TC-TRK",
+   "group": "personnalites",
+   "entity": "Turquie (gouvernement)",
+   "person": "Recep Tayyip Erdogan",
+   "model": "Boeing 747-8 BBJ",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "4b8c2e",
+   "reg": "TC-CAN",
+   "group": "personnalites",
+   "entity": "Turquie (gouvernement)",
+   "person": "Recep Tayyip Erdogan",
+   "model": "Airbus A340-500",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "4b8681",
+   "reg": "TC-ATA",
+   "group": "personnalites",
+   "entity": "Turquie (gouvernement)",
+   "person": "Recep Tayyip Erdogan",
+   "model": "Gulfstream G-IV",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "e400d9",
+   "reg": "FAB2101",
+   "group": "personnalites",
+   "entity": "Bresil (gouvernement)",
+   "person": "Lula da Silva",
+   "model": "Airbus VC-1A (A319)",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "c2c363",
+   "reg": "330-002",
+   "group": "personnalites",
+   "entity": "Canada (gouvernement)",
+   "person": "Premier ministre",
+   "model": "Airbus CC-330 Husky",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "c2c1f1",
+   "reg": "144-619",
+   "group": "personnalites",
+   "entity": "Canada (gouvernement)",
+   "person": "Premier ministre",
+   "model": "Bombardier CC-144D Challenger",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "c2c1fb",
+   "reg": "144-620",
+   "group": "personnalites",
+   "entity": "Canada (gouvernement)",
+   "person": "Premier ministre",
+   "model": "Bombardier CC-144D Challenger",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "7386c0",
+   "reg": "4X-ISR",
+   "group": "personnalites",
+   "entity": "Israel (gouvernement)",
+   "person": "Premier ministre",
+   "model": "Boeing 767-300ER (Wing of Zion)",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "71be43",
+   "reg": "22-001",
+   "group": "personnalites",
+   "entity": "Coree du Sud (gouvernement)",
+   "person": "President",
+   "model": "Boeing 747-8",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "710333",
+   "reg": "HZ-HM1",
+   "group": "personnalites",
+   "entity": "Arabie saoudite",
+   "person": "Mohammed ben Salmane",
+   "model": "Boeing 747-400",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "710334",
+   "reg": "HZ-HMS2",
+   "group": "personnalites",
+   "entity": "Arabie saoudite",
+   "person": "Mohammed ben Salmane",
+   "model": "Airbus A340-200",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "plane-alert-db (celebplanes donne 71032f)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "710195",
+   "reg": "HZ-HM3",
+   "group": "personnalites",
+   "entity": "Arabie saoudite",
+   "person": "Mohammed ben Salmane",
+   "model": "Boeing 787-8 BBJ",
+   "year": "",
+   "owner": "",
+   "confidence": "faible",
+   "source": "celebplanes + hexdb.io (hex differents selon les sources)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "71019b",
+   "reg": "HZ-HM4",
+   "group": "personnalites",
+   "entity": "Arabie saoudite",
+   "person": "Mohammed ben Salmane",
+   "model": "Boeing 787-8 BBJ",
+   "year": "",
+   "owner": "",
+   "confidence": "faible",
+   "source": "celebplanes + hexdb.io (hex differents selon les sources)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "710190",
+   "reg": "HZ-HM5",
+   "group": "personnalites",
+   "entity": "Arabie saoudite",
+   "person": "Mohammed ben Salmane",
+   "model": "Boeing 777-300ER",
+   "year": "",
+   "owner": "",
+   "confidence": "faible",
+   "source": "celebplanes + hexdb.io (hex differents selon les sources)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "71022b",
+   "reg": "HZ-MF6",
+   "group": "personnalites",
+   "entity": "Arabie saoudite",
+   "person": "Ministere des Finances",
+   "model": "Boeing 737NG",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "896264",
+   "reg": "A6-ALN",
+   "group": "personnalites",
+   "entity": "Emirats arabes unis (Abu Dhabi)",
+   "person": "Mohammed ben Zayed",
+   "model": "Boeing 777-200ER",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "8962e9",
+   "reg": "A6-PFA",
+   "group": "personnalites",
+   "entity": "Emirats arabes unis (Abu Dhabi)",
+   "person": "Mohammed ben Zayed",
+   "model": "Boeing 747-8",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "89636e",
+   "reg": "A6-PFC",
+   "group": "personnalites",
+   "entity": "Emirats arabes unis (Abu Dhabi)",
+   "person": "Mohammed ben Zayed",
+   "model": "Boeing 787",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + celebplanes",
+   "status": "airborne",
+   "position": {
+    "lat": 54.042938,
+    "lon": -15.132176,
+    "alt_ft": 40000,
+    "gs_kt": 473.4,
+    "track_deg": 291.31,
+    "callsign": "AUH04",
+    "stale_min": 0
+   },
+   "nearest_airport": {
+    "code": "EIBT",
+    "name": "Belmullet Aerodrome",
+    "city": "Belmullet",
+    "country": "IE",
+    "dist_km": 332.9
+   },
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "8964c9",
+   "reg": "A6-PFE",
+   "group": "personnalites",
+   "entity": "Emirats arabes unis (Abu Dhabi)",
+   "person": "Mohammed ben Zayed",
+   "model": "Boeing 787 BBJ",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "06a0a2",
+   "reg": "A7-HHE",
+   "group": "personnalites",
+   "entity": "Qatar (Qatar Amiri Flight)",
+   "person": "Emir Tamim ben Hamad Al Thani",
+   "model": "Boeing 747-8 BBJ",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "06a2c3",
+   "reg": "A7-HHF",
+   "group": "personnalites",
+   "entity": "Qatar (Qatar Amiri Flight)",
+   "person": "Emir Tamim ben Hamad Al Thani",
+   "model": "Boeing 747-8 BBJ",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "06a021",
+   "reg": "A7-HHH",
+   "group": "personnalites",
+   "entity": "Qatar (Qatar Amiri Flight)",
+   "person": "Emir Tamim ben Hamad Al Thani",
+   "model": "Airbus A340-541",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "8961b4",
+   "reg": "A6-COM",
+   "group": "personnalites",
+   "entity": "Emirats arabes unis (Dubai Air Wing)",
+   "person": "Mohammed ben Rachid Al Maktoum",
+   "model": "Boeing 747",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "8960ae",
+   "reg": "A6-MMM",
+   "group": "personnalites",
+   "entity": "Emirats arabes unis (Dubai Air Wing)",
+   "person": "Mohammed ben Rachid Al Maktoum",
+   "model": "Boeing 747",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "8960b4",
+   "reg": "A6-HRM",
+   "group": "personnalites",
+   "entity": "Emirats arabes unis (Dubai Air Wing)",
+   "person": "Mohammed ben Rachid Al Maktoum",
+   "model": "Boeing 747",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "896438",
+   "reg": "A6-HHH",
+   "group": "personnalites",
+   "entity": "Emirats arabes unis (Dubai Air Wing)",
+   "person": "Mohammed ben Rachid Al Maktoum",
+   "model": "Gulfstream G650",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "89605a",
+   "reg": "A6-HRS",
+   "group": "personnalites",
+   "entity": "Emirats arabes unis (Dubai Air Wing)",
+   "person": "Mohammed ben Rachid Al Maktoum",
+   "model": "Boeing 737 BBJ",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "896272",
+   "reg": "A6-GGP",
+   "group": "personnalites",
+   "entity": "Emirats arabes unis (Dubai Air Wing)",
+   "person": "Mohammed ben Rachid Al Maktoum",
+   "model": "Boeing 747-400F",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "4243fd",
+   "reg": "VQ-BNZ",
+   "group": "personnalites",
+   "entity": "Jordanie (gouvernement)",
+   "person": "Roi Abdallah II",
+   "model": "Gulfstream G650ER",
+   "year": "",
+   "owner": "",
+   "confidence": "faible",
+   "source": "plane-alert-db (celebplanes donne 424269)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "4d403f",
+   "reg": "3A-MGA",
+   "group": "personnalites",
+   "entity": "Monaco",
+   "person": "Prince Albert II",
+   "model": "Dassault Falcon 8X",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "a4ee53",
+   "reg": "N417C",
+   "group": "personnalites",
+   "entity": "Oracle",
+   "person": "Larry Ellison",
+   "model": "Cessna Citation CJ4",
+   "year": "2010",
+   "owner": "WING AND A PRAYER INC",
+   "confidence": "moyenne",
+   "source": "celebplanes + FAA",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "a7c2d8",
+   "reg": "N6D",
+   "group": "personnalites",
+   "entity": "Dell",
+   "person": "Michael Dell",
+   "model": "Gulfstream G700",
+   "year": "2024",
+   "owner": "WILMINGTON TRUST CO TRUSTEE",
+   "confidence": "moyenne",
+   "source": "celebplanes + FAA (trust)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "a200fc",
+   "reg": "N228ZD",
+   "group": "personnalites",
+   "entity": "Dell",
+   "person": "Michael Dell",
+   "model": "Gulfstream G650ER",
+   "year": "2015",
+   "owner": "TVPX AIRCRAFT SOLUTIONS INC TRUSTEE",
+   "confidence": "moyenne",
+   "source": "celebplanes + FAA (trust)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "a47898",
+   "reg": "N3877",
+   "group": "personnalites",
+   "entity": "Strategy (MicroStrategy)",
+   "person": "Michael Saylor",
+   "model": "Bombardier Global Express XRS",
+   "year": "2008",
+   "owner": "821 393 LLC",
+   "confidence": "moyenne",
+   "source": "celebplanes + FAA + hexdb.io",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "ac643b",
+   "reg": "N898NC",
+   "group": "personnalites",
+   "entity": "News Corp / Fox",
+   "person": "Rupert Murdoch",
+   "model": "Gulfstream G650ER",
+   "year": "2015",
+   "owner": "BANK OF UTAH TRUSTEE",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + celebplanes + FAA (trust)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "a18e7d",
+   "reg": "N2N",
+   "group": "personnalites",
+   "entity": "Emerson Collective",
+   "person": "Laurene Powell Jobs",
+   "model": "Gulfstream G650",
+   "year": "2017",
+   "owner": "BANK OF UTAH TRUSTEE",
+   "confidence": "moyenne",
+   "source": "celebplanes + hexdb.io (Marmalade Skies LLC) + FAA (trust)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "424779",
+   "reg": "VP-CAM",
+   "group": "personnalites",
+   "entity": "Alibaba",
+   "person": "Jack Ma",
+   "model": "Boeing 737 BBJ",
+   "year": "",
+   "owner": "",
+   "confidence": "faible",
+   "source": "plane-alert-db (celebplanes indique VP-CZM)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "80169f",
+   "reg": "VT-AKV",
+   "group": "personnalites",
+   "entity": "Reliance Industries",
+   "person": "Mukesh Ambani",
+   "model": "Boeing 737 MAX 9 BBJ",
+   "year": "",
+   "owner": "",
+   "confidence": "haute",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "801533",
+   "reg": "VT-ASR",
+   "group": "personnalites",
+   "entity": "Reliance Industries",
+   "person": "Mukesh Ambani",
+   "model": "Bombardier Global 7500",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "celebplanes + hexdb.io",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "8014b9",
+   "reg": "VT-AGL",
+   "group": "personnalites",
+   "entity": "Adani Group",
+   "person": "Gautam Adani",
+   "model": "Bombardier Global 6500",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "celebplanes + hexdb.io (Karnavati Aviation)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "801567",
+   "reg": "VT-AHM",
+   "group": "personnalites",
+   "entity": "Adani Group",
+   "person": "Gautam Adani",
+   "model": "Embraer Legacy 650",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "celebplanes + hexdb.io (Karnavati Aviation)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "0d02f1",
+   "reg": "XA-ATL",
+   "group": "personnalites",
+   "entity": "Grupo Carso / America Movil",
+   "person": "Carlos Slim",
+   "model": "Gulfstream G550",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "celebplanes + hexdb.io (Aerofrisco)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "0d0bd1",
+   "reg": "XA-CLR",
+   "group": "personnalites",
+   "entity": "Grupo Carso / America Movil",
+   "person": "Carlos Slim",
+   "model": "Gulfstream G650",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "celebplanes + hexdb.io (Aerofrisco)",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "4d0207",
+   "reg": "LX-RAY",
+   "group": "personnalites",
+   "entity": "Millhouse",
+   "person": "Roman Abramovich",
+   "model": "Gulfstream G650ER",
+   "year": "",
+   "owner": "",
+   "confidence": "moyenne",
+   "source": "plane-alert-db + celebplanes",
+   "status": "unseen",
+   "position": null,
+   "nearest_airport": null,
+   "last_flight": null,
+   "stats": {
+    "d7": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d30": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "d90": {
+     "flights": 0,
+     "hours": 0.0
+    },
+    "top_airport": null,
+    "coverage_days": 11
+   }
+  },
+  {
+   "hex": "4ca001",
+   "reg": "M-GGAL",
+   "group": "personnalites",
+   "entity": "Virgin Group",
+   "person": "Richard Branson",
+   "model": "",
+   "year": "",
+   "owner": "",
+   "confidence": "faible",
+   "source": "celebplanes seul",
    "status": "unseen",
    "position": null,
    "nearest_airport": null,

@@ -5,7 +5,7 @@ des sociétés de la watchlist (et de quelques grands dirigeants) à partir de d
 et gratuites, pour apprendre le traitement de données ADS-B et, à terme, tester si les
 mouvements d'avions d'entreprise précèdent des annonces.
 
-**Cadre :** on suit des avions d'entreprise, pas des personnes. Données stockées en local,
+**Cadre :** on suit des avions d'entreprise, d'État et de personnalités publiques (jamais de particuliers ni de célébrités du divertissement). Données stockées en local,
 rien n'est publié en temps réel (décalage ≥ 24 h pour toute sortie).
 
 ## Le résultat : [`JETS.md`](JETS.md)
@@ -36,15 +36,16 @@ New_project/
 │   └── build.py              génère site/data.js et la section « Statut » de JETS.md
 ├── scripts/
 │   ├── faa_search.py         recherche de jets dans le registre FAA par nom de propriétaire
-│   └── sp500_fleet.py        jets d'affaires des sociétés du S&P 500 et de leurs dirigeants
+│   ├── sp500_fleet.py        jets d'affaires des sociétés du S&P 500 et de leurs dirigeants
+│   └── celebplanes.py        avions d'une personnalité (celebplanes.com) recoupés avec le registre FAA
 ├── site/
-│   ├── index.html, style.css, app.js   le site (carte, flotte, historique)
+│   ├── index.html, style.css, app.js   le site (carte, jets watchlist / autres jets, historique)
 │   ├── live.js               bouton « Get live data » (nécessite serve.py)
 │   └── data.js               données du site (généré)
 ├── tests/
 │   └── test_tracker.py       tests unitaires (unittest)
 └── data/
-    ├── targets.csv           LA liste des avions suivis (groupes watchlist / autres / sp500)
+    ├── targets.csv           LA liste des avions suivis (groupes watchlist / autres / sp500 / personnalites)
     ├── sp500.csv             constituants du S&P 500 (datasets/s-and-p-500-companies)
     ├── sp500_candidates.csv  jets trouvés par sp500_fleet.py (à relire avant fusion)
     ├── flights.csv           vols OpenSky des 90 derniers jours      ┐
