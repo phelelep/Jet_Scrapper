@@ -1,5 +1,9 @@
 # Plan — site web de suivi des jets
 
+> **État au 2026-10-02 :** V1 livrée. Hébergement décidé : GitHub Pages, données rafraîchies
+> toutes les 30 min par GitHub Actions (`.github/workflows/update.yml`, voir le README).
+> Le site est public, et non privé comme prévu ci-dessous. Il suit 311 avions.
+
 Objectif : un site **privé** qui montre les jets suivis et **l'historique de leurs vols sur les
 90 derniers jours**, avec les informations pertinentes (propriétaire, vols, routes, statistiques).
 
