@@ -62,3 +62,6 @@ ts,step,status,requests,credits_remaining,message
 1790925904,opensky,skipped,,,ignoré (option de ligne de commande)
 1790925912,snapshot,ok,4,,"2 en vol, 1 au sol, 308 non détectés"
 1790925913,build,ok,0,,"311 avions, 739 vols, 386 aéroports"
+1790927759,opensky,error,0,,identifiants OpenSky introuvables (voir OPENSKY_CREDENTIALS)
+1790927767,snapshot,ok,4,,"2 en vol, 1 au sol, 308 non détectés"
+1790927768,build,ok,0,,"311 avions, 739 vols, 386 aéroports"
