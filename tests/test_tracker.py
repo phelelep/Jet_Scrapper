@@ -225,10 +225,14 @@ class CsvRoundTripTests(unittest.TestCase):
         cutoff = config.history_start(TODAY)
         conn.executemany("INSERT INTO flights VALUES (?,?,?,?,?,?)",
                          [("a", cutoff - 1, cutoff + 10, None, None, ""), ("a", cutoff, cutoff + 10, None, None, "")])
+        snap_cutoff = TODAY - config.SNAPSHOT_DAYS * config.DAY
+        conn.executemany("INSERT INTO snapshots (ts, icao24, status) VALUES (?,?,?)",
+                         [(snap_cutoff - 1, "a", "unseen"), (snap_cutoff, "a", "unseen")])
         for i in range(config.RUNS_KEEP + 5):
             db.record_run(conn, i, "build", "ok")
         db.prune(conn, TODAY)
         self.assertEqual(conn.execute("SELECT COUNT(*) FROM flights").fetchone()[0], 1)
+        self.assertEqual(conn.execute("SELECT MIN(ts) FROM snapshots").fetchone()[0], snap_cutoff)
         self.assertEqual(conn.execute("SELECT COUNT(*), MIN(ts) FROM runs").fetchone(), (config.RUNS_KEEP, 5))
 
 

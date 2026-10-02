@@ -172,10 +172,3 @@ table.fleet tbody tr.sel { background: var(--row-sel); box-shadow: inset 3px 0 0
 ::-webkit-scrollbar-track { background: var(--panel); }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 5px; }
 
-/* Bouton « Get live data » (serve.py) */
-.live { margin-left: auto; display: flex; align-items: center; gap: 10px; }
-.btn-live { border-color: var(--accent); color: var(--accent); font-weight: 600; padding: 6px 12px; }
-.btn-live:disabled { opacity: .45; cursor: not-allowed; border-color: var(--border); color: var(--text-dim); }
-.live-msg { color: var(--text-dim); font-size: 12px; max-width: 260px; }
-.live-msg.ok { color: var(--ground); }
-.live-msg.err { color: var(--danger); }

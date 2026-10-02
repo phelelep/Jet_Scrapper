@@ -8,11 +8,11 @@ AIRPORTS = DATA_DIR / "airports.csv"
 DB_PATH = DATA_DIR / "jets.db"          # cache jetable, reconstruit depuis les CSV
 SITE_DIR = ROOT / "site"
 DATA_JS = SITE_DIR / "data.js"
-JETS_MD = ROOT / "JETS.md"
 
 DAY = 86400
 HISTORY_DAYS = 90                        # historique glissant (vols, fenêtres, relevés)
 RUNS_KEEP = 500                          # lignes conservées dans runs.csv
+SNAPSHOT_DAYS = 3                        # relevés adsb.lol conservés (un toutes les 30 min via GitHub Actions)
 
 # OpenSky (doc vérifiée le 2026-09-29) : fenêtre de 2 jours UTC max, 30 crédits par requête,
 # 4 000 crédits/jour, données de la veille disponibles après le traitement nocturne.

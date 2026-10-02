@@ -18,10 +18,6 @@
     </div>
     <div class="kpis" id="kpis"></div>
     <div class="meta" id="meta"></div>
-    <div class="live">
-      <button id="live-btn" class="btn btn-live">Get live data</button>
-      <span id="live-msg" class="live-msg"></span>
-    </div>
   </header>
 
   <div id="nodata" class="nodata" hidden>
@@ -100,8 +96,8 @@
   </main>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="data.js"></script>
+  <!-- data.js versionné par tranche de 5 min : contourne le cache de GitHub Pages (10 min) -->
+  <script>document.write('<script src="data.js?v=' + Math.floor(Date.now() / 300000) + '"><\/script>');</script>
   <script src="app.js"></script>
-  <script src="live.js"></script>
 </body>
 </html>

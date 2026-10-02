@@ -1,7 +1,7 @@
 """Point d'entrée unique : collecte OpenSky -> relevé adsb.lol -> génération du site.
 
-Déroulé : CSV de data/ -> data/jets.db (cache) -> OpenSky -> adsb.lol -> site/data.js et
-JETS.md -> CSV. Chaque étape est isolée : l'échec de l'une n'empêche pas les suivantes
+Déroulé : CSV de data/ -> data/jets.db (cache) -> OpenSky -> adsb.lol -> site/data.js
+-> CSV. Chaque étape est isolée : l'échec de l'une n'empêche pas les suivantes
 (la génération du site a toujours lieu) et chacune ajoute une ligne à data/runs.csv.
 
 Usage : python update.py [--skip-opensky] [--skip-snapshot] [--max-calls N]
@@ -92,7 +92,7 @@ def main():
         c = data["counts"]
         print(f"  Flotte : {c['total']} avions — {c['airborne']} en vol, {c['ground']} au sol, "
               f"{c['unseen']} non détectés ; {len(data['flights'])} vols sur 90 j")
-    print(f"  Fichiers : {config.DATA_JS.relative_to(config.ROOT)}, JETS.md, data/*.csv")
+    print(f"  Fichiers : {config.DATA_JS.relative_to(config.ROOT)}, data/*.csv")
     return 1 if any(r["status"] == "error" for _, r in summary) else 0
 
 

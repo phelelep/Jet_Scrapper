@@ -1,0 +1,125 @@
+# Collecte des données et publication du site sur GitHub Pages.
+#
+# - Toutes les 30 min : relevé adsb.lol (positions) + régénération du site.
+# - Une fois par jour (04:17 UTC) : en plus, historique des vols OpenSky (quota du jour).
+# - À chaque push sur main touchant le site ou la collecte : republication.
+#
+# Prérequis (une seule fois, dans les réglages du dépôt) :
+#   Settings → Pages → Source : « GitHub Actions »
+#   Settings → Secrets and variables → Actions : OPENSKY_CLIENT_ID et OPENSKY_CLIENT_SECRET
+#
+# Les CSV de data/ restent la source de vérité : le workflow les commite après chaque passage.
+# site/data.js n'est pas commité, il est régénéré puis publié directement.
+
+name: Mise à jour des jets
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"  # relevé adsb.lol + site
+    - cron: "17 4 * * *"    # + historique OpenSky
+  workflow_dispatch:
+    inputs:
+      opensky:
+        description: "Interroger aussi OpenSky (consomme le quota du jour)"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - "tracker/**"
+      - "update.py"
+      - "data/targets.csv"
+      - ".github/workflows/update.yml"
+
+# Un seul passage à la fois : deux commits simultanés des CSV entreraient en conflit.
+concurrency:
+  group: jets-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write   # commit des CSV
+  pages: write      # publication
+  id-token: write   # publication
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"   # bibliothèque standard uniquement, rien à installer
+
+      # data/airports.csv (12 Mo) est ignoré par git : on le garde en cache une semaine.
+      - name: Semaine courante
+        id: week
+        run: echo "week=$(date -u +%G-%V)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v6
+        with:
+          path: data/airports.csv
+          key: airports-${{ steps.week.outputs.week }}
+          restore-keys: airports-
+      - name: Aéroports OurAirports
+        run: |
+          test -s data/airports.csv || curl -fsSL --retry 3 -o data/airports.csv \
+            https://davidmegginson.github.io/ourairports-data/airports.csv
+
+      - name: Choix du mode
+        id: mode
+        run: |
+          if [[ "${{ github.event.schedule }}" == "17 4 * * *" || "${{ inputs.opensky }}" == "true" ]]; then
+            echo "args=" >> "$GITHUB_OUTPUT"
+          else
+            echo "args=--skip-opensky" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Identifiants OpenSky
+        if: steps.mode.outputs.args == ''
+        env:
+          OPENSKY_CLIENT_ID: ${{ secrets.OPENSKY_CLIENT_ID }}
+          OPENSKY_CLIENT_SECRET: ${{ secrets.OPENSKY_CLIENT_SECRET }}
+        run: |
+          if [[ -z "$OPENSKY_CLIENT_ID" || -z "$OPENSKY_CLIENT_SECRET" ]]; then
+            echo "::warning::Secrets OPENSKY_CLIENT_ID / OPENSKY_CLIENT_SECRET absents : OpenSky sera en erreur"
+            exit 0
+          fi
+          python -c 'import json, os; json.dump({"clientId": os.environ["OPENSKY_CLIENT_ID"], "clientSecret": os.environ["OPENSKY_CLIENT_SECRET"]}, open(os.environ["RUNNER_TEMP"] + "/opensky.json", "w"))'
+          echo "OPENSKY_CREDENTIALS=$RUNNER_TEMP/opensky.json" >> "$GITHUB_ENV"
+
+      # update.py renvoie 1 si une étape échoue (ex. adsb.lol en 429) mais génère quand même
+      # le site avec les données connues : on publie dans tous les cas.
+      - name: Collecte et génération du site
+        run: |
+          python update.py ${{ steps.mode.outputs.args }} \
+            || echo "::warning::Une étape de update.py a échoué (voir le résumé ci-dessus) ; site publié avec les données connues"
+
+      - name: Commit des données
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/flights.csv data/windows.csv data/snapshots.csv data/runs.csv
+          if git diff --cached --quiet; then echo "Rien à commiter"; exit 0; fi
+          git commit -q -m "data: relevé du $(date -u '+%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3; do
+            git pull --rebase -q && git push -q && exit 0
+            sleep $((i * 10))
+          done
+          echo "::error::Push impossible après 3 tentatives"; exit 1
+
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

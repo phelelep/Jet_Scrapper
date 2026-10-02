@@ -5,26 +5,26 @@ des sociétés de la watchlist (et de quelques grands dirigeants) à partir de d
 et gratuites, pour apprendre le traitement de données ADS-B et, à terme, tester si les
 mouvements d'avions d'entreprise précèdent des annonces.
 
-**Cadre :** on suit des avions d'entreprise, d'État et de personnalités publiques (jamais de particuliers ni de célébrités du divertissement). Données stockées en local,
-rien n'est publié en temps réel (décalage ≥ 24 h pour toute sortie).
+**Cadre :** on suit des avions d'entreprise, d'État et de personnalités publiques (jamais de particuliers ni de célébrités du divertissement). Le site est publié
+sur GitHub Pages et rafraîchi toutes les 30 minutes par GitHub Actions (voir « Publication »).
 
-## Le résultat : [`JETS.md`](JETS.md)
+## Les résultats
 
-- Le référentiel des avions (immatriculation, hex, modèle, propriétaire au registre FAA, niveau de confiance).
-- Le statut en direct (en vol, au sol, non détecté) et l'aéroport le plus proche.
-- Le nombre de vols sur les 90 derniers jours.
-- Le site statique `site/` (données dans `site/data.js`), généré par `python update.py`.
-- Les immatriculations réservées (signaux), les difficultés rencontrées et les prochaines étapes.
+- **Le site** (<https://phelelep.github.io/Jet_Scrapper/>, rafraîchi toutes les 30 min) :
+  carte, statut en direct (en vol, au sol, non détecté), vols et routes des 90 derniers jours.
+- **[`JETS.md`](JETS.md)** : le référentiel des avions (immatriculation, hex, modèle,
+  propriétaire au registre FAA, niveau de confiance), les immatriculations réservées
+  (signaux), les difficultés rencontrées et les prochaines étapes.
 
 ## Arborescence
 
 ```
 New_project/
 ├── README.md                 ce fichier
-├── JETS.md                   rapport / référentiel (section « Statut » générée entre marqueurs)
+├── JETS.md                   référentiel des avions (écrit à la main)
 ├── PLAN.md                   plan du site web (architecture, phases, features)
 ├── update.py                 POINT D'ENTRÉE UNIQUE : collecte + génération du site
-├── serve.py                  serveur local du site + bouton « Get live data »
+├── serve.py                  serveur local du site (aperçu)
 ├── docs/
 │   └── DATA_CONTRACT.md      contrat d'interface collecte ↔ site (CSV et site/data.js)
 ├── tracker/                  package de collecte et de génération
@@ -33,21 +33,20 @@ New_project/
 │   ├── opensky.py            historique des vols (OpenSky /flights/aircraft, ou /flights/all au-delà de 40 avions)
 │   ├── snapshot.py           relevé instantané (adsb.lol, appels groupés par 100 avions)
 │   ├── airports.py           aéroports OurAirports : plus proche, recherche par code
-│   └── build.py              génère site/data.js et la section « Statut » de JETS.md
+│   └── build.py              génère site/data.js
 ├── scripts/
 │   ├── faa_search.py         recherche de jets dans le registre FAA par nom de propriétaire
 │   ├── sp500_fleet.py        jets d'affaires des sociétés du S&P 500 et de leurs dirigeants
 │   └── celebplanes.py        avions d'une personnalité (celebplanes.com) recoupés avec le registre FAA
 ├── site/
 │   ├── index.html, style.css, app.js   le site (carte, jets watchlist / autres jets, historique)
-│   ├── live.js               bouton « Get live data » (nécessite serve.py)
 │   └── data.js               données du site (généré)
 ├── tests/
 │   └── test_tracker.py       tests unitaires (unittest)
 └── data/
     ├── targets.csv           LA liste des avions suivis (groupes watchlist / autres / sp500 / personnalites)
     ├── sp500.csv             constituants du S&P 500 (datasets/s-and-p-500-companies)
-    ├── sp500_candidates.csv  jets trouvés par sp500_fleet.py (à relire avant fusion)
+    ├── sp500_candidates.csv  jets trouvés par sp500_fleet.py (généré, non versionné)
     ├── flights.csv           vols OpenSky des 90 derniers jours      ┐
     ├── windows.csv           fenêtres OpenSky déjà récupérées         │ source de vérité,
     ├── snapshots.csv         relevés adsb.lol (1 ligne/avion/relevé)  │ committés
@@ -66,11 +65,11 @@ python update.py                      # OpenSky (tout le quota du jour) + adsb.l
 python update.py --max-calls 10       # plafonne les requêtes OpenSky
 python update.py --skip-opensky       # relevé adsb.lol + site uniquement
 python update.py --skip-snapshot      # sans relevé adsb.lol
-python serve.py                       # site sur http://localhost:8000 avec le bouton « Get live data »
+python serve.py                       # aperçu du site sur http://localhost:8000
 python -m unittest discover -s tests  # tests
 ```
 
-Déroulé : **CSV → `jets.db` → OpenSky → adsb.lol → `site/data.js` + `JETS.md` → CSV**.
+Déroulé : **CSV → `jets.db` → OpenSky → adsb.lol → `site/data.js` → CSV**.
 - Chaque étape est isolée : si OpenSky ou adsb.lol échoue (quota, réseau), la génération du
   site a quand même lieu avec les données déjà connues. Chaque étape ajoute une ligne à
   `data/runs.csv` (statut `ok`, `partial`, `error` ou `skipped`, requêtes, crédits restants).
@@ -78,7 +77,7 @@ Déroulé : **CSV → `jets.db` → OpenSky → adsb.lol → `site/data.js` + `J
   qu'un cache SQLite jetable, recréé à partir des CSV au début de chaque exécution puis
   réexporté. Les CSV sont triés de façon déterministe : une exécution ajoute des lignes
   sans réordonner les autres. Format détaillé : [`docs/DATA_CONTRACT.md`](docs/DATA_CONTRACT.md).
-- Rétention : 90 jours glissants pour les vols, fenêtres et relevés ; 500 lignes pour `runs`.
+- Rétention : 90 jours glissants pour les vols et fenêtres, 3 jours pour les relevés ; 500 lignes pour `runs`.
 
 ## Modules
 
@@ -117,9 +116,6 @@ Déroulé : **CSV → `jets.db` → OpenSky → adsb.lol → `site/data.js` + `J
 - `site/data.js` (`window.JETS_DATA = {...}`) : avions, statut au dernier relevé, aéroport
   le plus proche, dernier vol, vols et heures de vol sur 7, 30 et 90 jours, aéroport
   principal, couverture de l'historique, liste des vols avec durée et distance.
-- Réécrit la section de `JETS.md` comprise entre `<!-- STATUS:START -->` et
-  `<!-- STATUS:END -->` (vue du dernier relevé + colonne « Vols 90 j »). Le reste du fichier
-  n'est pas modifié.
 
 ### `tracker/airports.py`: aéroports
 Aéroport le plus proche d'une position, et recherche d'un code OpenSky (OACI, code GPS,
@@ -135,12 +131,32 @@ python scripts/faa_search.py "QUALCOMM" "FALCON LANDING"
 Sortie : `motif|immatriculation|hex|modèle|année|propriétaire|ville|date dernière action`.
 Pour ajouter un avion au suivi, reporter la ligne dans `data/targets.csv`.
 
-### `serve.py` : site local et données en direct
-Sert `site/` sur http://localhost:8000. Le bouton **Get live data** appelle `POST /api/live` :
-relevé adsb.lol de toute la flotte, régénération de `data.js` et des CSV, puis rechargement
-de la page. Le navigateur ne peut pas interroger adsb.lol lui-même (pas d'en-tête CORS),
-d'où ce relais. Un relevé de moins de 30 s est réutilisé. Sans serveur (fichier ouvert
-depuis le disque, site statique hébergé), le bouton est désactivé.
+### `serve.py` : aperçu local
+Sert `site/` sur http://localhost:8000, sans cache navigateur. Lancer `python update.py`
+pour régénérer `site/data.js` (qui n'est plus commité).
+
+## Publication : GitHub Actions + GitHub Pages
+
+Workflow [`.github/workflows/update.yml`](.github/workflows/update.yml) :
+- **toutes les 30 min** : `python update.py --skip-opensky` (relevé adsb.lol + site) ;
+- **chaque jour à 04:17 UTC** : `python update.py` complet (historique OpenSky en plus) ;
+- **à chaque push sur `main`** touchant le site ou la collecte, et à la demande (onglet Actions,
+  « Run workflow », case OpenSky).
+
+Chaque passage commite `data/*.csv`, puis publie `site/` sur GitHub Pages.
+`site/data.js` n'est pas commité. La page relit `data.js` toutes les 5 min et se recharge
+quand de nouvelles données sont publiées.
+
+Mise en place (une fois) :
+1. *Settings → Pages → Build and deployment → Source* : **GitHub Actions**.
+2. *Settings → Secrets and variables → Actions* : secrets `OPENSKY_CLIENT_ID` et
+   `OPENSKY_CLIENT_SECRET` (contenu de `credentials.json`).
+3. Pousser sur `main` : le premier passage se lance et publie le site.
+
+Limites : GitHub peut retarder une exécution planifiée de quelques minutes à plus d'une demi-heure
+(ou la sauter si la plateforme est chargée). Les relevés ne sont gardés que 3 jours
+(`SNAPSHOT_DAYS`), seul le dernier sert au site. Avant de commiter en local des fichiers de
+`data/`, faire `git pull` : le workflow les modifie toutes les 30 min.
 
 ### `scripts/sp500_fleet.py` : flotte S&P 500
 Rapproche les 503 sociétés du S&P 500 du registre FAA, par le propriétaire ou un

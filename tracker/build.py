@@ -1,15 +1,13 @@
-"""Génération de site/data.js (format : docs/DATA_CONTRACT.md) et de la section
-« Statut en direct » de JETS.md, à partir de la base et du dernier relevé adsb.lol."""
+"""Génération de site/data.js (format : docs/DATA_CONTRACT.md), à partir de la base et du
+dernier relevé adsb.lol."""
 import json
 import os
 import time
 from collections import Counter
-from datetime import datetime, timezone
 
 from . import config
 
 DAY = config.DAY
-STATUS_START, STATUS_END = "<!-- STATUS:START -->", "<!-- STATUS:END -->"
 
 
 # ---------------------------------------------------------------- calculs sur les vols
@@ -168,58 +166,10 @@ def write_data_js(data, path=config.DATA_JS):
     os.replace(tmp, path)
 
 
-# ---------------------------------------------------------------- JETS.md
-
-def _describe(a):
-    pos, near = a["position"], a["nearest_airport"]
-    where = "position inconnue"
-    if near:
-        where = f"{near['dist_km']:.0f} km de {near['code']} ({near['city'] or near['name']}, {near['country']})"
-        if pos and pos["stale_min"]:
-            where += f" (dernière position, il y a {pos['stale_min']} min)"
-    if a["status"] == "unseen":
-        return "⚪ Non détecté", "—"
-    if a["status"] == "ground":
-        return "🟡 Au sol, transpondeur actif", where
-    alt = pos["alt_ft"] if pos and pos["alt_ft"] is not None else "?"
-    gs = f"{pos['gs_kt']:.0f}" if pos and pos["gs_kt"] is not None else "?"
-    cs = (pos["callsign"] if pos else "") or "?"
-    return f"🟢 En vol — {cs}, {alt} ft, {gs} kt", f"survol : {where}"
-
-
-def update_jets_md(data, path=config.JETS_MD):
-    """Réécrit la section entre STATUS:START et STATUS:END (vue du dernier relevé)."""
-    if data["snapshot_at"] is not None:
-        when = datetime.fromtimestamp(data["snapshot_at"], timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
-        head = f"_Relevé du {when}"
-    else:
-        head = "_Aucun relevé adsb.lol disponible"
-    lines = [
-        f"{head} — statut : adsb.lol ; vols 90 j : OpenSky (nombre de vols / jours déjà récupérés "
-        f"sur les 90 derniers). Section générée par `python update.py`._",
-        "",
-        "| Immat. | Hex | Entité | Statut actuel | Position actuelle | Vols 90 j |",
-        "|---|---|---|---|---|---|",
-    ]
-    for a in data["aircraft"]:
-        status, where = _describe(a)
-        s = a["stats"]
-        lines.append(f"| {a['reg']} | `{a['hex']}` | {a['person']} | {status} | {where} | "
-                     f"{s['d90']['flights']} vols / {s['coverage_days']} j |")
-    text = path.read_text(encoding="utf-8")
-    if STATUS_START not in text or STATUS_END not in text:
-        raise RuntimeError(f"marqueurs {STATUS_START} / {STATUS_END} absents de {path.name}")
-    before, _, rest = text.partition(STATUS_START)
-    _, _, after = rest.partition(STATUS_END)
-    path.write_text(f"{before}{STATUS_START}\n" + "\n".join(lines) + f"\n{STATUS_END}{after}",
-                    encoding="utf-8", newline="\n")
-
-
 def build(conn, targets, airports, today_ts):
-    """Étape build : data.js puis JETS.md. Renvoie {status, requests, message, data}."""
+    """Étape build : data.js. Renvoie {status, requests, message, data}."""
     data = build_data(conn, targets, airports, today_ts)
     write_data_js(data)
-    update_jets_md(data)
     return {"status": "ok", "requests": 0, "data": data,
             "message": f"{len(data['aircraft'])} avions, {len(data['flights'])} vols, "
                        f"{len(data['airports'])} aéroports"}

@@ -18,7 +18,7 @@ sont triées de façon déterministe (voir chaque fichier) pour garder des diffs
 | `data/snapshots.csv` | `ts,icao24,status,lat,lon,alt_ft,gs_kt,track_deg,callsign` ; `status` ∈ `airborne`, `ground`, `unseen` ; champs numériques vides si inconnus | `ts, icao24` | adsb.lol |
 | `data/runs.csv` | `ts,step,status,requests,credits_remaining,message` ; `step` ∈ `opensky`, `snapshot`, `build` ; `status` ∈ `ok`, `partial`, `error`, `skipped` | `ts` | `update.py` |
 
-Rétention : `flights`, `windows` et `snapshots` sont limités aux 90 derniers jours (glissant).
+Rétention : `flights` et `windows` sont limités aux 90 derniers jours (glissant), `snapshots` aux 3 derniers jours (`SNAPSHOT_DAYS`).
 `runs` garde les 500 dernières lignes.
 
 ## 2. Sortie : `site/data.js`

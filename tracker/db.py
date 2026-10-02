@@ -144,11 +144,12 @@ def dump(conn, data_dir=config.DATA_DIR):
 
 
 def prune(conn, today_ts):
-    """Rétention : 90 jours glissants pour flights/windows/snapshots, 500 lignes pour runs."""
+    """Rétention : 90 jours glissants pour flights/windows, SNAPSHOT_DAYS jours pour snapshots
+    (seul le dernier relevé sert au site), 500 lignes pour runs."""
     cutoff = config.history_start(today_ts)
     conn.execute("DELETE FROM flights WHERE first_seen < ?", (cutoff,))
     conn.execute("DELETE FROM windows WHERE window_start + ? <= ?", (config.WINDOW_DAYS * config.DAY, cutoff))
-    conn.execute("DELETE FROM snapshots WHERE ts < ?", (cutoff,))
+    conn.execute("DELETE FROM snapshots WHERE ts < ?", (today_ts - config.SNAPSHOT_DAYS * config.DAY,))
     conn.execute("""DELETE FROM runs WHERE rowid NOT IN
                     (SELECT rowid FROM runs ORDER BY ts DESC, rowid DESC LIMIT ?)""", (config.RUNS_KEEP,))
     conn.commit()

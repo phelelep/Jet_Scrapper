@@ -6,6 +6,14 @@ data/plane-alert-db.csv
 # (data/flights.csv, windows.csv, snapshots.csv, runs.csv : NE PAS ignorer)
 data/jets.db
 *.tmp
-PLAN.md
 *credentials*.json
 __pycache__/
+
+# Généré par update.py, publié directement par le workflow GitHub Pages (pas commité)
+site/data.js
+
+# Fichier intermédiaire de scripts/sp500_fleet.py (régénérable)
+data/sp500_candidates.csv
+PLAN.md
+PLAN.md
+PLAN.md

@@ -476,4 +476,20 @@
     renderFlights();
   });
   renderFlights();
+
+  // ---------- Rafraîchissement ----------
+  // Le workflow GitHub publie de nouvelles données toutes les 30 min : on relit data.js
+  // toutes les 5 min et on recharge la page seulement si generated_at a changé.
+  if (location.protocol !== "file:" && window.fetch) {
+    setInterval(function () {
+      if (document.hidden) return;
+      fetch("data.js?t=" + Date.now(), { cache: "no-store" })
+        .then(function (r) { return r.ok ? r.text() : ""; })
+        .then(function (txt) {
+          var m = /"generated_at":\s*(\d+)/.exec(txt);
+          if (m && +m[1] > (num(D.generated_at) || 0)) location.reload();
+        })
+        .catch(function () {});
+    }, 5 * 60 * 1000);
+  }
 })();
