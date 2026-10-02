@@ -15,7 +15,7 @@ name: Mise à jour des jets
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # relevé adsb.lol + site
+    - cron: "7,37 * * * *"  # relevé adsb.lol + site (minutes décalées : GitHub saute souvent :00 et :30)
     - cron: "17 4 * * *"    # + historique OpenSky
   workflow_dispatch:
     inputs:
