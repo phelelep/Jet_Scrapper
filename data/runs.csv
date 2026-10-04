@@ -113,3 +113,6 @@ ts,step,status,requests,credits_remaining,message
 1791118086,opensky,skipped,,,ignoré (option de ligne de commande)
 1791118093,snapshot,ok,4,,"7 en vol, 1 au sol, 303 non détectés"
 1791118094,build,ok,0,,"311 avions, 2809 vols, 874 aéroports"
+1791134787,opensky,skipped,,,ignoré (option de ligne de commande)
+1791134796,snapshot,ok,4,,"22 en vol, 2 au sol, 287 non détectés"
+1791134797,build,ok,0,,"311 avions, 2809 vols, 874 aéroports"
