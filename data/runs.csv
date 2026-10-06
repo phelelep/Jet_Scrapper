@@ -143,3 +143,6 @@ ts,step,status,requests,credits_remaining,message
 1791285720,opensky,partial,133,10,555 vols enregistrés ; budget de crédits du jour épuisé ; 282 tranches restantes
 1791285727,snapshot,ok,4,,"12 en vol, 0 au sol, 299 non détectés"
 1791285729,build,ok,0,,"311 avions, 4056 vols, 1045 aéroports"
+1791296749,opensky,skipped,,,ignoré (option de ligne de commande)
+1791296788,snapshot,ok,4,,"19 en vol, 2 au sol, 290 non détectés"
+1791296789,build,ok,0,,"311 avions, 4056 vols, 1045 aéroports"
