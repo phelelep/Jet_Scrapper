@@ -161,3 +161,6 @@ ts,step,status,requests,credits_remaining,message
 1791378614,opensky,skipped,,,ignoré (option de ligne de commande)
 1791378656,snapshot,error,,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
 1791378657,build,ok,0,,"311 avions, 4832 vols, 1142 aéroports"
+1791401338,opensky,skipped,,,ignoré (option de ligne de commande)
+1791401383,snapshot,error,,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+1791401384,build,ok,0,,"311 avions, 4832 vols, 1142 aéroports"
