@@ -266,3 +266,6 @@ ts,step,status,requests,credits_remaining,message
 1791957830,opensky,skipped,,,ignoré (option de ligne de commande)
 1791957838,snapshot,ok,4,,"5 en vol, 0 au sol, 306 non détectés"
 1791957839,build,ok,0,,"311 avions, 5510 vols, 1209 aéroports"
+1791970353,opensky,ok,12,3640,74 vols enregistrés ; historique à jour
+1791970361,snapshot,ok,4,,"4 en vol, 0 au sol, 307 non détectés"
+1791970362,build,ok,0,,"311 avions, 5584 vols, 1216 aéroports"
