@@ -344,3 +344,6 @@ ts,step,status,requests,credits_remaining,message
 1792272190,opensky,skipped,,,ignoré (option de ligne de commande)
 1792272260,snapshot,error,,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
 1792272261,build,ok,0,,"311 avions, 5637 vols, 1224 aéroports"
+1792279234,opensky,skipped,,,ignoré (option de ligne de commande)
+1792279247,snapshot,error,,,URLError: <urlopen error [Errno 104] Connection reset by peer>
+1792279248,build,ok,0,,"311 avions, 5637 vols, 1224 aéroports"
