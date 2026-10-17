@@ -335,3 +335,6 @@ ts,step,status,requests,credits_remaining,message
 1792241617,opensky,skipped,,,ignoré (option de ligne de commande)
 1792241628,snapshot,ok,4,,"6 en vol, 0 au sol, 305 non détectés"
 1792241629,build,ok,0,,"311 avions, 5637 vols, 1224 aéroports"
+1792253869,opensky,skipped,,,ignoré (option de ligne de commande)
+1792253917,snapshot,error,,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+1792253918,build,ok,0,,"311 avions, 5637 vols, 1224 aéroports"
