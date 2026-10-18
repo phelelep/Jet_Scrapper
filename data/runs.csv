@@ -356,3 +356,6 @@ ts,step,status,requests,credits_remaining,message
 1792313528,opensky,ok,12,3640,37 vols enregistrés ; historique à jour
 1792313558,snapshot,error,,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
 1792313559,build,ok,0,,"311 avions, 5638 vols, 1226 aéroports"
+1792323399,opensky,skipped,,,ignoré (option de ligne de commande)
+1792323429,snapshot,error,,,URLError: <urlopen error [Errno 101] Network is unreachable>
+1792323430,build,ok,0,,"311 avions, 5638 vols, 1226 aéroports"
