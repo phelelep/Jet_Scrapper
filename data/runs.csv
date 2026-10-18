@@ -359,3 +359,6 @@ ts,step,status,requests,credits_remaining,message
 1792323399,opensky,skipped,,,ignoré (option de ligne de commande)
 1792323429,snapshot,error,,,URLError: <urlopen error [Errno 101] Network is unreachable>
 1792323430,build,ok,0,,"311 avions, 5638 vols, 1226 aéroports"
+1792334806,opensky,skipped,,,ignoré (option de ligne de commande)
+1792334814,snapshot,ok,4,,"16 en vol, 4 au sol, 291 non détectés"
+1792334815,build,ok,0,,"311 avions, 5638 vols, 1226 aéroports"
