@@ -353,3 +353,6 @@ ts,step,status,requests,credits_remaining,message
 1792305036,opensky,skipped,,,ignoré (option de ligne de commande)
 1792305083,snapshot,error,,,TimeoutError: The read operation timed out
 1792305084,build,ok,0,,"311 avions, 5601 vols, 1222 aéroports"
+1792313528,opensky,ok,12,3640,37 vols enregistrés ; historique à jour
+1792313558,snapshot,error,,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+1792313559,build,ok,0,,"311 avions, 5638 vols, 1226 aéroports"
