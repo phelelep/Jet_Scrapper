@@ -347,3 +347,6 @@ ts,step,status,requests,credits_remaining,message
 1792279234,opensky,skipped,,,ignoré (option de ligne de commande)
 1792279247,snapshot,error,,,URLError: <urlopen error [Errno 104] Connection reset by peer>
 1792279248,build,ok,0,,"311 avions, 5637 vols, 1224 aéroports"
+1792286848,opensky,skipped,,,ignoré (option de ligne de commande)
+1792286855,snapshot,ok,4,,"4 en vol, 1 au sol, 306 non détectés"
+1792286857,build,ok,0,,"311 avions, 5601 vols, 1222 aéroports"
