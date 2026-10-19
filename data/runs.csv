@@ -380,3 +380,6 @@ ts,step,status,requests,credits_remaining,message
 1792403742,opensky,ok,12,3640,55 vols enregistrés ; historique à jour
 1792403755,snapshot,ok,4,,"4 en vol, 0 au sol, 307 non détectés"
 1792403755,build,ok,0,,"311 avions, 5638 vols, 1222 aéroports"
+1792408162,opensky,skipped,,,ignoré (option de ligne de commande)
+1792408170,snapshot,ok,4,,"13 en vol, 1 au sol, 297 non détectés"
+1792408172,build,ok,0,,"311 avions, 5638 vols, 1222 aéroports"
