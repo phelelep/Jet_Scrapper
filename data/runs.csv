@@ -443,3 +443,6 @@ ts,step,status,requests,credits_remaining,message
 1792683148,opensky,skipped,,,ignoré (option de ligne de commande)
 1792683158,snapshot,ok,4,,"21 en vol, 2 au sol, 288 non détectés"
 1792683159,build,ok,0,,"311 avions, 5635 vols, 1217 aéroports"
+1792697031,opensky,skipped,,,ignoré (option de ligne de commande)
+1792697049,snapshot,ok,4,,"27 en vol, 4 au sol, 280 non détectés"
+1792697051,build,ok,0,,"311 avions, 5635 vols, 1217 aéroports"
