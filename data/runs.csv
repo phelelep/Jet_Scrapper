@@ -1,7 +1,4 @@
 ts,step,status,requests,credits_remaining,message
-1790758977,snapshot,ok,3,,"4 en vol, 1 au sol, 217 non détectés"
-1790758979,build,ok,0,,"222 avions, 158 vols, 85 aéroports"
-1790759063,snapshot,ok,3,,"4 en vol, 1 au sol, 217 non détectés"
 1790759064,build,ok,0,,"222 avions, 158 vols, 85 aéroports"
 1790760371,snapshot,ok,3,,"4 en vol, 0 au sol, 218 non détectés"
 1790760372,build,ok,0,,"222 avions, 158 vols, 85 aéroports"
@@ -499,3 +496,6 @@ ts,step,status,requests,credits_remaining,message
 1792956639,opensky,skipped,,,ignoré (option de ligne de commande)
 1792956663,snapshot,ok,4,,"13 en vol, 2 au sol, 296 non détectés"
 1792956664,build,ok,0,,"311 avions, 5668 vols, 1210 aéroports"
+1792965602,opensky,skipped,,,ignoré (option de ligne de commande)
+1792965615,snapshot,ok,4,,"14 en vol, 3 au sol, 294 non détectés"
+1792965617,build,ok,0,,"311 avions, 5668 vols, 1210 aéroports"
