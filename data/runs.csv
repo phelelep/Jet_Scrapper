@@ -1,7 +1,4 @@
 ts,step,status,requests,credits_remaining,message
-1790762379,snapshot,ok,3,,"3 en vol, 1 au sol, 218 non détectés"
-1790762380,build,ok,0,,"222 avions, 158 vols, 85 aéroports"
-1790798361,snapshot,ok,3,,"25 en vol, 2 au sol, 195 non détectés"
 1790798363,build,ok,0,,"222 avions, 158 vols, 85 aéroports"
 1790798463,opensky,partial,1,,"0 vols enregistrés ; quota atteint (429), réessayer dans 1 h ; 1079 tranches restantes"
 1790798463,snapshot,skipped,,,ignoré (option de ligne de commande)
@@ -499,3 +496,6 @@ ts,step,status,requests,credits_remaining,message
 1792973121,opensky,skipped,,,ignoré (option de ligne de commande)
 1792973129,snapshot,ok,4,,"14 en vol, 2 au sol, 295 non détectés"
 1792973130,build,ok,0,,"311 avions, 5578 vols, 1191 aéroports"
+1792989282,opensky,skipped,,,ignoré (option de ligne de commande)
+1792989290,snapshot,ok,4,,"4 en vol, 0 au sol, 307 non détectés"
+1792989291,build,ok,0,,"311 avions, 5578 vols, 1191 aéroports"
