@@ -1,7 +1,4 @@
 ts,step,status,requests,credits_remaining,message
-1790839810,build,ok,0,,"222 avions, 739 vols, 0 aéroports"
-1790839864,snapshot,error,,,HTTPError: HTTP Error 429: Too Many Requests
-1790839864,build,ok,0,,"222 avions, 739 vols, 0 aéroports"
 1790847440,snapshot,ok,3,,"1 en vol, 0 au sol, 221 non détectés"
 1790847440,build,ok,0,,"222 avions, 739 vols, 0 aéroports"
 1790848772,opensky,skipped,,,ignoré (option de ligne de commande)
@@ -499,3 +496,6 @@ ts,step,status,requests,credits_remaining,message
 1793050368,opensky,skipped,,,ignoré (option de ligne de commande)
 1793050376,snapshot,ok,4,,"19 en vol, 1 au sol, 291 non détectés"
 1793050377,build,ok,0,,"311 avions, 5622 vols, 1197 aéroports"
+1793061828,opensky,skipped,,,ignoré (option de ligne de commande)
+1793061836,snapshot,ok,4,,"18 en vol, 2 au sol, 291 non détectés"
+1793061838,build,ok,0,,"311 avions, 5567 vols, 1187 aéroports"
