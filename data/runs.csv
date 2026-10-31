@@ -1,7 +1,4 @@
 ts,step,status,requests,credits_remaining,message
-1791073920,snapshot,ok,4,,"6 en vol, 0 au sol, 305 non détectés"
-1791073921,build,ok,0,,"311 avions, 2196 vols, 751 aéroports"
-1791094468,opensky,skipped,,,ignoré (option de ligne de commande)
 1791094475,snapshot,ok,4,,"4 en vol, 1 au sol, 306 non détectés"
 1791094476,build,ok,0,,"311 avions, 2196 vols, 751 aéroports"
 1791110392,opensky,partial,133,10,613 vols enregistrés ; budget de crédits du jour épuisé ; 548 tranches restantes
@@ -499,3 +496,6 @@ ts,step,status,requests,credits_remaining,message
 1793407180,opensky,skipped,,,ignoré (option de ligne de commande)
 1793407188,snapshot,ok,4,,"8 en vol, 0 au sol, 303 non détectés"
 1793407189,build,ok,0,,"311 avions, 5591 vols, 1189 aéroports"
+1793429598,opensky,skipped,,,ignoré (option de ligne de commande)
+1793429606,snapshot,ok,4,,"0 en vol, 0 au sol, 311 non détectés"
+1793429606,build,ok,0,,"311 avions, 5591 vols, 1189 aéroports"
